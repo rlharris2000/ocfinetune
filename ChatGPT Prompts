@@ -1,0 +1,2 @@
+Knowledge Base Export:
+Your task is to convert the following knowledge base export into a text file. Extract the article and it's contents. The article contents will be in HTML format so convert it to readable plain text. Output your response as a .txt file.
