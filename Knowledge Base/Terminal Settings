@@ -1,0 +1,202 @@
+Terminal Settings
+“Terminal Settings” Are where settings specific to this terminal are located. Anything you change here will only affect the terminal you change it on.
+
+Accessing “Terminal Settings” 
+
+
+Open the Front End
+
+Click on “Terminal Settings”
+
+Enter a passcode with the correct access. 
+
+You can allow an employee access to this area from Back Office > Employees > Privileges > Settings.
+
+
+“Retail” - Determines if Retail orders can be processed at this terminal
+
+
+“Takeout” - Determines if Takeout orders can be processed at this terminal
+
+
+“Delivery” - Determines if Delivery orders can be processed at this terminal
+
+
+“Bar Tab” - Determines if Bar Tab orders can be processed at this terminal
+
+
+“Table Service” - Determines if Table orders can be processed at this terminal
+
+
+“For Here” - Determines if For Here orders can be processed at this terminal
+
+
+“To Go” - Determines if To Go orders can be processed at this terminal
+
+
+“Drive Thru” - Determines if Drive Thru orders can be processed at this terminal
+
+
+“Dual Drive Thru”
+
+If this is enabled then when you log in you will see 2 screens. This is so you can take and order and close an order at the same time.
+
+
+“Multi Screen” – This must be used in conjunction with Dual Drive Through and will show on 2 physical screens instead of 2 instances of the software showing on 1 screen
+
+
+“Till” - If set to on then you will be required to have a cash draw for that till and open close the till at the beginning and end of your shift. If set to no then you will not be able to open the till and transactions processed using this till will not go to a cash draw. You can still use personal banks with till set to off
+
+
+“Tip Line” - Removes the tip line from credit card receipts
+
+
+“Terminal Timeout” - How long in mins before the user is automatically logged off
+
+
+“Card Login” - This is an obsolete setting and will be removed shortly
+
+
+“First Category” - Sets the category which will be visible when you first sign on
+
+
+“Table Section” - Sets which table section will be selected when creating a new table order. Sections are added from c:\ocpos\ OCPOS - Table Service Admin.exe
+
+
+“Order Start” - Determines which type of order will be selected when logging in. For Here to Go etc. If you choose “None” it will go to the table screen. if you choose quick service it will need you to select if it is for here or to go.
+
+
+“Order Style” Used to switch between seat lead orders or ticket lead orders. If you select Seats then the numbers above the current ticket screen will represent seats. Each time you select a seat it will act like a filter, only showing you items on that seat. Any items you ring through after selecting the seat will be assigned to that seat. 
+
+
+
+If you choose Tickets then it will show 2 buttons that you can use to increment the tickets and seat. There is no filter but anything you add will be added to the ticket or the seat currently shown on those buttons.  
+
+
+“Show Tabs” - Shows all bar tabs on the terminal. Large sites with multiple bars may not want to show tabs from every bar. Turning this off will only show bar tabs created at this terminal.
+
+
+“Stay on category” - This will make the modifiers screen show up only if the modifiers are required. If they are not required it will stay in the category it started in.
+
+
+“Terminal Number” - Sets what number this terminal is
+
+
+“Kitchen Selection” – Sets how items get sent to the kitchen
+
+
+On Will ask you what items you want to send when you press send order
+
+OFF Will send all items, but only if you press the “Send Order” button
+
+Auto if you leave the screen for any reason then all items on an order will be sent automatically
+
+
+“Pend Completed Orders” - If this setting is on, drive thru orders that are closed out stay on the pending drive thru screen. This is useful for line busting drive thru with a tablet.
+
+
+“Time Clock Only” - If turned on then the till turns into a Schedule Gofer time clock. You will no longer be able to use the till to ring in orders
+
+
+“Allow Checkout” - This setting affects drive thru and determines whether orders can be paid at this terminal. Also added for tablets and line busting.
+
+
+“On Screen Keyboard” - Enables or disables the on screen keyboard when you touch an area that requires text input
+
+
+“Post Send After Submit” - If this is Yes, then this terminal will use “Item Submitted” setting on Item Removal Overrides, regardless of which setting Item Removal Overrides is set to.
+
+
+“Always Till” - If Yes, tips will be assigned to the till (instead of personal banks) when using group till.
+
+
+“Dual Till” - This is used when you have 2 cash draws assigned to the same till. Do not use this unless it is with an Epson printer.
+
+
+“Sign Off After Order” - This is an override. If enabled then all orders will sign off when complete. If set to no then the employee privileges determine the behavior.
+
+
+“Show Totals” - If set to Off then a show totals button will display instead of the running total for the check. The reason is that on lower spec machine this setting helps them run more quickly
+
+
+“Quick Sign In” - Lets you choose from a list of people that are already signed in. You need to set “Quick Sign In” under Back Office > Employees > Job Manager to enable this 
+
+
+“Fast Cash / Credit” - This puts the fast cash and fast credit buttons at the bottom of the screen when using the “Bar” Order Method
+
+
+“KDS” - If set to no then no items sent from this terminal will ever go to KDS, even if the items themselves are set to print to KDS.
+
+
+“KDS Guests” Is whether the terminal prompts for number of guests in line after each order
+
+
+“7 Rooms Int” – Used for integrating with 7 rooms
+
+
+“Allow EOD” - If set to Off will remove the EOD button from the control Panel
+
+
+“Allow Batch” – Enables or disables the Control Panel > “Batch / Settle” button
+
+
+“Receipt Header” - What is entered into this box will print on any receipt printed from this terminal
+
+
+“Stay on Sub Items” – If set to off then when you are in a sub item menu and select a sub item, you will be returned to the item level above it. If set to on then after selecting a sub item you will stay within that sub item screen. 
+
+
+“Check for PCCharge” - Checks to make sure PCCharge software is running in the background. PCCharge is no longer used as Verifone has stopped supporting it.
+
+
+“Check for OCPP” - Checks for the OrderCounter Payment Server software is running in the background. If not, starts the OrderCounter Payment Server software. This software is used for non-EMV credit card processing.
+
+
+“Login Screen Logo” - This is how you get the logo to show on the terminal login screen
+
+
+“Terminal Theme” - You can choose from different themes which change the colors of the buttons
+
+
+“Enable Consolidation” – Enabled the consolidation button. When pressed, Instead of showing 
+
+
+1 x Bud
+
+1 x Carling
+
+1 x Bud
+
+
+It would show
+
+
+2 x Bud
+
+1 x Carling
+
+
+“Consolidate on Print” Determines if consolidation impacts printing. If enabled then when the items are sent, they will be consolidated on screen and on the printed kitchen ticket. 
+
+
+Bar Close After Save Send – Determines if the user will be logged off after pressing “Save and Send” on a Bar order. This will override any other settings
+
+
+“Modifier Colors” – If turned on then Modifier colors will be what you set them to. If turned off then all Modifiers will be the same color. The is a performance enhancing setting. 
+
+
+
+Tablet Settings
+These settings are intended for user with a tablet. They will make a screen appear when paying using credit.
+
+
+Orientation – Decides if the screen shows in landscape or portrait
+
+
+Show Signature – Will show a signature screen to capture the customers signature
+
+
+Show Receipt options – Will show options for email receipt, printed receipt or no receipt.  
+
+
+Show Tips – Enables the customer to enter a tip. Tip amount can be shown as a percentage or as a cash figure. 
