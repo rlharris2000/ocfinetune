@@ -1,0 +1,54 @@
+[
+    {
+        "prompt": "I'm trying to set up an event for a customer's birthday party but I'm not sure where to start. Can you guide me through it?",
+        "completion": "Of course! Begin by going to the Control Panel and selecting 'Events'. Click on 'New Event'. Enter the customer's information, including their name, phone number, and the date and time of the event. Specify the number of guests and any notes you want to add. Click 'Save' to create the event."
+    },
+    {
+        "prompt": "I need to add a deposit for a wedding event but can't find the option. How do I do this?",
+        "completion": "To add a deposit, go to the 'Events' section in the Control Panel. Select the event you want to add a deposit to and click 'Edit Selected Event'. Click 'Add Deposit', enter the deposit amount, and click 'Submit'. You will then be brought to the checkout screen."
+    },
+    {
+        "prompt": "How can I view the details of an upcoming event for a customer?",
+        "completion": "To view event details, navigate to the 'Events' section in the Control Panel. Find the event you want to view from the list and select it. Click 'Edit Selected Event' to see all the details including customer information, date, time, and the number of guests."
+    },
+    {
+        "prompt": "I need to change the date for a corporate meeting event. What's the process?",
+        "completion": "To change the event date, go to the Control Panel and select 'Events'. Find the corporate meeting event from the list and click 'Edit Selected Event'. Update the date and time fields to the new schedule, and click 'Save' to apply the changes."
+    },
+    {
+        "prompt": "I want to add a note to an event for special dietary requirements. How can I do this?",
+        "completion": "To add a note for special dietary requirements, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Enter the dietary requirements in the 'Notes' section and click 'Save' to update the event details."
+    },
+    {
+        "prompt": "How can I add multiple deposits for an event that requires staggered payments?",
+        "completion": "To add multiple deposits, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Click 'Add Deposit', enter the deposit amount, and submit. Repeat this process for each additional deposit you need to add."
+    },
+    {
+        "prompt": "I need to adjust the guest count for an event that's increased. What steps should I follow?",
+        "completion": "To adjust the guest count, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Update the '# Guests' field to reflect the new guest count and click 'Save' to apply the changes."
+    },
+    {
+        "prompt": "I need to update the contact information for a customer who has an event scheduled. How do I do this?",
+        "completion": "To update customer contact information, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Update the customer's phone number or email address in the relevant fields and click 'Save' to keep the changes."
+    },
+    {
+        "prompt": "How can I add a custom field for specific event requirements?",
+        "completion": "To add a custom field for event requirements, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Use the 'Notes' section to add any custom requirements or fields that you need to track, then save the event."
+    },
+    {
+        "prompt": "I want to see all upcoming events for the next week. How can I filter this information?",
+        "completion": "To filter upcoming events, go to the 'Events' section in the Control Panel. Use the date range filter to select the next week. This will display all events scheduled within that timeframe, allowing you to review and manage them."
+    },
+    {
+        "prompt": "A customer wants to know the remaining balance for their event deposit. How can I check this?",
+        "completion": "To check the remaining balance for an event deposit, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Review the deposit section to see the total amount paid and the remaining balance due."
+    },
+    {
+        "prompt": "How do I add a payment method for an event deposit?",
+        "completion": "To add a payment method for an event deposit, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Click 'Add Deposit', enter the deposit amount, and then on the checkout screen, select the payment method (e.g., Credit, Cash). Click 'Submit' and then 'Done' to save."
+    },
+    {
+        "prompt": "Can I assign specific staff to manage an event? How do I do this?",
+        "completion": "Yes, you can assign staff to an event. Go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. In the notes or additional fields, specify the staff member responsible for managing the event, then save the event details."
+    }
+]
