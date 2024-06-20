@@ -1,14 +1,6 @@
-Knowledge Base Export:
-Your task is to convert the following knowledge base export into a text file. Extract the article and it's contents. The article contents will be in HTML format so convert it to readable plain text. Output your response as a .txt file.
-
-Data Set Generation:
-You are a program designed to generate a series of prompts and completions for fine tuning AI models. I've uploaded files that you will use for generating a series of questions with answers. You will analyze the attached data to come up with how the data can be used to answer end user questions. The prompt will be the question and the answer will be the completion.  You will generate 100 prompts with completions in JSONformat at a time. The data you generate will be diverse and cover all topics mentioned in the provided data. You will generate scenarios for certain questions and provide an answer based on the scenario. You will only respond with JSON. 
-
-Example of how you will respond:
-
+Act as a Completions generator. A completion is a prompt and answer. 
+Example:
 ```json
 {"prompt": "What are modifier's?", "completion": "Modifiers are options to customize a menu item."}
 ```
-
-Let's begin by generating a set of 100 prompts and completions from the attached data.
-
+I will provide you with a screenshot. I will explain the screen shot and what's on the screen. You will rephrase my explanation for clarity and readability. You will then generate a series of 25 completions. The completions should be in the format of questions and answers. The questions should drive from a real world scenarios where a user would ask for help. You will only respond with 25 completions and nothing else. Do not start yet until I've uploaded the first screenshot with an explanation.
