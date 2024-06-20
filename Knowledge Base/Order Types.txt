@@ -1,0 +1,545 @@
+Order Types
+
+Order types change how the system behaves. If you choose “Takeout” for example the first screen will ask you to choose a customer.
+
+
+If you choose “Table order” it will ask you to choose a table. This is not something to be overlooked and is a very important part of the system. 
+
+
+Order types are set per terminal. You can have multiple order types per terminal or you could restrict one terminal to one order type. 
+
+
+Controlling Order Types
+
+
+
+
+
+
+
+Go to Front End > Terminal Settings 
+
+You will need the security privilege of “Settings” to be allowed into this area
+
+
+Enter a Passcode and press “Override”
+
+
+The Order Types are listed at the top of the screen. Turn each one on or off to control its availability on this terminal.
+
+
+You also have “Order Start” This is where you can choose which order type will be used by default when you first log in. “None” will allow you to choose from any of the order types you have enabled
+
+
+Here is a list of all of the order types and an overview of how they behave. It is assumed that you have set the order start to each one before use
+
+
+Table Service
+
+
+The Table order type is intended for use with table service.
+
+
+When you first log on you will be presented with a table plan. If you click on a table you will be able to add Menu Items to the check and send items to the kitchen without paying for them. To pick up the table, when you log on just select the same table. To Pay you will need to go to manage tickets which is where you can pay or split the check. 
+
+
+To make a sale with this order type do the following
+
+
+Log on to the terminal
+
+Choose a table from the table diagram
+
+Enter a number of guests (can be turned off)
+
+Ring though some items
+
+Click on Manage tickets
+
+Click Pay
+
+Choose a payment method to complete the sale
+
+
+
+
+
+
+
+There are some settings that are specific to this order type
+
+
+Back Office > Settings > POS > Table Service
+
+
+Assign Sections – Determens whether a table section is assigned to a server upon clocking in. Sections must be set up in Settings  >  Table Sections
+
+
+Advanced Table Statuses – This will turn Advanced Table Statuses On or Off. Please see Coursing and Advanced Statuses document for more information
+
+
+Auto Table Reset – If set to “Yes” then the table status will be set back to Open when all tickets are cashed out. If set to No, then you will have to go into that table and hit “Reset Table” to put the status back to Open. This is used if you want to clean the table before allowing it to be used on the system
+
+
+Table Check – If turned on then servers cannot clock out with open tables
+
+
+Open Gratuity – Determines if the Gratuity amount can be entered when gratuity is added. If set to Off then the gratuity button will toggle the gratuity to zero or what is set in the “Gratuity Amount” box
+
+
+Gratuity – Determines if the Gratuity is added before or after tax
+
+
+Before Tax					After Tax
+
+
+
+
+
+
+
+Gratuity included Discounts – Determines if Gratuity is calculated including or excluding discounts
+
+
+Excluded Discounts			Includes Discounts
+
+
+
+
+
+Gratuity Amount – The Percentage of Gratuity to be added to tickets
+
+
+Gratuity Edit –  If set to On then at the checkout screen under  there will be an option called   Which will allow yout edit the Gratuity 
+
+
+Number Of Guests – Prompts for a number of guests when a table is opened
+
+
+Drinks Per Guest – If set to “On” then a prompt will appear when the number of drinks is not equal to the number of Guests. You need to set the drinks attribute on the drinks to get this to work.
+
+
+Server Accepts Cash – 
+
+
+Server Accepts Credit – 
+
+
+Server Accepts Check – 
+
+
+Server Accepts Gift Card – Server Accepts * is used for Personal Banks. Personal Banks or just Banks are money belts. They are when the server is responsible for the money alone. This is normally just for table service. 
+
+
+You have to use this in conjunction with Back Office > Settings > Tills > Personal Bank Settings. Each order type is listed here an you have to enable personal banks for the order type in question. Again, this is normally just Table Orders.
+
+
+If personal banks are allowed then the Server Accepts settings will determine what type of payment method the server is able to use to close out an order. If the Payment Method is not allowed then in will not show in the list to choose. 
+
+
+Action After Send – Determines what will happen after the send order button is pressed. Options are:
+
+
+Nothing – Keeps you in the current order on exactly the same screen
+
+Table Diagram – Takes you to the table diagram
+
+Sign Off – Puts you back to the sign on screen
+
+
+
+Print Category Sales on Bank – Determines whether a servers category sales print on their Bank report
+
+
+
+Print Button – If set to yes then a Print Button  will appear at the top of the screen allowing you to print all tickets
+
+
+Table Service Checkout Button – When set to yes changes the  button to a   button when you ring through an item. This means you do not have to click on manage tickets then Pay. 
+
+
+To Go
+
+This is a quick service order type and will not allow you to suspend a sale. It is used mostly in quick service restaurants where the order will generally be to go.
+
+
+There is no Send order button as the order will be sent automatically when the “Checkout” button is pressed. If you do not complete the payment process then a void ticket will be sent to the kitchen so they don’t make the order.
+
+
+In the Receipt Template you should make sure to have a line for Order method so you can see that the order is “To Go”.
+
+
+You can have the system prompt for a name which will print on the Ticket so you can call out the name when the order is ready .
+
+
+
+
+
+
+For Here
+
+
+For Here is Almost exactly the same as To Go. It is used mostly in quick service restaurants where the order will generally be For Hear.
+
+
+The order method of “For Here” instead of “To Go” will print on the ticket so the kitchen knows not to put the food in take away containers.
+
+
+Print stations are mapped to terminals by order type, which means that you can have “For Here” orders print to a different printer than “To Go” orders for the same items.
+
+
+There are also other areas of the system that are linked to the order type
+
+
+
+
+
+
+
+Quick Service
+
+
+Quick Service will give you the option to choose from either “For Here” or “To Go” and is used where a mixture of the 2 options is common like a MacDonald’s
+
+
+You can choose either “For Here” or “To Go” from the bottom of the screen before you hit the Checkout button. If you do not make a choice then you will be presented with a screen and forced to choose
+
+
+
+
+
+
+
+
+
+
+Retail
+
+
+
+Retail is intended for a retail environment. It is similar to quick service but it will allow you to save and send before the item is paid for. It will however warn that you are submitting the order without payment and ask you if you want to continue.
+
+
+When you save and send it will print out a slip which is the request for payment
+
+
+The intended purpose for this function is so that if a customer forgets their wallet or purse you can send the order, serve another customer and then pull up the order again without having to re-ring all the items. 
+
+
+In order to retrieve a saved order go to  > 
+
+
+
+You can edit cancel or close out these orders. 
+
+Edit takes you back to the order screen, Close takes you to the Manage ticket screen and cancel removes the order from the system
+
+
+
+
+
+Delivery
+
+
+Deliveries are supposed to be for a restaurant with delivery drivers. It will manage the orders and what order is where.
+
+
+The first thing you will be asked is for customer details
+
+
+If you type in the first box it will look up existing customers. You can enter either a name or a phone number, wildcards such as * are not required. 
+
+
+To add new customers, enter the details in the boxes below it.
+
+The minimum information required can be set in Back Office  > Settings > Customers and Addresses
+
+
+
+
+
+To find out how far it is to a customers address from the business address just click on “Map Address”
+
+
+The Notes section is what will be printed against “Driver Instruction” on the ticket
+
+
+When you complete an order for a customer who’s details you have just entered it will save them for next time.
+
+
+If you select an existing customer their previous orders will be shown in the “Previous orders window” 
+
+
+
+
+
+If you select a previous order you can click continue and add order. This will add all items in their previous order to the new order. If you Just press continue it will add a blank order. 
+
+
+Customers can have multiple addresses. Make sure you choose one or you will be prompted to do so.
+
+
+When you have added the Menu Items to the order you can save and send the order or you can pay for the order using the checkout button. 
+
+
+If you save and send it will ask if you want to submit the order without payment. When confirmed it will print the order as well as a receipt as a request for payment. This can be presented to the customer upon Delivery.
+
+
+Next go to  > 
+
+
+
+
+All of the delivery orders will show in a list on this screen.
+
+
+You can filter the list by Pending Delivery Orders or Out Delivery Orders
+
+The next step is to sign the order “Out For Delivery” by selecting the orders 
+
+and pressing this button 
+
+
+Choose a driver from the list (If Driver is on the job title assigned to that employee then they will be in the list) and choose “Out for Delivery”
+
+
+When you select the  button you will see this screen.
+
+
+
+
+
+
+
+Select the order then choose a button
+
+
+Delivery Details – Will show you more information including the full address
+
+
+Reprint Receipts – Will re-print the receipt incase the origional is damaged or lost
+
+
+Re-Assign Driver – Allows you to assign a different driver
+
+
+Delivery Failed – Will mark the delivery as failed and set the total to zero
+
+
+Complete Delivery – Takes you to the payment screen so you can pay for the order with the money 
+
+received when you delivered the items
+
+Back on the delivery pending orders screen you have the following options
+
+
+
+
+
+
+Driver Check-In – Will mark all of the tickets assigned to that driver as complete. It does this if the deliveries have been paid for or not. 
+
+
+Cancel Order – Removes the order from the list and a cancelled order is sent to the kitchen
+
+
+Edit order – takes you to the order screen
+
+
+Delivery Details – shows you information about the order including the items and the full address
+
+
+Print Tickets - will print tickets for all of the orders selected
+
+
+Map address - will bring up a google map of the address for the order
+
+
+Out For Delivery – allows you to assign a driver to the order and mark it as Out for delivery
+
+
+Show Future Orders – will show orders that are scheduled for 12 or more hours into the future
+
+
+
+
+Takeout
+
+There is a To Go Order Type already but Takeout takes it further. It is specifically for people taking out food and will let you manage orders placed over the phone or at the counter
+
+
+The first screen for this order type is the same as Delivery but will only require a Name and a phone number, not an address
+
+
+
+
+
+
+You can also search for an existing customer by typing either the customer name or the phone number in the “Select a Customer” box
+
+
+If you do select an existing customer their previous orders will be shown in the “Previous orders window” 
+
+
+From here you have 3 options
+
+
+Cancel Order – Will cancel the order
+
+
+Continue with default – Clicking on Continue with Default will allow you to create a takeout order without entering any customer info
+
+
+Continue and add order – You get this option if you have selected a previous order from an existing customer. The items in the order you selected will be added to the check.
+
+
+Continue – Will take you to the order screen without adding any items from a previous order
+
+
+
+When you have entered all of the menu items to the order you can save and send the order or you can pay for the order using the checkout button. 
+
+
+If you save and send it will ask if you want to submit the order without payment. When confirmed it will print the order as well as a receipt as a request for payment. This can be presented to the customer upon collection.
+
+
+If you use the checkout option it will ask if you want to mark the order as picked up. This is because they could be ordering over the phone or they could be in the store. If marked as picked up it will not show in pending orders.
+
+
+When the customer comes to collect you would go to “Pending Orders” > Takeout and select the customer’s order.
+
+
+
+
+
+From here you can 
+
+
+Print Receipts – Will print duplicate receipts for orders
+
+
+Edit Order – Will take you to the order screen so you can add or remove items
+
+
+Cancel Order – Will remove the order (But only if it has not been paid)
+
+
+Close Ticket – Takes you to the Manage Ticket screen so you can take payment. If it has been paid previously it will be marked as paid already. In this case you can press “Mark as complete” Which will take it off the pending orders screen
+
+
+Orders are assumed ready to collect 15 mins after order. They will be white before this and red after.
+
+
+There is a caller ID option which requires a piece of hardware and will allow you to look up customers automatically
+
+
+Back Office > Settings > Pos > Order Wait Time Settings
+
+
+
+
+Display Takeout Wait Time – Displays or hides the takeout wait time on the logon screen
+
+
+Default Takeout Time – What the display will show as default with no orders
+
+
+Auto Time Reset – If turned on, the default takeout and delivery wait times will be reset each day at a specific time
+
+Auto Time Reset Time – This is the time the default wait times for takeout and delivery will be reset if Auto Time Reset is set to “On”
+
+Bar Tabs
+
+
+Bar tabs is a quick service Order Type that will allow you to save tabs
+
+
+If you ring through some drinks and pay straight away it works just like one of the quick service options
+
+
+If you press “Save and Send” you will be asked for a name for the tab. or it can be set to pre-authorize a credit card
+
+and pull the name off the card (except with NFC/Tap/Contactless transactions).After this you will go to the bar tabs
+
+screen where you can see a list of all of your open tabs
+
+
+
+
+
+
+If you sign off after entering items then it will save the bar tab with a customer name as the time it was entered and the employee name. 
+
+
+Transfer tab -  Allows you to transfer to a different employee
+
+
+Page up or down - Will navigate the tabs on the screen if you have tabs which take up more than one screen.
+
+
+Change view - Shows you either a list of tabs with details or icons with the name of the tab and the cost. 
+
+
+Change font - Will only affect the icons. It will make the font bigger or smaller so that you can see the price if it is off the screen.
+
+
+Print tab - Prints the bill for that tab
+
+
+Spit tickets - Will take you to a screen where you can put some items onto a different ticket inside the tab. 
+
+
+Combine – Allows you to combine 2 tabs. Click on combine > in the pop up window tick the tabs you want to combine >click combine tabs > Enter the new name and press enter.
+
+
+Rename Tab – Will allow you to change the name of the Tab
+
+
+Edit Tab – Takes you back to the order screen to make changes or additions to the tab
+
+
+Close Tab – Takes you to the payment screen
+
+
+Drive Thru
+Is used for Drive Thru orders where you can have multiple windows 
+
+
+
+
+
+Continue - will send through the items currently on the order. This is so that if there is a long order the staff can be preparing it whilst you continue to take the order
+
+
+End - Will send through any other items that were rang through since pressing Continue along with a notification to say that this is the end of the order
+
+
+Fast Cash / Fast Credit -  when pressed will settle the check for exact cash or exact credit. 
+
+
+Under Back Office > Settings > POS There are options to confirm Fast Credit and Confirm Fast Cash. These will prompt to confirm that you do want to settle
+
+
+Pressing save and send will allow you to send the order to the kitchen
+
+
+
+Pending Orders > Drive Thru – This is how you pick up the pending drive through orders
+
+
+
+
+
+Edit Order - takes you to the order screen
+
+
+Cancel Order -will remove the order and send a ***Cancelled Order**** ticket to the kitchen
+
+
+Print Receipt - will print a request for payment
+
+
+Next Window - will move the transaction to the next window. This means it will no longer show in your pending orders screen
+
+
+If, in terminal settings, you have dual drive thru enabled and multi screen disabled, then any other terminals that have drive thru order type will receive the next window.
