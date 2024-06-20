@@ -1,556 +1,1418 @@
 [
-    {"prompt": "I accidentally voided a transaction and need to fix it urgently! Where can I find the option to reverse this?", "completion": "Go to 'View Transactions' from the Control Panel, search for the voided transaction, and click 'View Transaction' to review and correct it if possible."},
-    {"prompt": "A customer is demanding a refund and I have no idea where to start. Help me!", "completion": "Click on 'Issue Refund' in the Control Panel, enter the amount and select the reason for the refund to process it."},
-    {"prompt": "The till is not balancing and my shift is ending soon. How do I handle this?", "completion": "Go to 'Till & Bank Manager' in the Control Panel, and use the 'Close Till' or 'Log Closed Bank/Till' option to reconcile the till."},
-    {"prompt": "I'm trying to find a specific transaction from last week but can't locate it. What should I do?", "completion": "Use 'Search Transactions' in the Control Panel, input the date range and other relevant details to find the transaction."},
-    {"prompt": "I need to issue a refund for a customer but I'm unsure which tax rate applies. Can you guide me?", "completion": "Go to 'Issue Refund' in the Control Panel, enter the refund amount, and select the correct tax rate from the dropdown menus."},
-    {"prompt": "A customer is claiming they were charged twice. How do I verify and correct this?", "completion": "Click on 'View Transactions' in the Control Panel, search for the customer's transactions, and check for any duplicate charges."},
-    {"prompt": "I'm trying to add tips to a completed credit transaction but can't find the option. What do I do?", "completion": "Select 'Credit Trans (Add Tips)' from the Control Panel, locate the transaction, and add the appropriate tip amount."},
-    {"prompt": "We need to adjust an employee's punch-in time for today. Where can I do this?", "completion": "Go to 'Punch Adjustments' in the Control Panel, select the employee, and adjust their punch-in time accordingly."},
-    {"prompt": "A customer is requesting a detailed report of their purchases. How can I provide this?", "completion": "Use 'View Transactions' in the Control Panel to find the customer's transactions, then print the detailed report for them."},
-    {"prompt": "I'm having trouble settling a batch of transactions. Where can I find the batch/settle option?", "completion": "Click on 'Batch/Settle' in the Control Panel to settle the batch of transactions."},
-    {"prompt": "I need to log a closed bank for my shift but can't find the option. Can you help?", "completion": "Select 'Till & Bank Manager' in the Control Panel, and use 'Log Closed Bank/Till' to log your closed bank."},
-    {"prompt": "A customer is asking to see a list of all their orders. How do I retrieve this?", "completion": "Go to 'Order Tickets' in the Control Panel, search for the customer's name, and print the list of their orders."},
-    {"prompt": "How can I quickly check the service statuses for all terminals?", "completion": "Click on 'Service Statuses' in the Control Panel to view the status of all terminals."},
-    {"prompt": "We need to transfer a table order to a different server. How do I do this?", "completion": "Select 'Transfer Tables' in the Control Panel, choose the order, and transfer it to the desired server."},
-    {"prompt": "I need to generate a quick sales report for today. What should I do?", "completion": "Use 'Quick Report' in the Control Panel to generate a sales report for today's transactions."},
-    {"prompt": "A customer needs a refund but paid with a check. How do I process this?", "completion": "Go to 'Issue Refund' in the Control Panel, select 'Check' as the type, and follow the prompts to process the refund."},
-    {"prompt": "We need to update the menu items. Where can I do this?", "completion": "Click on 'Menu Management' in the Control Panel to update or add new menu items."},
-    {"prompt": "A customer wants to know if their loyalty points can be applied to today's purchase. How do I check?", "completion": "Use 'Customer Database' in the Control Panel to look up the customer's loyalty points and apply them to the purchase."},
-    {"prompt": "The system is not showing any pending transactions, but I know there are some. What should I do?", "completion": "Go to 'View Transactions' in the Control Panel, ensure 'Pending' is checked under Order Status, and search again."},
-    {"prompt": "I need to close out the bank for today but I'm not sure how. Can you guide me?", "completion": "Select 'Till & Bank Manager' in the Control Panel, and use 'Close Bank' to finalize the bank for today."},
-    {"prompt": "A customer wants a refund but the transaction was done using a gift card. How do I handle this?", "completion": "Go to 'Issue Refund' in the Control Panel, select 'Gift Card' as the type, and process the refund accordingly."},
-    {"prompt": "Where can I adjust the employee control settings?", "completion": "Click on 'Employee Control Panel' in the Control Panel to adjust the employee settings."},
-    {"prompt": "I need to reprint a transaction receipt. How can I do this?", "completion": "Go to 'View Transactions' in the Control Panel, find the transaction, and use the 'Reprint Receipts' option."},
-    {"prompt": "We have some personal banks that need to be closed out. How do I do this?", "completion": "Use 'Till & Bank Manager' in the Control Panel, and select 'Close Bank' to finalize personal banks."},
-    {"prompt": "How can I check the details of a failed transaction?", "completion": "Go to 'View Transactions' in the Control Panel, ensure 'Failed' is checked under Order Status, and search for the transaction details."},
-    {"prompt": "I'm trying to track a specific event's sales. Where can I find this information?", "completion": "Go to 'Events' in the Control Panel to view and manage sales related to specific events."},
-    {"prompt": "How can I view today's report of transactions?", "completion": "Click on 'Today's Report' in the Control Panel to view a summary of today's transactions. You will also have a report print out the EOD. "},
-    {"prompt": "Where can I manage customer loyalty programs?", "completion": "Select 'Customer Database' in the Control Panel to manage and update customer loyalty programs."},
-    {"prompt": "How can I check the status of my till and bank closeout?", "completion": "Go to 'Till & Bank Manager' in the Control Panel to view the status of till and bank closeout."},
-    {"prompt": "A customer wants to add a tip after completing the transaction. How do I do this?", "completion": "Select 'Credit Trans (Add Tips)' in the Control Panel, locate the transaction, and add the desired tip amount."},
-    {"prompt": "I need to update the tax rates for a refund. Where can I do this?", "completion": "Go to 'Issue Refund' in the Control Panel, enter the amount, and select the payment method."},
-    {"prompt": "Where can I find the option to view all closed transactions?", "completion": "Select 'View Transactions' in the Control Panel, ensure 'Completed' is checked under Order Status, and search to view closed transactions."},
-    {"prompt": "How can I print a detailed bank report for my shift?", "completion": "Use 'Till & Bank Manager' in the Control Panel, and select 'Print Bank Report' to generate a detailed report for your shift."},
-    {"prompt": "A customer wants to know how much they spent on their last visit. How do I find this?", "completion": "Go to 'Customer Database' in the Control Panel, look up the customer's name, and review their transaction history."},
-    {"prompt": "How do I handle a transaction that was accidentally marked as completed?", "completion": "Go to 'View Transactions' in the Control Panel, find the transaction, and use the 'Void Transaction' option if necessary."},
-    {"prompt": "We need to adjust the tips for a lot of transactions. Where can I do this?", "completion": "Select 'Credit Trans (Add Tips)' in the Control Panel to adjust tips for multiple transactions."},
-    {"prompt": "A customer needs their account balance checked and updated, but I'm not sure where to do this. Can you help?", "completion": "Go to 'Account Checkout' in the Control Panel, select the customer account, and update the balance as needed."},
-    {"prompt": "How can I transfer a table from one server to another?", "completion": "Select 'Transfer Tables' in the Control Panel, choose the table(s) to be transferred, and assign them to the new server."},
-    {"prompt": "An employee forgot to clock out last night. How do I fix their time record?", "completion": "Use 'Edit Time Clock' in the Control Panel, select the employee, and adjust their clock-out time accordingly."},
-    {"prompt": "I need to reprint a receipt for a transaction that occurred last week. How can I find it?", "completion": "Go to 'View Transactions' in the Control Panel, search for the transaction by date, and use the 'Reprint Receipts' option."},
-    {"prompt": "A customer's order needs to be voided but I'm not sure how to do it. What steps should I follow?", "completion": "In 'View Transactions,' locate the order, and click 'Void Transaction' to void the order."},
-    {"prompt": "How can I check the details of an employee's open orders?", "completion": "Go to 'Employee Control Panel' in the Control Panel, select the employee, and review their open orders under 'Open Orders'."},
-    {"prompt": "I need to close out all personal banks for the day. Where do I do this?", "completion": "Go to 'Till & Bank Manager' in the Control Panel, and select 'Close Bank' to finalize all personal banks."},
-    {"prompt": "A customer wants to know their account limit. How can I find this information?", "completion": "Go to 'Account Checkout' in the Control Panel, select the customer's account, and review the account limit details."},
-    {"prompt": "How can I assign a new section to a server?", "completion": "Use 'Manage Sections' in the 'Transfer Tables' screen to assign a new section to the server."},
-    {"prompt": "I need to edit a customer's account information. What should I do?", "completion": "Go to 'Account Checkout' in the Control Panel, select the customer's account, and update the necessary information."},
-    {"prompt": "A customer needs a detailed breakdown of their transaction. How can I provide this?", "completion": "In 'View Transactions,' locate the customer's transaction, and print the detailed breakdown."},
-    {"prompt": "We have a new employee who needs to be added to the system. How do I do this?", "completion": "Go to 'Employee Control Panel' in the Control Panel, and use the 'Add Employee' function to create a new employee profile."},
-    {"prompt": "How can I find all transactions for a specific customer?", "completion": "Use 'Search Transactions' in the Control Panel, enter the customer's name, and search for their transactions."},
-    {"prompt": "How can I view all closed orders for the day?", "completion": "In 'Employee Control Panel,' select 'Closed Orders' to view all closed orders for the day."},
-    {"prompt": "A customer wants to know the total amount spent last month. How can I find this?", "completion": "Use 'Search Transactions' in the Control Panel, set the date range to last month, and search for the customer's total amount spent."},
-    {"prompt": "We need to void multiple transactions. Is there a way to do this quickly?", "completion": "Go to 'View Transactions' in the Control Panel, select the transactions, select 'View Transaction' and use the 'Void Transaction' option. You will have to do this for each transaction that needs to be voided. "},
-    {"prompt": "How can I view the punch records for all employees?", "completion": "Select 'Punch Adjustments' in the Control Panel to view and adjust punch records for all employees."},
-    {"prompt": "A customer wants to see their transaction history. How do I access this?", "completion": "Go to 'Customer Database' in the Control Panel, search for the customer, and review their transaction history."},
-    {"prompt": "An employee is not assigned to a till and can't process orders. How do I fix this?", "completion": "Ensure the employee is assigned to a till in 'Till & Bank Manager' by selecting 'Assign Till'."},
-    {"prompt": "How do I search for transactions by payment method?", "completion": "Use 'Search Transactions' in the Control Panel, select the desired payment method, and search for the transactions."},
-    {"prompt": "A customer wants a copy of their invoice. Where can I print this?", "completion": "Go to 'View Transactions' in the Control Panel, find the transaction, and use the 'Reprint Receipts' option to print the invoice."},
-    {"prompt": "How can I transfer multiple orders to a different server?", "completion": "Select 'Transfer Tables' in the Control Panel, choose the orders, and transfer them to the new server."},
-    {"prompt": "A customer needs a refund for a transaction completed today. How do I process this?", "completion": "Click on 'Issue Refund' in the Control Panel, enter the transaction details, and process the refund."},
-    {"prompt": "How do I manage an employee's unattached orders?", "completion": "In 'Employee Control Panel,' select 'Unattached Orders' to manage the employee's unattached orders."},
-    {"prompt": "A customer wants to know if their loyalty points can be applied to today's purchase. How do I check?", "completion": "Use 'Customer Database' in the Control Panel to look up the customer's loyalty points and apply them to the purchase."},
-    {"prompt": "I need to update the menu items. Where can I do this?", "completion": "Click on 'Menu Management' in the Control Panel to update or add new menu items."},
-    {"prompt": "How can I check the end-of-day report for all transactions?", "completion": "Select 'End of Day' in the Control Panel to generate and review the end-of-day report for all transactions."},
-    {"prompt": "How do I handle a transaction that was accidentally marked as completed?", "completion": "Go to 'View Transactions' in the Control Panel, find the transaction, and use the 'Void Transaction' option if necessary."},
-    {"prompt": "We need to adjust the tips for a batch of transactions. Where can I do this?", "completion": "Select 'Credit Trans (Add Tips)' in the Control Panel to adjust tips for multiple transactions."},
-    {"prompt": "How can I quickly view all pending transactions?", "completion": "Click 'Pending Orders' in the Control Panel, ensure 'Pending' is checked under Order Status, and search for all pending transactions."},
-    {"prompt": "A customer needs a refund but paid with a check. How do I process this?", "completion": "Go to 'Issue Refund' in the Control Panel, select 'Check' as the type, and follow the prompts to process the refund."},
-    {"prompt": "I need to log a no-sale transaction. How do I do this?", "completion": "Click on 'No Sale' in the Control Panel to log the no-sale transaction."},
-    {"prompt": "How can I find all transactions for a specific customer?", "completion": "Use 'Search Transactions' in the Control Panel, enter the customer's name, and search for their transactions."},
-    {"prompt": "I need to adjust an employee's role. Where can I make this change?", "completion": "Go to 'Employee Control Panel' in the Control Panel, select the employee, and adjust their role accordingly."},
-    {"prompt": "How can I view all closed orders for the day?", "completion": "In 'Employee Control Panel,' select 'Closed Orders' to view all closed orders for the day."},
-    {"prompt": "How do I manage an employee's unattached orders?", "completion": "In 'Employee Control Panel,' select 'Unattached Orders' to manage the employee's unattached orders."},
-    {"prompt": "A customer wants to know if their loyalty points can be applied to today's purchase. How do I check?", "completion": "Use 'Customer Database' in the Control Panel to look up the customer's loyalty points and apply them to the purchase."},
-    {"prompt": "We need to update the menu items. Where can I do this?", "completion": "Click on 'Menu Management' in the Control Panel to update or add new menu items."},
-    {"prompt": "A customer wants to know how much they spent on their last visit. How do I find this?", "completion": "Go to 'Customer Database' in the Control Panel, look up the customer's name, and review their transaction history."},
-    {"prompt": "I need to create a new menu category for our seasonal items. Where do I do this?", "completion": "Go to 'Menu Management' and select 'Menu Categories (Create/Edit)' to create a new category for your seasonal items."},
-    {"prompt": "A customer complained about the website menu. How can I adjust the website position and button color for a category?", "completion": "Use the 'Category Editor' in the 'Menu Management' section to adjust the website position and button color for the category."},
-    {"prompt": "How can I move an existing menu category to a different set?", "completion": "In 'Menu Categories,' select 'Move Category' to transfer the existing category to a different set."},
-    {"prompt": "I need to add a modifier set to a menu item. Where can I do this?", "completion": "Go to 'Menu Management' and select 'Add A Modifier Set To A Menu Item' to link the modifier set with the menu item."},
-    {"prompt": "A customer wants a detailed report of menu items with specific modifiers. How do I create this?", "completion": "Use 'Create Report Categories' in the 'Menu Management' section to generate a detailed report of menu items with specific modifiers."},
-    {"prompt": "How do I update the font size and text position for a menu category?", "completion": "In the 'Category Editor,' adjust the 'Font Size' and 'Text Position' settings to update the menu category's appearance."},
-    {"prompt": "An employee needs to update their contact information. Where can this be done?", "completion": "Go to 'Employee Information' in the Control Panel, select the employee, and update their contact information."},
-    {"prompt": "How can I add fingerprint access for a new employee?", "completion": "Use 'Add Fingerprint' in the 'Employee Information' section to enroll the new employee's fingerprints."},
-    {"prompt": "I need to adjust the punch-in time for an employee who forgot to clock in. How do I do this?", "completion": "Go to 'Punch Adjustments' in the Control Panel, select the employee, and edit their punch-in time accordingly."},
-    {"prompt": "A customer wants to add a tip after their transaction. How can I do this?", "completion": "In 'Add Tips' in the Control Panel, locate the transaction and add the desired tip amount."},
-    {"prompt": "Where can I view and edit all open orders for an employee?", "completion": "Go to 'Employee Control Panel,' select 'Open Orders,' and view or edit the orders for the selected employee."},
-    {"prompt": "How can I check the start and end times for employee punches?", "completion": "Use 'Search Punch' in the Control Panel to view the start and end times for employee punches."},
-    {"prompt": "I need to delete an employee's punch record. What steps should I follow?", "completion": "Go to 'Punch Adjustments' in the Control Panel, select the punch record, and use the 'Delete' option to remove it."},
-    {"prompt": "A customer wants to know if their order qualifies for delivery. How do I check?", "completion": "In 'Category Editor,' review the 'Order Method Availability' settings to see if delivery orders are enabled for that category."},
-    {"prompt": "How can I quickly reassign a table to a different section?", "completion": "Use 'Transfer Tables' in the Control Panel, select the table, and assign it to the new section."},
-    {"prompt": "I need to adjust the availability times for a menu item. Where can I do this?", "completion": "Select 'Menu Item Time Availability Restrictors' in 'Menu Management' to adjust the availability times for the menu item."},
-    {"prompt": "How can I add a new item to the menu and assign it to a category?", "completion": "Select 'Menu Items (Create/Edit)' in 'Menu Management,' select a menu category then click on of the gray squares to add a new menu item."},
-    {"prompt": "I need to find all transactions for a specific date range. How do I do this?", "completion": "Use 'View Transactions' in the Control Panel, set the date range, and search for the transactions."},
-    {"prompt": "How can I ensure a new menu item is visible online?", "completion": "In the 'Category Editor,' make sure 'Online (Default Visible)' is checked for the new menu item."},
-    {"prompt": "How can I view and edit all unattached orders for an employee?", "completion": "Go to 'Employee Control Panel,' select 'Unattached Orders,' and view or edit the orders for the selected employee."},
-    {"prompt": "A customer wants to change the font size for the menu categories they see online. How do I update this?", "completion": "In the 'Category Editor,' adjust the 'Font Size' settings for the online menu categories."},
-    {"prompt": "How can I reprint a receipt for an order that included a tip?", "completion": "Go to 'Add Tips' in the Control Panel, locate the order, and use the 'Reprint Receipt' option."},
-    {"prompt": "I need to ensure that a certain item is only available during specific times. How do I set this up?", "completion": "Select 'Menu Item Time Availability Restrictors' in 'Menu Management' to set the specific times for item availability."},
-    {"prompt": "How can I add a custom image to a menu category?", "completion": "In the 'Category Editor,' use the 'Add Image' function to upload and assign a custom image to the menu category."},
-    {"prompt": "I need to adjust the tax rates for a refund. Where can I do this?", "completion": "Go to 'Issue Refund' in the Control Panel, enter the amount, and update the tax rates in the designated fields."},
-    {"prompt": "How can I transfer an order to another server?", "completion": "Use 'Transfer Tables' in the Control Panel, select the order, and assign it to the new server."},
-    {"prompt": "How can I update the description for a menu category?", "completion": "The description fo ra menu category can be edited by going to the 'Control Panel', 'Menu Management', and then clicking 'Menu Categories (Create/Edit)'. In the 'Category Editor,' update the 'Description' field for the menu category and save the changes."},
-    {"prompt": "An employee's punch records are incorrect. How can I correct this?", "completion": "Go to 'Punch Adjustments' in the Control Panel, select the incorrect punch record, and make the necessary corrections."},
-    {"prompt": "How do I find and reprint a detailed receipt for a completed order?", "completion": "Go to 'View Transactions' in the Control Panel, find the completed order, and use 'Reprint Receipts' to print the detailed receipt."},
-    {"prompt": "What happens when I press 'Database Settings'?", "completion": "Pressing 'Database Settings' will bring up an override prompt and a warning message. You will then be presented with buttons for modifying various database settings."},
-    {"prompt": "What options are available after the override prompt for 'Database Settings'?", "completion": "Options include Change Connection, Backup Database, Restore Database Backup, Attach Database Files, Database Commands, Terminal Independence Settings, Clear Onboarding From, and Clear License Information."},
-    {"prompt": "How do I change the database connection?", "completion": "Select 'Change Connection' to access the screen where you can set up the database connection."},
-    {"prompt": "What information is needed to set up the database connection?", "completion": "You need to set the server, database, terminal number, and backup server."},
-    {"prompt": "How does the system populate the server list?", "completion": "The system uses SQL Server to search the network for accessible servers and populates the server list."},
-    {"prompt": "What should I do if the server list is outdated?", "completion": "Click 'Refresh Servers' to update the server list."},
-    {"prompt": "What additional options are available in 'Advanced Setup'?", "completion": "You can specify a username and password for the SQL user, typically 'sa' as the username and 'pspwd7277' as the password."},
-    {"prompt": "What message will I see after successfully setting up the connection?", "completion": "You will see a message box with 'Connection Set!'."},
-    {"prompt": "What is the next step after setting up the database connection?", "completion": "You will be brought to another screen to set up the Back Office/Server setup."},
-    {"prompt": "What information is required for the Back Office/Server setup?", "completion": "You need to specify the back office password, port, timezone, external access, and server terminal."},
-    {"prompt": "What is the purpose of the port specified in the Back Office/Server setup?", "completion": "The port is used for the remote back office setup."},
-    {"prompt": "What options are available under 'Database Commands'?", "completion": "Options include two SQL queries: Remove all receipts that have not printed and Clear all sales data."},
-    {"prompt": "How do I back up the database?", "completion": "Select 'Backup Database' to create a backup of the database."},
-    {"prompt": "How do I restore a database backup?", "completion": "Select 'Restore Database Backup' to restore from a backup file."},
-    {"prompt": "What does 'Attach Database Files' do?", "completion": "It allows you to attach database files to the system."},
-    {"prompt": "How can I clear onboarding information?", "completion": "Select 'Clear Onboarding From' to remove onboarding information."},
-    {"prompt": "How can I clear the license information?", "completion": "Select 'Clear License Information' to remove the license details."},
-    {"prompt": "What is 'Terminal Independence Settings' used for?", "completion": "It is used to configure settings specific to the terminal without affecting other terminals."},
-    {"prompt": "How do I exit the Connection Setup screen?", "completion": "Press the 'Exit' button at the bottom of the screen."},
-    {"prompt": "Can I use a different username for SQL access?", "completion": "Yes, you can specify a different username in the 'Advanced Setup' options."},
-    {"prompt": "What should I do if my connection setup fails?", "completion": "Check the server and database information for accuracy and try again."},
-    {"prompt": "How do I specify a backup server?", "completion": "Select a server from the 'Backup Server' dropdown list."},
-    {"prompt": "What happens if I change the terminal number?", "completion": "The terminal settings will be stored uniquely based on the new terminal number. For example, if you have a till on terminal 2 and change terminal 1's number to terminal 2, terminal's 2 till will now be accessible on terminal 1."},
-    {"prompt": "How do I access the back office settings?", "completion": "After setting the database connection, you will be taken to the Back Office/Server setup screen."},
-    {"prompt": "What is the default username for SQL user access?", "completion": "The default username is typically 'sa'."},
-    {"prompt": "What is the default password for SQL user access?", "completion": "The default password is 'pspwd7277'."},
-    {"prompt": "Can I change the port number for back office access?", "completion": "Yes, you can specify a different port number during the Back Office/Server setup."},
-    {"prompt": "How do I change the timezone settings?", "completion": "Select the appropriate timezone from the dropdown list in the Back Office/Server setup screen."},
-    {"prompt": "What should I do if I need external access to the back office?", "completion": "Select 'Yes' for external access in the Back Office/Server setup options."},
-    {"prompt": "How do I execute a database command?", "completion": "Select the desired SQL query from the 'Database Commands' options and click 'Execute Command'."},
-    {"prompt": "How do I remove unprinted receipts?", "completion": "Navigate to the database settings button on the login screen and click 'Database Commands'. Select 'Remove all receipts that have not printed' from the dropdown and then click 'Excute Command'."},
-    {"prompt": "How do I clear all sales data?", "completion": "Select 'Clear all sales data' from the Database Commands options."},
-    {"prompt": "How do I confirm my connection setup?", "completion": "After entering the necessary information, press 'Continue' to confirm the setup."},
-    {"prompt": "What is the purpose of the 'Advanced Setup' button?", "completion": "It provides additional options for specifying a username and password for SQL user access."},
-    {"prompt": "How do I know if the connection setup is successful?", "completion": "You will see a message box saying 'Connection Set!' once the setup is successful."},
-    {"prompt": "Can I set up multiple terminals with different numbers?", "completion": "Yes, each terminal should have a unique terminal number for identification."},
-    {"prompt": "What if I need to change the server after setup?", "completion": "You can go back to the 'Change Connection' option and update the server information."},
-    {"prompt": "How do I set up remote access for the back office?", "completion": "Specify the port number and select 'Yes' for external access during the Back Office/Server setup."},
-    {"prompt": "What should I do if I receive an error during connection setup?", "completion": "Verify all entered information, check network connectivity, and try again."},
-    {"prompt": "How do I access the terminal independence settings?", "completion": "Select 'Terminal Independence Settings' from the connection setup options."},
-    {"prompt": "What is the 'Clear License Information' option for?", "completion": "It clears the stored license information from the system."},
-    {"prompt": "How do I change the connection settings if I move the server?", "completion": "Use the 'Change Connection' option to update the server and database information."},
-    {"prompt": "What should I do if the server list does not refresh?", "completion": "Ensure network connectivity and try pressing the 'Refresh Servers' button again."},
-    {"prompt": "Can I set up a backup server later?", "completion": "Yes, you can add or change the backup server at any time using the connection setup options."},
-    {"prompt": "How do I know which database to connect to?", "completion": "The database you connect to is typically the one setup for your business. It will often be named in the format of 'ocpos_yourbusinses'." },
-    {"prompt": "How do I change the external access settings after initial setup?", "completion": "You can modify the settings in the Back Office/Server setup screen as needed."},
-    {"prompt": "How do I close the OrderCounter software?", "completion": "To close the OrderCounter software, press the X button on the top left corner of the login screen. You will be prompted to enter an override code to confirm the action."},
-    {"prompt": "What happens if I press the restart button on the login screen?", "completion": "Pressing the restart button will prompt you to enter an override code. Once entered, the software will restart."},
-    {"prompt": "Where can I find the time clock button?", "completion": "The time clock button is located on the right side of the login screen. Press it to clock into your job"},
-    {"prompt": "What options are available after pressing the time clock button?", "completion": "You will see four options: In, Out, Mgr Override In, and Mgr Override Out."},
-    {"prompt": "How do I clock in?", "completion": "Press the 'In' button on the time clock screen, then enter your numeric password or swipe your card when prompted."},
-    {"prompt": "How do I clock out?", "completion": "Press the 'Out' button on the time clock screen, then enter your numeric password when prompted."},
-    {"prompt": "What are the manager override options for?", "completion": "The manager override options allow a manager to clock in or out on behalf of an employee if needed."},
-    {"prompt": "What is the 'EMV Card Swipe' button for?", "completion": "The 'EMV Card Swipe' button allows you to clock in using your card instead of entering a numeric password."},
-    {"prompt": "Where are job roles configured?", "completion": "Job roles are configured in the Back Office under the Employee Manager for an employee."},
-    {"prompt": "What should I do if I forget my password?", "completion": "Contact your manager or system administrator to reset your password."},
-    {"prompt": "Can I clock in for multiple job roles?", "completion": "Yes, you can select the appropriate job role from the list after entering your password."},
-    {"prompt": "What information is displayed on the initial login screen?", "completion": "The initial login screen displays a numeric keypad for entering your password, the time and date, and options to close, restart, or access the time clock."},
-    {"prompt": "How can a manager clock in for an employee?", "completion": "A manager can use the 'Mgr Override In' button to clock in for an employee by entering their own override code."},
-    {"prompt": "What happens after entering my password to clock in?", "completion": "You will be prompted to select your job role from the available options."},
-    {"prompt": "What do I do if my card swipe fails?", "completion": "If your card swipe fails, you can manually enter your numeric password instead."},
-    {"prompt": "How do I know which terminal I am using?", "completion": "The terminal number is displayed at the bottom of the screen, such as 'Terminal: 0001'."},
-    {"prompt": "Can I clock out using my card?", "completion": "Yes, you can use the 'EMV Card Swipe' button to clock out with your card."},
-    {"prompt": "Is there a way to confirm my clock-in time?", "completion": "Yes, your clock-in time will be displayed on the screen after you complete the process."},
-    {"prompt": "What should I do if the system does not recognize my card swipe?", "completion": "Ensure the card is properly swiped and try again. If the problem persists, contact your manager."},
-    {"prompt": "How often can I change my job role?", "completion": "You can change your job role each time you clock in by selecting the appropriate role from the list."},
-    {"prompt": "How do I access the database settings?", "completion": "Press the 'Database Settings' button on the bottom right corner of the screen to access database settings."},
-    {"prompt": "What is the 'Printer Settings' button for?", "completion": "The 'Printer Settings' button allows you to configure printer settings for the terminal."},
-    {
-        "prompt": "I'm so frustrated! I can't figure out how to split a single item between multiple seats. Help me before I lose it!",
-        "completion": "I'm sorry to hear that you're having trouble. Let's fix this together. Go to the 'Order' screen, select the item you want to split, then press 'Split Item.' Enter the number of splits needed and confirm by pressing 'Submit.' This should split the item as needed."
-    },
-    {
-        "prompt": "I need to move an item to a different check, and it's driving me crazy that I can't find how! Can you help?",
-        "completion": "I understand how frustrating this can be. Let's get it sorted. On the 'Order' screen, select the item you want to move. Press 'Move' and choose the check you want to transfer the item to. Confirm the move, and it should be done."
-    },
-    {
-        "prompt": "Why is it so hard to add gratuity to all tickets? I need to do this quickly!",
-        "completion": "I apologize for the inconvenience. To add gratuity to all tickets, go to the 'Order' screen and press 'Add Gratuity To All Tickets.' Enter the gratuity amount or percentage, then confirm. This will apply the gratuity to all tickets."
-    },
-    {
-        "prompt": "I need to split an order by seat, and I'm running out of patience here!",
-        "completion": "Let's handle this quickly. Go to the 'Order' screen, select 'Split Order By Seat.' Assign each item to the respective seat and confirm the split. This should organize your order correctly."
-    },
-    {
-        "prompt": "I'm getting really annoyed! How do I use Terminal Mirror Mode? I can't figure it out!",
-        "completion": "I understand your frustration. To use Terminal Mirror Mode, go to the 'Control Panel' and select 'Terminal Mirror.' Choose the terminal you want to mirror and whether to include the printer. Save and restart to apply the changes."
-    },
-    {
-        "prompt": "Running a sales report shouldn't be this hard! I'm at my wits' end!",
-        "completion": "I can help you with that. From the 'Control Panel,' go to 'Reports' and select 'Sales Reports.' Choose the specific report you need, this will then open up the report on the back office. This should give you the sales data you're looking for."
-    },
-    {
-        "prompt": "Why can't I find how to redeem a gift card balance? This is so irritating!",
-        "completion": "Let's resolve this quickly. Go to the 'Gift Cards' section from the main screen and select 'Balance Inquiry.' Enter the gift card number and press 'Check Balance.' This will show the current balance of the gift card."
-    },
-    {
-        "prompt": "I'm under a lot of stress here! How do I check out with an unapplied credit transaction?",
-        "completion": "Don't worry, we can fix this. In the 'Checkout' screen, select 'Unapplied Credit Trans.' Find the transaction, select it, and press 'Apply Selected.' This will apply the credit to the current transaction."
-    },
-    {
-        "prompt": "I'm losing my patience! How do I add a new event deposit? This shouldn't be so difficult!",
-        "completion": "I apologize for the trouble. To add a new event deposit, go to the 'Events' section, select the event, and press 'Add Deposit.' Enter the deposit amount and submit. This will add the deposit to the event."
-    },
-    {
-        "prompt": "I can't believe how hard this is! How do I generate a daily transaction report?",
-        "completion": "I'm sorry for the inconvenience. To generate a daily transaction report, go to the 'Reports' section and select 'Daily Transaction Report.' Set the date for today and generate the report. This should provide the details you need."
-    },
-    {
-        "prompt": "I'm at my wit's end! How do I apply a promotion to an order?",
-        "completion": "I understand your frustration. To apply a promotion, go to the 'Checkout' screen and press 'Add Promotion.' Select the promotion from the list and apply it to the order. This should adjust the total accordingly."
-    },
-    {
-        "prompt": "It's driving me nuts that I can't figure out how to void an item! Can you help?",
-        "completion": "Absolutely, let's get this sorted. On the 'Order' screen, select the item you want to void and press 'Void.' Confirm the void action, and the item will be removed from the order."
-    },
-    {
-        "prompt": "I'm getting really irritated! How do I set up a new price level?",
-        "completion": "I apologize for the frustration. To set up a new price level, go to 'Price Level Setup' from the 'Control Panel.' Enter the details for the new price level and save. This will add the new price level to your system."
-    },
-    {
-        "prompt": "I'm about to lose it! How do I merge two checks together?",
-        "completion": "Don't worry, we can fix this. On the 'Order' screen, select both checks you want to merge and press 'Merge.' Confirm the merge action, and the checks will be combined into one."
-    },
-    {
-        "prompt": "How do I handle a customer complaint if I can't find where to make adjustments? This is so frustrating!",
-        "completion": "I understand your concern. To make adjustments, go to the 'Order' screen and select 'Edit.' Make the necessary changes to the order. This should address the complaint."
-    },
-    {
-        "prompt": "It's so annoying that I can't find how to add a new item to the menu. Can you help?",
-        "completion": "Sure, let's do this together. Go to 'Menu Management' from the main screen and select 'Menu Items (Create/Edit).' Select the menu category where the item will be going then an empty gray square. Enter the details for the new item and save. This will add the new item to your menu."
-    },
-    {
-        "prompt": "I'm getting really irritated trying to figure out how to apply a deposit to an event. Help me out!",
-        "completion": "I apologize for the difficulty. To apply a deposit to an event, go to the 'Events' section, select the event, and press 'Add Deposit.' Enter the deposit amount and submit. This will apply the deposit to the event."
-    },
-    {
-        "prompt": "How do I change the tax rate for an item? This is becoming so stressful!",
-        "completion": "Let's fix this quickly. Go to 'Menu Management,' Menu Items (Create/Edit), Find the cateogry where the item is in then select the item, and edit its details. Change the tax rate under 'Tax Code' and save. This will update the tax rate for the item."
-    },
-    {
-        "prompt": "I'm under a lot of stress here! How do I add a new modifier set to an item?",
-        "completion": "I understand your frustration. Go to 'Modifier Sets' from 'Menu Management,' create the new set, then go to 'Menu Items,' select the item, and add the modifier set. Save the changes, and the new modifiers will be applied."
-    },
-    {
-        "prompt": "I'm losing my patience! How do I close out a check?",
-        "completion": "I can help with that. On the 'Manage Ticket' screen, ensure all payments are applied, then press 'Pay'."
-    },
-    {
-        "prompt": "I'm struggling to figure out how to add a new menu item to my list. Can you help me?",
-        "completion": "Of course! Start by going to the 'Control Panel,' then select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the category where you want to add the item, then click 'Add Item.' Fill in the item details, including name, price, and description, and save your changes."
-    },
-    {
-        "prompt": "I need to correct the price of a menu item because it's wrong. How can I do that?",
-        "completion": "To correct a menu item price, first, navigate to the 'Control Panel' and select 'Menu Management.' In 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Click the category the item is in you need to correct, click on it, adjust the price in the 'Item Price' field, and save your changes."
-    },
-    {
-        "prompt": "I accidentally added the wrong image to a menu item. How can I fix this?",
-        "completion": "No problem! Go to the 'Control Panel' and choose 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the category where the item is located. Select the item with the wrong image, click 'Remove Image,' then 'Add Image' to upload the correct one, and save your changes."
-    },
-    {
-        "prompt": "I need to add a special modifier set to a new menu item. How do I do that?",
-        "completion": "To add a special modifier set, go to the 'Control Panel,' then select 'Menu Management.' Under 'Basic Menu Management,' click on 'Modifier Sets (Create/Edit).' Create or edit the modifier set as needed. Then go to 'Add A Modifier Set To A Menu Item,' select your menu item, and add the modifier set to it."
-    },
-    {
-        "prompt": "My new menu item isn't showing up during certain hours. How can I fix this?",
-        "completion": "To fix this, go to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the item that's not showing up, and ensure the 'Timeset' field is correctly set to match the hours you want it to be available. Save your changes."
-    },
-    {
-        "prompt": "The button color for my menu item isn't standing out. How can I change it?",
-        "completion": "To change the button color, go to the 'Control Panel' and choose 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the category where the item is located, Select the item you want to modify, then in the item editor change the 'Button Color' to a more noticeable option, and save your changes."
-    },
-    {
-        "prompt": "I need to delete an old menu item that's no longer available. What's the process?",
-        "completion": "To delete an old menu item, go to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the cateogry where the item is located then find the item you want to delete, select it, and click the 'Delete' button. Confirm your choice to remove the item."
-    },
-    {
-        "prompt": "How do I add a description to a menu item?",
-        "completion": "To add a description, navigate to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the cateogry where the item is located, select the item you want to add a description to, fill in the 'Description' field, and save your changes."
-    },
-    {
-        "prompt": "Can I set up item availability based on the time of day?",
-        "completion": "Absolutely! To set up time-based availability, go to the 'Control Panel' and select 'Menu Management.' Under 'Advanced Menu Management,' click on 'Menu Item Time Availability Restrictors.' Set the times for when each item should be available and save your settings."
-    },
-    {
-        "prompt": "I need to reorder the items in a menu category. How do I do this?",
-        "completion": "To reorder items, go to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the category and then click 'Move'. After clicking 'Move', select the item and click a gray square to move it."
-    },
-    {
-        "prompt": "How can I make an item available only for online orders?",
-        "completion": "To set an item for online orders only, navigate to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the item, then check the 'Online (Default Visible)' box under 'Order Method Availability,' and save your changes."
-    },
-    {
-        "prompt": "I want to create a new set of recommended items. How can I do this?",
-        "completion": "To create a set of recommended items, go to the 'Control Panel' and select 'Menu Management.' Under 'Advanced Menu Management,' click on 'Recommended Item Sets.' Create a new set, add the recommended items, and save the set for future use."
-    },
-    {
-        "prompt": "I'm struggling to figure out how to add a new modifier set for my taco toppings. Can you help?",
-        "completion": "No problem! Start by going to the Control Panel and selecting 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Then, click 'New Set' and name it something like 'Taco Toppings'. Make the set an 'OptionSet'. After that, set your options, such as adding options for extra cheese, guacamole, or sour cream. Don't forget to hit 'Save As New' for each option."
-    },
-    {
-        "prompt": "I've got a new dessert menu and I need to set up a modifier set for ice cream toppings. What's the best way to do this?",
-        "completion": "Setting up a new modifier set for ice cream toppings is easy! Go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Click 'New Set', name it 'Ice Cream Toppings', and make it an 'OptionSet'. Then add your options like chocolate chips, sprinkles, and caramel sauce. Configure any other settings you need."
-    },
-    {
-        "prompt": "How do I add images to the 'Special Sauces' modifier set to make it more visually appealing?",
-        "completion": "To add images, go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Choose the 'Special Sauces' set, then click on 'Add Image to Selected'. Upload your images and save the changes to enhance the visual appeal."
-    },
-    {
-        "prompt": "How do I assign a specific printer for my 'Side Dishes' modifiers?",
-        "completion": "To assign a printer, navigate to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Select your 'Side Dishes' set, then choose the appropriate printer from the 'Printer' dropdown options. Save your configuration by clicking 'Save Selected'."
-    },
-    {
-        "prompt": "I need to set up a modifier set for different meat temperatures. How can I do this?",
-        "completion": "Set up a meat temperature modifier by going to the Control Panel and selecting 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Create a new set named 'Meat Temperature', add options like 'Rare', 'Medium Rare', and 'Well Done'. "
-    },
-    {
-        "prompt": "How do I add a new set for vegan options in my menu?",
-        "completion": "To add a new vegan options set, go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Click 'New Set', name it 'Vegan Options', and add relevant items like 'Tofu' and 'Veggie Burger'. Then add the set to the menu items."
-    },
-    {
-        "prompt": "I want to create a modifier set for seasonal items that appear only at certain times. How do I configure this?",
-        "completion": "For seasonal items, go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Create a new set, name it 'Seasonal Items', and configure the times and dates under the 'Timeset' options. Save your set to apply the changes."
-    },
-    {
-        "prompt": "How can I create a new recommended item set?",
-        "completion": "Go to the control panel and access 'Menu Management.' Select 'Recommended Item Sets' from the advanced menu management options. Enter a name for your new set in the 'Create New Set' field and click 'New.'"
-    },
-    {
-        "prompt": "I need to define when an item is available. How do I set this up?",
-        "completion": "In the control panel, navigate to 'Menu Management' and choose 'Menu Item Time Availability Restrictors.' Create a new timeset by entering a name and specifying the availability for each day of the week, then click 'Save.'"
-    },
-    {
-        "prompt": "How can I automatically add modifiers to items?",
-        "completion": "Go to the control panel and open 'Menu Management.' Select 'Auto Add Modifiers to Items.' Choose the item from the list on the left, select the modifier set and specific modifiers you want to auto add, and enable the auto add options."
-    },
-    {
-        "prompt": "How do I create a new counter set for tracking item quantities?",
-        "completion": "Access the control panel and go to 'Menu Management.' Choose 'Menu Counter Sets.' Click on 'New Counter Set,' enter a name, initial quantity, and select the affected items. Make sure to activate the counter set and then click 'Save.'"
-    },
-    {
-        "prompt": "How can I configure multiple price levels for an item?",
-        "completion": "Navigate to the control panel and open 'Menu Management.' Select 'Price Level Setup.' Enter names and pretexts for the price levels, define the auto prices and pricing types, and click 'Save' to apply the new price levels."
-    },
-    {
-        "prompt": "How do I delete a recommended item set?",
-        "completion": "From the control panel, go to 'Menu Management' and select 'Recommended Item Sets.' Choose the set you want to delete from the list, and then click the 'Delete Selected' button."
-    },
-    {
-        "prompt": "Can I limit an item's availability to certain times?",
-        "completion": "Yes. In the control panel, access 'Menu Management' and choose 'Menu Item Time Availability Restrictors.' Create or edit a timeset by setting the desired availability times for each day, then save the changes."
-    },
-    {
-        "prompt": "How do I disable automatic addition of modifiers?",
-        "completion": "Open the control panel and go to 'Menu Management.' Select 'Auto Add Modifiers to Items.' Choose the item, and then disable the auto add options for the modifier sets you don't want to be automatically added."
-    },
-    {
-        "prompt": "What is the process to edit a counter set?",
-        "completion": "Access the control panel, go to 'Menu Management,' and select 'Menu Counter Sets.' Choose the counter set you want to edit, make the necessary changes, and then click 'Save.'"
-    },
-    {
-        "prompt": "How can I add items to an existing item set?",
-        "completion": "Go to the control panel and open 'Menu Management.' Select 'Item Sets.' Choose the existing set you want to add items to, select the items from the list, and save the changes."
-    },
-    {
-        "prompt": "How do I adjust price levels for a specific item?",
-        "completion": "In the control panel, navigate to 'Menu Management' and select 'Price Level Setup.' Choose the item and adjust the price levels as needed. Save your changes once you're done."
-    },
-    {
-        "prompt": "How do I set up a recommended item set?",
-        "completion": "From the control panel, go to 'Menu Management' and select 'Recommended Item Sets.' Enter the name of your new set, click 'New,' then add the items to the set and save your configuration."
-    },
-    {
-        "prompt": "What is the best way to manage item availability throughout the week?",
-        "completion": "Go to the control panel, access 'Menu Management,' and select 'Menu Item Time Availability Restrictors.' Create a timeset by naming it and defining the available times for each day, then save the timeset."
-    },
-    {
-        "prompt": "How do I ensure certain modifiers are automatically included with items?",
-        "completion": "In the control panel, navigate to 'Menu Management' and select 'Auto Add Modifiers to Items.' Choose the item, enable the auto add option for the desired modifier set, and save the settings."
-    },
-    {"prompt": "How do I activate a gift card for a customer?", "completion": "To activate a gift card, click on 'Activate Gift Card' under 'Order Functions' and follow the prompts to complete the activation."},
-    {"prompt": "A customer wants to add a custom item to their order. How can I do this?", "completion": "Click on 'Custom Item' under 'Order Functions' to add a custom item to the customer's order."},
-    {"prompt": "How do I apply a promotion to a customer's order?", "completion": "Select 'Add Promotion' from the 'Order Functions' menu and choose the appropriate promotion to apply to the order."},
-    {"prompt": "I need to remove a promotion from an order. What steps should I follow?", "completion": "Click on 'Remove Promotion' under 'Order Functions' to remove any applied promotions from the order."},
-    {"prompt": "A customer wants to schedule their order for later. How can I do that?", "completion": "Use the 'Schedule Order' option in 'Order Functions' to set a specific time for the order to be prepared and ready."},
-    {"prompt": "How can I show all available menu items to a customer?", "completion": "Click on 'Show All Menu Items' under 'Order Functions' to display the full menu to the customer."},
-    {"prompt": "How do I add a new account for a customer in the POS system?", "completion": "Select 'New Account' from the 'Order Functions' menu to add a new customer account to the system."},
-    {"prompt": "A customer needs to authorize their credit card for a large purchase. What should I do?", "completion": "Click on 'Authorize Credit Card' under 'Order Functions' and follow the instructions to authorize the card."},
-    {"prompt": "How can I waste an item that was incorrectly added to an order?", "completion": "Use the 'Waste Items' option in 'Order Functions' to mark items that should be wasted and removed from the order."},
-    {"prompt": "How do I add service fees to an order?", "completion": "Select 'Add Service Fees' from the 'Order Functions' menu and select the corret service fee."},
-    {"prompt": "I need to tax exempt an order for a non-profit organization. How can I do this?", "completion": "Click on 'Tax Exempt Order' under 'Order Functions' to exempt the order from taxes."},
-    {"prompt": "A customer wants to see specific item information. How do I show this?", "completion": "Use the 'Show Item Information' option in 'Order Functions' to display detailed information about a specific item."},
-    {"prompt": "How can I sell a custom gift card to a customer?", "completion": "Select 'Sell Custom Gift Card' from the 'Order Functions' menu and enter the necessary details to complete the sale."},
-    {"prompt": "A customer wants to pay using a QR code. What steps should I follow?", "completion": "Click on 'Send QR Pay Link' under 'Order Functions' to generate and send a QR code payment link to the customer."},
-    {"prompt": "How do I modify a custom item for a customer?", "completion": "Select 'Custom Modifier' from the 'Order Functions' menu to make modifications to a custom item in the order."},
-    {"prompt": "A customer wants to activate their VIP or loyalty account. How do I proceed?", "completion": "Click on 'VIP/Loyalty' under 'Order Functions' and follow the prompts to activate the customer's account."},
-    {"prompt": "How can I add an item to a customer's order that isn't on the menu?", "completion": "Use the 'Custom Item' option under 'Order Functions' to manually add an item that isn't listed on the menu."},
-    {"prompt": "I need to apply a discount to a customer's order. Where do I find this option?", "completion": "Select 'Add Promotion' from 'Order Functions' to apply a discount or promotion to the order."},
-    {"prompt": "How do I remove a service fee from an order?", "completion": "Go to 'Order Functions' and select 'Add Service Fees.' Then, follow the prompts to remove the unwanted service fee."},
-    {"prompt": "A customer is requesting to see the tax information for their order. How can I provide this?", "completion": "Use the 'Show Item Information' option in 'Order Functions' to display detailed tax information for the order items."},
-    {"prompt": "Can I schedule an order to be prepared at a specific time? How?", "completion": "Yes, you can schedule an order by selecting 'Schedule Order' from 'Order Functions' and setting the desired preparation time."},
-    {"prompt": "How do I view and manage all the items on a customer's order?", "completion": "Click on 'Show All Menu Items' under 'Order Functions' to view and manage all items on the customer's order."},
-    {"prompt": "A customer wants to authorize their debit card for payment. What is the process?", "completion": "Select 'Authorize Credit Card' from 'Order Functions' and follow the steps to authorize the debit card for payment."},
-    {"prompt": "How can I set up a new customer account quickly?", "completion": "Go to 'Order Functions' and select 'New Account' to create a new customer account efficiently."},
-    {"prompt": "A customer is asking for a customized item with specific modifications. How do I handle this?", "completion": "Use the 'Custom Modifier' option under 'Order Functions' to apply the specific modifications to the customized item."},
-    {"prompt": "I can't find a pending retail order. I tried looking on the POS but I don't see it anywhere. Can you help me out?", "completion": "The pending retail order you're looking for is most likely under 'Retail' in the Pending Orders screen. Try checking there."},
-    {"prompt": "I need to pay for a delivery order but I'm not sure where to find it in the system. What should I do?", "completion": "You can find the delivery order under the 'Delivery' section in the Pending Orders screen. Once located, you can proceed to settle the payment."},
-    {"prompt": "How do I handle a bar tab that needs to be closed out?", "completion": "To close out a bar tab, go to the 'Bar Tabs' section in the Pending Orders screen, select the tab you need to close and press 'Close Tab' to goto the checkout screen."},
-    {"prompt": "I have a takeout order but the customer hasn't picked it up yet. How can I mark it as ready?", "completion": "In the 'Pending Orders' screen, select 'Takeout,' find the specific order, and ensure it's marked as 'Ready for Pickup' once it's prepared."},
-    {"prompt": "A customer wants to split their table service bill among multiple people. How can I do this?", "completion": "For splitting a table service bill, go to the 'Manage Tickets' screen, select the table, and use the 'Split Tickets' option to divide the bill accordingly."},
-    {"prompt": "I need to edit a pending drive-thru order. What steps should I follow?", "completion": "In the 'Pending Orders' screen, select 'Drive Thru,' find the specific order, and choose 'Edit Order' to make the necessary changes."},
-    {"prompt": "How do I cancel an order that was placed for 'For Here' but now the customer wants it to go?", "completion": "To cancel the 'For Here' order, go to 'Pending Orders,' select 'For Here,' find the order, and use the 'Cancel Order' option. Then, create a new 'To Go' order for the customer. You can also change the Order type of the Order in Order Functions."},
-    {"prompt": "A customer called to modify their delivery order. How can I update their information?", "completion": "Locate the delivery order in 'Pending Orders' under 'Delivery.' Select the order and choose 'Edit Order' to update the customer's details and modify the order as needed."},
-    {"prompt": "Can I print a receipt for a bar tab before closing it out?", "completion": "Yes, go to the 'Bar Tabs' section in 'Pending Orders,' select the tab, and use the 'Print Tab' option to print the receipt without closing it out."},
-    {"prompt": "I need to reassign a delivery order to a different driver. How do I do that?", "completion": "In the 'Pending Orders' screen, select 'Delivery,' find the order, and choose 'Re-Assign Driver' to assign the order to a different driver."},
-    {"prompt": "A customer forgot their wallet and left a retail order unpaid. How can I save it?", "completion": "In the 'Pending Orders' screen under 'Retail,' you can save the order without payment. It will remain in the system until the customer returns to pay."},
-    {"prompt": "Our restaurant has multiple terminals. How can I ensure only one terminal handles 'Table Service' orders?", "completion": "Go to 'Terminal Settings' on the POS, ensure you have the security privilege for 'Settings,' and turn off 'Table Service' for other terminals except the one designated for it."},
-    {"prompt": "How do I add gratuity to a table service order?", "completion": "In the 'Manage Tickets' screen, select the table service order, and use the 'Gratuity' option to add the desired percentage before finalizing the payment."},
-    {"prompt": "A customer wants to change their 'Takeout' order to 'For Here.' How do I handle this?", "completion": "Cancel the existing 'Takeout' order from 'Pending Orders,' then create a new order under 'For Here' for the customer. You could also change the Order"},
-    {"prompt": "How can I look up a previous delivery order for a customer?", "completion": "In the 'Delivery' section of 'Pending Orders,' enter the customer's name or phone number to access their previous orders and select the one you need."},
-    {"prompt": "We need to print duplicate receipts for a pending takeout order. What is the process?", "completion": "In 'Pending Orders,' select 'Takeout,' find the order, and use the 'Print Receipts' option to print duplicate receipts."},
-    {"prompt": "How do I reset the default takeout wait time displayed on the login screen?", "completion": "Go to 'Back Office > Settings > POS > Order Wait Time Settings' and configure the 'Default Takeout Time' and 'Auto Time Reset' options to reset the default wait time daily."},
-    {"prompt": "Our terminal is not showing 'Drive Thru' order type. What could be the issue?", "completion": "Ensure that 'Drive Thru' is enabled in 'Terminal Settings.' You might need to enter the passcode and override the settings to turn on this order type."},
-    {"prompt": "How can I ensure that a server cannot clock out with open tables?", "completion": "Go to 'Back Office > Settings > POS > Table Service' and enable the 'Table Check' option. This will prevent servers from clocking out if they have open tables."},
-    {"prompt": "I need to combine two bar tabs into one. How do I do this?", "completion": "In the 'Bar Tabs' section of 'Pending Orders,' select the tabs you want to combine, choose the 'Combine' option, and follow the prompts to merge them into one tab."},
-    {"prompt": "A customer wants to pay for their delivery order using a different payment method. How can I change it?", "completion": "Find the delivery order in 'Pending Orders,' select it, and proceed to the payment screen where you can choose the new payment method."},
-    {"prompt": "How do I assign a table section to a server upon clocking in?", "completion": "In 'Back Office > Settings > POS > Table Service,' enable the 'Assign Sections' option. Ensure table sections are set up in 'Settings > Table Sections.'"},
-    {"prompt": "Can I edit the number of guests for a table service order after it's been placed?", "completion": "Yes, go to the 'Manage Tickets' screen, select the table, and use the 'Edit Guests' option to update the number of guests for the order."},
-    {"prompt": "How can I print tickets for multiple pending delivery orders at once?", "completion": "In 'Pending Orders,' select 'Delivery,' check the orders you want to print tickets for, and use the 'Print Tickets' option to print them all simultaneously."},
-    {"prompt": "I've placed a retail order, but the items aren't printing in the designated station. My staff is confused about why they're not receiving the order. Can you assist?", "completion": "Ensure that a printer is assigned to the stations for retail orders. Also, verify that the menu items have the correct station selected as an option to print to for one of the three printers."},
-    {"prompt": "My takeout orders aren't showing up on the kitchen printer. I sent a takeout order, but the kitchen staff didn't get it. Any idea what's wrong?", "completion": "Check if a printer is assigned to the stations for takeout orders. Additionally, the menu items need to have that station selected as an option to print to for one of the three printers."},
-    {"prompt": "Delivery orders are not being printed in the kitchen. I just had a delivery order, but it didn't print out. What should I check?", "completion": "Verify that a printer is set up for the stations handling delivery orders. Ensure that the menu items are configured to print to one of the selected printers at the station."},
-    {"prompt": "I have an issue with table orders not printing. I sent a table order to the kitchen, but it never printed. Can you help?", "completion": "Make sure a printer is assigned to the stations for table orders. Confirm that the menu items have the appropriate station selected to print to for one of the three printers."},
-    {"prompt": "My bar orders aren't appearing on the printer. I've sent multiple bar orders, but none of them are printing. What's the problem?", "completion": "Ensure that a printer is assigned to the stations for bar orders. Also, check that the menu items are set to print to one of the designated printers at the station."},
-    {"prompt": "For Here orders are not printing at the station. I placed an order for dine-in, but it's not coming through. What do I need to do?", "completion": "Verify that a printer is assigned to the stations for For Here orders. Ensure that the menu items have that station selected as an option to print to for one of the three printers."},
-    {"prompt": "To Go orders are not being printed. I sent an order for pickup, but it didn't print at the kitchen. How can I fix this?", "completion": "Check if a printer is assigned to the stations for To Go orders. Make sure that the menu items are set to print to one of the selected printers at the station."},
-    {"prompt": "My drive-thru orders aren't coming out on the printer. I processed a drive-thru order, but it didn't print. Any advice?", "completion": "Confirm that a printer is assigned to the stations for drive-thru orders. Ensure that the menu items have the correct station selected to print to for one of the three printers."},
-    {"prompt": "I assigned seat numbers, but they're not printing on the orders. How can I ensure the seat numbers are printed?", "completion": "Make sure the 'Seat?' checkbox is checked in Printer Settings for the relevant stations and order types."},
-    {"prompt": "Expo tickets are not printing. I need expo tickets for better order management, but they aren't showing up. What should I do?", "completion": "Verify that the 'Send Expo?' checkbox is checked in Printer Settings for the relevant stations and order types."},
-    {"prompt": "The cash drawer isn't opening when I process orders. How can I ensure it functions correctly?", "completion": "Ensure that a cash drawer is selected in Printer Settings under 'Cash Drawer 1' or 'Cash Drawer 2' for the relevant station."},
-    {"prompt": "Slip printers are not working properly. Orders aren't being printed on the slip printer. What could be wrong?", "completion": "Check if the 'Slip Printer?' checkbox is checked in Printer Settings and ensure a printer is selected for the relevant station and order type."},
-    {"prompt": "Dot matrix printers aren't functioning. My orders are not being printed on the dot matrix printer. How can I resolve this?", "completion": "Verify that the 'Dot Matrix?' checkbox is checked in Printer Settings and ensure a printer is selected for the relevant station and order type."},
-    {"prompt": "My scale isn't working for weighing items. How do I set it up properly?", "completion": "Check if the scale is turned on in Printer Settings and that the correct scale name is entered."},
-    {"prompt": "The receipt printer isn't working for any orders. What could be the issue?", "completion": "Make sure the receipt printer is selected in Printer Settings for the relevant stations."},
-    {"prompt": "I can't seem to get the barcode printing on my receipts. What do I need to check?", "completion": "Ensure that the 'Print Barcodes?' option is selected in Printer Settings and that the printer supports barcode printing."},
-    {"prompt": "The kitchen printer isn't receiving any orders. How can I troubleshoot this?", "completion": "Ensure that the kitchen printer is selected in Printer Settings for the relevant order types and that menu items are set to print to that printer."},
-    {"prompt": "Only some of my stations are printing orders. Why is this happening?", "completion": "Check Printer Settings to make sure each station has a printer assigned for all relevant order types and that menu items are configured to print to those stations."},
-    {"prompt": "The cash drawer opens randomly. How can I fix this?", "completion": "Verify that the cash drawer is properly configured in Printer Settings and check if the drawer is set to open only for specific transactions."},
-    {"prompt": "How can I ensure Retail orders are processed at my terminal?", "completion": "Make sure you have the setting for 'Retail' set to 'On' for the terminal. This will make the Retail Order Type Available."},
-    {"prompt": "Why can't I process Takeout orders at my terminal?", "completion": "Make sure you have the setting for \"Takeout\" set to \"On\" for the terminal. This will make the Takeout Order Type Available."},
-    {"prompt": "How do I enable Delivery orders at my terminal?", "completion": "Make sure you have the setting for \"Delivery\" set to \"On\" for the terminal. This will make the Delivery Order Type Available."},
-    {"prompt": "Why are Bar Tab orders not being processed at my terminal?", "completion": "Check the 'Bar Tab' setting in Terminal Settings and ensure it's turned on to use the Bar Tab Order Type."},
-    {"prompt": "How can I enable Table Service orders at my terminal?", "completion": "In Terminal Settings, make sure the 'Table Service' setting is turned on to use the Table Service order type. After enabling this service, you will see the table diagram."},
-    {"prompt": "Why can't I process For Here orders?", "completion": "Verify that the 'For Here' setting in Terminal Settings is enabled to use the For Here order type."},
-    {"prompt": "How do I enable To Go orders at my terminal?", "completion": "Ensure the 'To Go' setting in Terminal Settings is turned on to use the To Go type."},
-    {"prompt": "Why are Drive Thru orders not being processed?", "completion": "Check the 'Drive Thru' setting in Terminal Settings and make sure it's turned on to use the Drive Thru order type."},
-    {"prompt": "How can I use Dual Drive Thru at my terminal?", "completion": "Enable the 'Dual Drive Thru' setting in Terminal Settings to allow processing with two screens for taking and closing orders."},
-    {"prompt": "Why aren't the dual screens working for Dual Drive Thru?", "completion": "Ensure 'Multi Screen' is enabled in Terminal Settings to use two physical screens for Dual Drive Thru."},
-    {"prompt": "Why can't I use the cash drawer at my terminal?", "completion": "Make sure the 'Till' setting in Terminal Settings is turned on to require a cash drawer and enable till functions."},
-    {"prompt": "How do I remove the tip line from receipts?", "completion": "In Terminal Settings, disable the 'Tip Line' setting to remove the tip line from credit card receipts."},
-    {"prompt": "Why am I being logged off automatically?", "completion": "Check the 'Terminal Timeout' setting in Terminal Settings and adjust the time before automatic logoff."},
-    {"prompt": "What does the 'Card Login' setting do?", "completion": "Note that 'Card Login' is an obsolete setting and will be removed shortly. It currently has no effect."},
-    {"prompt": "How can I set the initial category visible when signing on?", "completion": "Adjust the 'First Category' setting in Terminal Settings to set the category visible upon signing on."},
-    {"prompt": "Why is the wrong table section being selected when creating new orders?", "completion": "Ensure the correct section is selected in the 'Table Section' setting in Terminal Settings."},
-    {"prompt": "How can I set the default order type when logging in?", "completion": "Adjust the 'Order Start' setting in Terminal Settings to select the default order type when logging in."},
-    {"prompt": "Why are seats and tickets not displaying correctly?", "completion": "Ensure the 'Order Style' setting in Terminal Settings is set appropriately to either seats or tickets."},
-    {"prompt": "Why can't I see all bar tabs on my terminal?", "completion": "Check the 'Show Tabs' setting in Terminal Settings and ensure it's enabled to display all bar tabs."},
-    {"prompt": "How can I ensure the modifiers screen only shows when required?", "completion": "Enable the 'Stay on category' setting in Terminal Settings to keep the modifiers screen showing only if needed."},
-    {"prompt": "How can I choose what items to send to the kitchen?", "completion": "Enable the 'Kitchen Selection' setting in Terminal Settings. This will bring up a new screen whenever you click \"Save & Send\" that will allow you to choose the items to send to the kitchen."},
-    {"prompt": "How can I keep closed drive thru orders on the pending screen?", "completion": "Enable the 'Pend Completed Orders' setting in Terminal Settings to keep closed drive thru orders on the pending screen."},
-    {"prompt": "How can I allow payments at my terminal?", "completion": "Enable the 'Allow Checkout' setting in Terminal Settings to permit order payments at the terminal."},
-    {"prompt": "Why is the on-screen keyboard not appearing?", "completion": "Check the 'On Screen Keyboard' setting in Terminal Settings and make sure it's enabled for text input areas."},
-    {"prompt": "Why are tips not being assigned to the till?", "completion": "Ensure the 'Always Till' setting in Terminal Settings is enabled to assign tips to the till instead of personal banks. This is only when using the \"Group Till\" setting and does not apply to Strict Till."},
-    {"prompt": "How can I use two cash drawers with one till?", "completion": "Enable the 'Dual Till' setting in Terminal Settings if you have two cash drawers assigned to the same till, typically with an Epson printer."},
-    {"prompt": "Why are orders not signing off after completion?", "completion": "Check the 'Sign Off After Order' setting in Terminal Settings and ensure it's enabled for orders to sign off upon completion."},
-    {"prompt": "How can I improve performance on lower spec machines?", "completion": "Disable the 'Show Totals' setting in Terminal Settings to replace the running total with a 'Show Totals' button, improving performance."},
-    {"prompt": "Why can't I use Quick Sign In?", "completion": "Ensure 'Quick Sign In' is enabled in Back Office > Employees > Job Manager and adjust the 'Quick Sign In' setting in Terminal Settings."},
-    {"prompt": "How can I add fast cash and credit buttons?", "completion": "Enable the 'Fast Cash / Credit' setting in Terminal Settings to add these buttons when using the 'Bar' Order Method."},
-    {"prompt": "Why are items not being sent to the KDS?", "completion": "Check the 'KDS' setting in Terminal Settings and ensure it's enabled for items to be sent to KDS."},
-    {"prompt": "How can I prompt for the number of guests in line?", "completion": "Enable the 'KDS Guests' setting in Terminal Settings to prompt for the number of guests after each order."},
-    {"prompt": "What does the '7 Rooms Int' setting do?", "completion": "Enable the '7 Rooms Int' setting in Terminal Settings to integrate with 7 rooms."},
-    {"prompt": "Why is the EOD button missing from the control panel?", "completion": "Ensure the 'Allow EOD' setting in Terminal Settings is enabled to display the EOD button."},
-    {"prompt": "How can I enable the Batch/Settle button?", "completion": "Enable the 'Allow Batch' setting in Terminal Settings to display the Batch/Settle button in the control panel."},
-    {"prompt": "How do I change what prints on receipts?", "completion": "Adjust the 'Receipt Header' setting in Terminal Settings to change the header text on printed receipts."},
-    {"prompt": "Why am I not staying in the sub-item screen?", "completion": "Enable the 'Stay on Sub Items' setting in Terminal Settings to remain in the sub-item screen after selection."},
-    {"prompt": "How can I check if PCCharge is running?", "completion": "Enable the 'Check for PCCharge' setting in Terminal Settings to ensure PCCharge software is running in the background."},
-    {"prompt": "How can I ensure the OrderCounter Payment Server software is running?", "completion": "Enable the 'Check for OCPP' setting in Terminal Settings to check and start the OrderCounter Payment Server software if it's not running."},
-    {"prompt": "How can I add a logo to the login screen?", "completion": "Use the 'Login Screen Logo' setting in Terminal Settings to browse and select a logo for the terminal login screen."},
-    {"prompt": "How do I change the colors of the buttons?", "completion": "Adjust the 'Terminal Theme' setting in Terminal Settings to select different themes for button colors"},
-    {"prompt": "Why are items not consolidating on print?", "completion": "Enable the 'Consolidate on Print' setting in Terminal Settings to consolidate items on screen and on the printed kitchen ticket."},
-    {"prompt": "How can I ensure modifiers are shown in different colors?", "completion": "Enable the 'Modifier Colors' setting in Terminal Settings to display modifiers in different colors for better performance."},
-    {"prompt": "Why am I not being logged off after pressing Save and Send?", "completion": "Enable the 'Bar Close After Save Send' setting in Terminal Settings to ensure users are logged off after pressing 'Save and Send' on a Bar order."},
-    {"prompt": "How can I make the screen appear in landscape or portrait mode?", "completion": "Use the 'Orientation' setting in Tablet Settings to choose between landscape and portrait mode."},
-    {"prompt": "How do I capture customer signatures on a tablet?", "completion": "Enable the 'Show Signature' setting in Tablet Settings to display a signature screen for capturing customer signatures."},
-    {"prompt": "Why are receipt options not showing during payment?", "completion": "Enable the 'Show Receipt options' setting in Tablet Settings to display options for email receipt, printed receipt, or no receipt during payment."},
-    {"prompt": "How can I allow customers to enter a tip on a tablet?", "completion": "Enable the 'Show Tips' setting in Tablet Settings to allow customers to enter a tip, shown as a percentage or cash figure."},
-
-    {
-        "prompt": "I'm trying to set up an event for a customer's birthday party but I'm not sure where to start. Can you guide me through it?",
-        "completion": "Of course! Begin by going to the Control Panel and selecting 'Events'. Click on 'New Event'. Enter the customer's information, including their name, phone number, and the date and time of the event. Specify the number of guests and any notes you want to add. Click 'Save' to create the event."
-    },
-    {
-        "prompt": "I need to add a deposit for a wedding event but can't find the option. How do I do this?",
-        "completion": "To add a deposit, go to the 'Events' section in the Control Panel. Select the event you want to add a deposit to and click 'Edit Selected Event'. Click 'Add Deposit', enter the deposit amount, and click 'Submit'. You will then be brought to the checkout screen."
-    },
-    {
-        "prompt": "How can I view the details of an upcoming event for a customer?",
-        "completion": "To view event details, navigate to the 'Events' section in the Control Panel. Find the event you want to view from the list and select it. Click 'Edit Selected Event' to see all the details including customer information, date, time, and the number of guests."
-    },
-    {
-        "prompt": "I need to change the date for a corporate meeting event. What's the process?",
-        "completion": "To change the event date, go to the Control Panel and select 'Events'. Find the corporate meeting event from the list and click 'Edit Selected Event'. Update the date and time fields to the new schedule, and click 'Save' to apply the changes."
-    },
-    {
-        "prompt": "I want to add a note to an event for special dietary requirements. How can I do this?",
-        "completion": "To add a note for special dietary requirements, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Enter the dietary requirements in the 'Notes' section and click 'Save' to update the event details."
-    },
-    {
-        "prompt": "How can I add multiple deposits for an event that requires staggered payments?",
-        "completion": "To add multiple deposits, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Click 'Add Deposit', enter the deposit amount, and submit. Repeat this process for each additional deposit you need to add."
-    },
-    {
-        "prompt": "I need to adjust the guest count for an event that's increased. What steps should I follow?",
-        "completion": "To adjust the guest count, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Update the '# Guests' field to reflect the new guest count and click 'Save' to apply the changes."
-    },
-    {
-        "prompt": "I need to update the contact information for a customer who has an event scheduled. How do I do this?",
-        "completion": "To update customer contact information, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Update the customer's phone number or email address in the relevant fields and click 'Save' to keep the changes."
-    },
-    {
-        "prompt": "How can I add a custom field for specific event requirements?",
-        "completion": "To add a custom field for event requirements, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Use the 'Notes' section to add any custom requirements or fields that you need to track, then save the event."
-    },
-    {
-        "prompt": "I want to see all upcoming events for the next week. How can I filter this information?",
-        "completion": "To filter upcoming events, go to the 'Events' section in the Control Panel. Use the date range filter to select the next week. This will display all events scheduled within that timeframe, allowing you to review and manage them."
-    },
-    {
-        "prompt": "A customer wants to know the remaining balance for their event deposit. How can I check this?",
-        "completion": "To check the remaining balance for an event deposit, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Review the deposit section to see the total amount paid and the remaining balance due."
-    },
-    {
-        "prompt": "How do I add a payment method for an event deposit?",
-        "completion": "To add a payment method for an event deposit, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Click 'Add Deposit', enter the deposit amount, and then on the checkout screen, select the payment method (e.g., Credit, Cash). Click 'Submit' and then 'Done' to save."
-    },
-    {
-        "prompt": "Can I assign specific staff to manage an event? How do I do this?",
-        "completion": "Yes, you can assign staff to an event. Go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. In the notes or additional fields, specify the staff member responsible for managing the event, then save the event details."
-    }
+  {
+    "prompt": "I accidentally voided a transaction and need to fix it urgently! Where can I find the option to reverse this?",
+    "completion": "Go to 'View Transactions' from the Control Panel, search for the voided transaction, and click 'View Transaction' to review and correct it if possible."
+  },
+  {
+    "prompt": "A customer is demanding a refund and I have no idea where to start. Help me!",
+    "completion": "Click on 'Issue Refund' in the Control Panel, enter the amount and select the reason for the refund to process it."
+  },
+  {
+    "prompt": "The till is not balancing and my shift is ending soon. How do I handle this?",
+    "completion": "Go to 'Till & Bank Manager' in the Control Panel, and use the 'Close Till' or 'Log Closed Bank/Till' option to reconcile the till."
+  },
+  {
+    "prompt": "I'm trying to find a specific transaction from last week but can't locate it. What should I do?",
+    "completion": "Use 'Search Transactions' in the Control Panel, input the date range and other relevant details to find the transaction."
+  },
+  {
+    "prompt": "I need to issue a refund for a customer but I'm unsure which tax rate applies. Can you guide me?",
+    "completion": "Go to 'Issue Refund' in the Control Panel, enter the refund amount, and select the correct tax rate from the dropdown menus."
+  },
+  {
+    "prompt": "A customer is claiming they were charged twice. How do I verify and correct this?",
+    "completion": "Click on 'View Transactions' in the Control Panel, search for the customer's transactions, and check for any duplicate charges."
+  },
+  {
+    "prompt": "I'm trying to add tips to a completed credit transaction but can't find the option. What do I do?",
+    "completion": "Select 'Credit Trans (Add Tips)' from the Control Panel, locate the transaction, and add the appropriate tip amount."
+  },
+  {
+    "prompt": "We need to adjust an employee's punch-in time for today. Where can I do this?",
+    "completion": "Go to 'Punch Adjustments' in the Control Panel, select the employee, and adjust their punch-in time accordingly."
+  },
+  {
+    "prompt": "A customer is requesting a detailed report of their purchases. How can I provide this?",
+    "completion": "Use 'View Transactions' in the Control Panel to find the customer's transactions, then print the detailed report for them."
+  },
+  {
+    "prompt": "I'm having trouble settling a batch of transactions. Where can I find the batch/settle option?",
+    "completion": "Click on 'Batch/Settle' in the Control Panel to settle the batch of transactions."
+  },
+  {
+    "prompt": "I need to log a closed bank for my shift but can't find the option. Can you help?",
+    "completion": "Select 'Till & Bank Manager' in the Control Panel, and use 'Log Closed Bank/Till' to log your closed bank."
+  },
+  {
+    "prompt": "A customer is asking to see a list of all their orders. How do I retrieve this?",
+    "completion": "Go to 'Order Tickets' in the Control Panel, search for the customer's name, and print the list of their orders."
+  },
+  {
+    "prompt": "How can I quickly check the service statuses for all terminals?",
+    "completion": "Click on 'Service Statuses' in the Control Panel to view the status of all terminals."
+  },
+  {
+    "prompt": "We need to transfer a table order to a different server. How do I do this?",
+    "completion": "Select 'Transfer Tables' in the Control Panel, choose the order, and transfer it to the desired server."
+  },
+  {
+    "prompt": "I need to generate a quick sales report for today. What should I do?",
+    "completion": "Use 'Quick Report' in the Control Panel to generate a sales report for today's transactions."
+  },
+  {
+    "prompt": "A customer needs a refund but paid with a check. How do I process this?",
+    "completion": "Go to 'Issue Refund' in the Control Panel, select 'Check' as the type, and follow the prompts to process the refund."
+  },
+  {
+    "prompt": "We need to update the menu items. Where can I do this?",
+    "completion": "Click on 'Menu Management' in the Control Panel to update or add new menu items."
+  },
+  {
+    "prompt": "A customer wants to know if their loyalty points can be applied to today's purchase. How do I check?",
+    "completion": "Use 'Customer Database' in the Control Panel to look up the customer's loyalty points and apply them to the purchase."
+  },
+  {
+    "prompt": "The system is not showing any pending transactions, but I know there are some. What should I do?",
+    "completion": "Go to 'View Transactions' in the Control Panel, ensure 'Pending' is checked under Order Status, and search again."
+  },
+  {
+    "prompt": "I need to close out the bank for today but I'm not sure how. Can you guide me?",
+    "completion": "Select 'Till & Bank Manager' in the Control Panel, and use 'Close Bank' to finalize the bank for today."
+  },
+  {
+    "prompt": "A customer wants a refund but the transaction was done using a gift card. How do I handle this?",
+    "completion": "Go to 'Issue Refund' in the Control Panel, select 'Gift Card' as the type, and process the refund accordingly."
+  },
+  {
+    "prompt": "Where can I adjust the employee control settings?",
+    "completion": "Click on 'Employee Control Panel' in the Control Panel to adjust the employee settings."
+  },
+  {
+    "prompt": "I need to reprint a transaction receipt. How can I do this?",
+    "completion": "Go to 'View Transactions' in the Control Panel, find the transaction, and use the 'Reprint Receipts' option."
+  },
+  {
+    "prompt": "We have some personal banks that need to be closed out. How do I do this?",
+    "completion": "Use 'Till & Bank Manager' in the Control Panel, and select 'Close Bank' to finalize personal banks."
+  },
+  {
+    "prompt": "How can I check the details of a failed transaction?",
+    "completion": "Go to 'View Transactions' in the Control Panel, ensure 'Failed' is checked under Order Status, and search for the transaction details."
+  },
+  {
+    "prompt": "I'm trying to track a specific event's sales. Where can I find this information?",
+    "completion": "Go to 'Events' in the Control Panel to view and manage sales related to specific events."
+  },
+  {
+    "prompt": "How can I view today's report of transactions?",
+    "completion": "Click on 'Today's Report' in the Control Panel to view a summary of today's transactions. You will also have a report print out the EOD. "
+  },
+  {
+    "prompt": "Where can I manage customer loyalty programs?",
+    "completion": "Select 'Customer Database' in the Control Panel to manage and update customer loyalty programs."
+  },
+  {
+    "prompt": "How can I check the status of my till and bank closeout?",
+    "completion": "Go to 'Till & Bank Manager' in the Control Panel to view the status of till and bank closeout."
+  },
+  {
+    "prompt": "A customer wants to add a tip after completing the transaction. How do I do this?",
+    "completion": "Select 'Credit Trans (Add Tips)' in the Control Panel, locate the transaction, and add the desired tip amount."
+  },
+  {
+    "prompt": "I need to update the tax rates for a refund. Where can I do this?",
+    "completion": "Go to 'Issue Refund' in the Control Panel, enter the amount, and select the payment method."
+  },
+  {
+    "prompt": "Where can I find the option to view all closed transactions?",
+    "completion": "Select 'View Transactions' in the Control Panel, ensure 'Completed' is checked under Order Status, and search to view closed transactions."
+  },
+  {
+    "prompt": "How can I print a detailed bank report for my shift?",
+    "completion": "Use 'Till & Bank Manager' in the Control Panel, and select 'Print Bank Report' to generate a detailed report for your shift."
+  },
+  {
+    "prompt": "A customer wants to know how much they spent on their last visit. How do I find this?",
+    "completion": "Go to 'Customer Database' in the Control Panel, look up the customer's name, and review their transaction history."
+  },
+  {
+    "prompt": "How do I handle a transaction that was accidentally marked as completed?",
+    "completion": "Go to 'View Transactions' in the Control Panel, find the transaction, and use the 'Void Transaction' option if necessary."
+  },
+  {
+    "prompt": "We need to adjust the tips for a lot of transactions. Where can I do this?",
+    "completion": "Select 'Credit Trans (Add Tips)' in the Control Panel to adjust tips for multiple transactions."
+  },
+  {
+    "prompt": "A customer needs their account balance checked and updated, but I'm not sure where to do this. Can you help?",
+    "completion": "Go to 'Account Checkout' in the Control Panel, select the customer account, and update the balance as needed."
+  },
+  {
+    "prompt": "How can I transfer a table from one server to another?",
+    "completion": "Select 'Transfer Tables' in the Control Panel, choose the table(s) to be transferred, and assign them to the new server."
+  },
+  {
+    "prompt": "An employee forgot to clock out last night. How do I fix their time record?",
+    "completion": "Use 'Edit Time Clock' in the Control Panel, select the employee, and adjust their clock-out time accordingly."
+  },
+  {
+    "prompt": "I need to reprint a receipt for a transaction that occurred last week. How can I find it?",
+    "completion": "Go to 'View Transactions' in the Control Panel, search for the transaction by date, and use the 'Reprint Receipts' option."
+  },
+  {
+    "prompt": "A customer's order needs to be voided but I'm not sure how to do it. What steps should I follow?",
+    "completion": "In 'View Transactions,' locate the order, and click 'Void Transaction' to void the order."
+  },
+  {
+    "prompt": "How can I check the details of an employee's open orders?",
+    "completion": "Go to 'Employee Control Panel' in the Control Panel, select the employee, and review their open orders under 'Open Orders'."
+  },
+  {
+    "prompt": "I need to close out all personal banks for the day. Where do I do this?",
+    "completion": "Go to 'Till & Bank Manager' in the Control Panel, and select 'Close Bank' to finalize all personal banks."
+  },
+  {
+    "prompt": "A customer wants to know their account limit. How can I find this information?",
+    "completion": "Go to 'Account Checkout' in the Control Panel, select the customer's account, and review the account limit details."
+  },
+  {
+    "prompt": "How can I assign a new section to a server?",
+    "completion": "Use 'Manage Sections' in the 'Transfer Tables' screen to assign a new section to the server."
+  },
+  {
+    "prompt": "I need to edit a customer's account information. What should I do?",
+    "completion": "Go to 'Account Checkout' in the Control Panel, select the customer's account, and update the necessary information."
+  },
+  {
+    "prompt": "A customer needs a detailed breakdown of their transaction. How can I provide this?",
+    "completion": "In 'View Transactions,' locate the customer's transaction, and print the detailed breakdown."
+  },
+  {
+    "prompt": "We have a new employee who needs to be added to the system. How do I do this?",
+    "completion": "Go to 'Employee Control Panel' in the Control Panel, and use the 'Add Employee' function to create a new employee profile."
+  },
+  {
+    "prompt": "How can I find all transactions for a specific customer?",
+    "completion": "Use 'Search Transactions' in the Control Panel, enter the customer's name, and search for their transactions."
+  },
+  {
+    "prompt": "How can I view all closed orders for the day?",
+    "completion": "In 'Employee Control Panel,' select 'Closed Orders' to view all closed orders for the day."
+  },
+  {
+    "prompt": "A customer wants to know the total amount spent last month. How can I find this?",
+    "completion": "Use 'Search Transactions' in the Control Panel, set the date range to last month, and search for the customer's total amount spent."
+  },
+  {
+    "prompt": "We need to void multiple transactions. Is there a way to do this quickly?",
+    "completion": "Go to 'View Transactions' in the Control Panel, select the transactions, select 'View Transaction' and use the 'Void Transaction' option. You will have to do this for each transaction that needs to be voided. "
+  },
+  {
+    "prompt": "How can I view the punch records for all employees?",
+    "completion": "Select 'Punch Adjustments' in the Control Panel to view and adjust punch records for all employees."
+  },
+  {
+    "prompt": "A customer wants to see their transaction history. How do I access this?",
+    "completion": "Go to 'Customer Database' in the Control Panel, search for the customer, and review their transaction history."
+  },
+  {
+    "prompt": "An employee is not assigned to a till and can't process orders. How do I fix this?",
+    "completion": "Ensure the employee is assigned to a till in 'Till & Bank Manager' by selecting 'Assign Till'."
+  },
+  {
+    "prompt": "How do I search for transactions by payment method?",
+    "completion": "Use 'Search Transactions' in the Control Panel, select the desired payment method, and search for the transactions."
+  },
+  {
+    "prompt": "A customer wants a copy of their invoice. Where can I print this?",
+    "completion": "Go to 'View Transactions' in the Control Panel, find the transaction, and use the 'Reprint Receipts' option to print the invoice."
+  },
+  {
+    "prompt": "How can I transfer multiple orders to a different server?",
+    "completion": "Select 'Transfer Tables' in the Control Panel, choose the orders, and transfer them to the new server."
+  },
+  {
+    "prompt": "A customer needs a refund for a transaction completed today. How do I process this?",
+    "completion": "Click on 'Issue Refund' in the Control Panel, enter the transaction details, and process the refund."
+  },
+  {
+    "prompt": "How do I manage an employee's unattached orders?",
+    "completion": "In 'Employee Control Panel,' select 'Unattached Orders' to manage the employee's unattached orders."
+  },
+  {
+    "prompt": "A customer wants to know if their loyalty points can be applied to today's purchase. How do I check?",
+    "completion": "Use 'Customer Database' in the Control Panel to look up the customer's loyalty points and apply them to the purchase."
+  },
+  {
+    "prompt": "I need to update the menu items. Where can I do this?",
+    "completion": "Click on 'Menu Management' in the Control Panel to update or add new menu items."
+  },
+  {
+    "prompt": "How can I check the end-of-day report for all transactions?",
+    "completion": "Select 'End of Day' in the Control Panel to generate and review the end-of-day report for all transactions."
+  },
+  {
+    "prompt": "How do I handle a transaction that was accidentally marked as completed?",
+    "completion": "Go to 'View Transactions' in the Control Panel, find the transaction, and use the 'Void Transaction' option if necessary."
+  },
+  {
+    "prompt": "We need to adjust the tips for a batch of transactions. Where can I do this?",
+    "completion": "Select 'Credit Trans (Add Tips)' in the Control Panel to adjust tips for multiple transactions."
+  },
+  {
+    "prompt": "How can I quickly view all pending transactions?",
+    "completion": "Click 'Pending Orders' in the Control Panel, ensure 'Pending' is checked under Order Status, and search for all pending transactions."
+  },
+  {
+    "prompt": "A customer needs a refund but paid with a check. How do I process this?",
+    "completion": "Go to 'Issue Refund' in the Control Panel, select 'Check' as the type, and follow the prompts to process the refund."
+  },
+  {
+    "prompt": "I need to log a no-sale transaction. How do I do this?",
+    "completion": "Click on 'No Sale' in the Control Panel to log the no-sale transaction."
+  },
+  {
+    "prompt": "How can I find all transactions for a specific customer?",
+    "completion": "Use 'Search Transactions' in the Control Panel, enter the customer's name, and search for their transactions."
+  },
+  {
+    "prompt": "I need to adjust an employee's role. Where can I make this change?",
+    "completion": "Go to 'Employee Control Panel' in the Control Panel, select the employee, and adjust their role accordingly."
+  },
+  {
+    "prompt": "How can I view all closed orders for the day?",
+    "completion": "In 'Employee Control Panel,' select 'Closed Orders' to view all closed orders for the day."
+  },
+  {
+    "prompt": "How do I manage an employee's unattached orders?",
+    "completion": "In 'Employee Control Panel,' select 'Unattached Orders' to manage the employee's unattached orders."
+  },
+  {
+    "prompt": "A customer wants to know if their loyalty points can be applied to today's purchase. How do I check?",
+    "completion": "Use 'Customer Database' in the Control Panel to look up the customer's loyalty points and apply them to the purchase."
+  },
+  {
+    "prompt": "We need to update the menu items. Where can I do this?",
+    "completion": "Click on 'Menu Management' in the Control Panel to update or add new menu items."
+  },
+  {
+    "prompt": "A customer wants to know how much they spent on their last visit. How do I find this?",
+    "completion": "Go to 'Customer Database' in the Control Panel, look up the customer's name, and review their transaction history."
+  },
+  {
+    "prompt": "I need to create a new menu category for our seasonal items. Where do I do this?",
+    "completion": "Go to 'Menu Management' and select 'Menu Categories (Create/Edit)' to create a new category for your seasonal items."
+  },
+  {
+    "prompt": "A customer complained about the website menu. How can I adjust the website position and button color for a category?",
+    "completion": "Use the 'Category Editor' in the 'Menu Management' section to adjust the website position and button color for the category."
+  },
+  {
+    "prompt": "How can I move an existing menu category to a different set?",
+    "completion": "In 'Menu Categories,' select 'Move Category' to transfer the existing category to a different set."
+  },
+  {
+    "prompt": "I need to add a modifier set to a menu item. Where can I do this?",
+    "completion": "Go to 'Menu Management' and select 'Add A Modifier Set To A Menu Item' to link the modifier set with the menu item."
+  },
+  {
+    "prompt": "A customer wants a detailed report of menu items with specific modifiers. How do I create this?",
+    "completion": "Use 'Create Report Categories' in the 'Menu Management' section to generate a detailed report of menu items with specific modifiers."
+  },
+  {
+    "prompt": "How do I update the font size and text position for a menu category?",
+    "completion": "In the 'Category Editor,' adjust the 'Font Size' and 'Text Position' settings to update the menu category's appearance."
+  },
+  {
+    "prompt": "An employee needs to update their contact information. Where can this be done?",
+    "completion": "Go to 'Employee Information' in the Control Panel, select the employee, and update their contact information."
+  },
+  {
+    "prompt": "How can I add fingerprint access for a new employee?",
+    "completion": "Use 'Add Fingerprint' in the 'Employee Information' section to enroll the new employee's fingerprints."
+  },
+  {
+    "prompt": "I need to adjust the punch-in time for an employee who forgot to clock in. How do I do this?",
+    "completion": "Go to 'Punch Adjustments' in the Control Panel, select the employee, and edit their punch-in time accordingly."
+  },
+  {
+    "prompt": "A customer wants to add a tip after their transaction. How can I do this?",
+    "completion": "In 'Add Tips' in the Control Panel, locate the transaction and add the desired tip amount."
+  },
+  {
+    "prompt": "Where can I view and edit all open orders for an employee?",
+    "completion": "Go to 'Employee Control Panel,' select 'Open Orders,' and view or edit the orders for the selected employee."
+  },
+  {
+    "prompt": "How can I check the start and end times for employee punches?",
+    "completion": "Use 'Search Punch' in the Control Panel to view the start and end times for employee punches."
+  },
+  {
+    "prompt": "I need to delete an employee's punch record. What steps should I follow?",
+    "completion": "Go to 'Punch Adjustments' in the Control Panel, select the punch record, and use the 'Delete' option to remove it."
+  },
+  {
+    "prompt": "A customer wants to know if their order qualifies for delivery. How do I check?",
+    "completion": "In 'Category Editor,' review the 'Order Method Availability' settings to see if delivery orders are enabled for that category."
+  },
+  {
+    "prompt": "How can I quickly reassign a table to a different section?",
+    "completion": "Use 'Transfer Tables' in the Control Panel, select the table, and assign it to the new section."
+  },
+  {
+    "prompt": "I need to adjust the availability times for a menu item. Where can I do this?",
+    "completion": "Select 'Menu Item Time Availability Restrictors' in 'Menu Management' to adjust the availability times for the menu item."
+  },
+  {
+    "prompt": "How can I add a new item to the menu and assign it to a category?",
+    "completion": "Select 'Menu Items (Create/Edit)' in 'Menu Management,' select a menu category then click on of the gray squares to add a new menu item."
+  },
+  {
+    "prompt": "I need to find all transactions for a specific date range. How do I do this?",
+    "completion": "Use 'View Transactions' in the Control Panel, set the date range, and search for the transactions."
+  },
+  {
+    "prompt": "How can I ensure a new menu item is visible online?",
+    "completion": "In the 'Category Editor,' make sure 'Online (Default Visible)' is checked for the new menu item."
+  },
+  {
+    "prompt": "How can I view and edit all unattached orders for an employee?",
+    "completion": "Go to 'Employee Control Panel,' select 'Unattached Orders,' and view or edit the orders for the selected employee."
+  },
+  {
+    "prompt": "A customer wants to change the font size for the menu categories they see online. How do I update this?",
+    "completion": "In the 'Category Editor,' adjust the 'Font Size' settings for the online menu categories."
+  },
+  {
+    "prompt": "How can I reprint a receipt for an order that included a tip?",
+    "completion": "Go to 'Add Tips' in the Control Panel, locate the order, and use the 'Reprint Receipt' option."
+  },
+  {
+    "prompt": "I need to ensure that a certain item is only available during specific times. How do I set this up?",
+    "completion": "Select 'Menu Item Time Availability Restrictors' in 'Menu Management' to set the specific times for item availability."
+  },
+  {
+    "prompt": "How can I add a custom image to a menu category?",
+    "completion": "In the 'Category Editor,' use the 'Add Image' function to upload and assign a custom image to the menu category."
+  },
+  {
+    "prompt": "I need to adjust the tax rates for a refund. Where can I do this?",
+    "completion": "Go to 'Issue Refund' in the Control Panel, enter the amount, and update the tax rates in the designated fields."
+  },
+  {
+    "prompt": "How can I transfer an order to another server?",
+    "completion": "Use 'Transfer Tables' in the Control Panel, select the order, and assign it to the new server."
+  },
+  {
+    "prompt": "How can I update the description for a menu category?",
+    "completion": "The description fo ra menu category can be edited by going to the 'Control Panel', 'Menu Management', and then clicking 'Menu Categories (Create/Edit)'. In the 'Category Editor,' update the 'Description' field for the menu category and save the changes."
+  },
+  {
+    "prompt": "An employee's punch records are incorrect. How can I correct this?",
+    "completion": "Go to 'Punch Adjustments' in the Control Panel, select the incorrect punch record, and make the necessary corrections."
+  },
+  {
+    "prompt": "How do I find and reprint a detailed receipt for a completed order?",
+    "completion": "Go to 'View Transactions' in the Control Panel, find the completed order, and use 'Reprint Receipts' to print the detailed receipt."
+  },
+  {
+    "prompt": "What happens when I press 'Database Settings'?",
+    "completion": "Pressing 'Database Settings' will bring up an override prompt and a warning message. You will then be presented with buttons for modifying various database settings."
+  },
+  {
+    "prompt": "What options are available after the override prompt for 'Database Settings'?",
+    "completion": "Options include Change Connection, Backup Database, Restore Database Backup, Attach Database Files, Database Commands, Terminal Independence Settings, Clear Onboarding From, and Clear License Information."
+  },
+  {
+    "prompt": "How do I change the database connection?",
+    "completion": "Select 'Change Connection' to access the screen where you can set up the database connection."
+  },
+  {
+    "prompt": "What information is needed to set up the database connection?",
+    "completion": "You need to set the server, database, terminal number, and backup server."
+  },
+  {
+    "prompt": "How does the system populate the server list?",
+    "completion": "The system uses SQL Server to search the network for accessible servers and populates the server list."
+  },
+  {
+    "prompt"    : "What should I do if the server list is outdated?"  ,
+    "completion": "Click 'Refresh Servers' to update the server list."
+  },
+  {
+    "prompt": "What additional options are available in 'Advanced Setup'?",
+    "completion": "You can specify a username and password for the SQL user, typically 'sa' as the username and 'pspwd7277' as the password."
+  },
+  {
+    "prompt": "What message will I see after successfully setting up the connection?",
+    "completion": "You will see a message box with 'Connection Set!'."
+  },
+  {
+    "prompt": "What is the next step after setting up the database connection?",
+    "completion": "You will be brought to another screen to set up the Back Office/Server setup."
+  },
+  {
+    "prompt": "What information is required for the Back Office/Server setup?",
+    "completion": "You need to specify the back office password, port, timezone, external access, and server terminal."
+  },
+  {
+    "prompt": "What is the purpose of the port specified in the Back Office/Server setup?",
+    "completion": "The port is used for the remote back office setup."
+  },
+  {
+    "prompt": "What options are available under 'Database Commands'?",
+    "completion": "Options include two SQL queries: Remove all receipts that have not printed and Clear all sales data."
+  },
+  {
+    "prompt": "How do I back up the database?",
+    "completion": "Select 'Backup Database' to create a backup of the database."
+  },
+  {
+    "prompt": "How do I restore a database backup?",
+    "completion": "Select 'Restore Database Backup' to restore from a backup file."
+  },
+  {
+    "prompt"    : "What does 'Attach Database Files' do?"                ,
+    "completion": "It allows you to attach database files to the system."
+  },
+  {
+    "prompt": "How can I clear onboarding information?",
+    "completion": "Select 'Clear Onboarding From' to remove onboarding information."
+  },
+  {
+    "prompt": "How can I clear the license information?",
+    "completion": "Select 'Clear License Information' to remove the license details."
+  },
+  {
+    "prompt": "What is 'Terminal Independence Settings' used for?",
+    "completion": "It is used to configure settings specific to the terminal without affecting other terminals."
+  },
+  {
+    "prompt"    : "How do I exit the Connection Setup screen?"          ,
+    "completion": "Press the 'Exit' button at the bottom of the screen."
+  },
+  {
+    "prompt": "Can I use a different username for SQL access?",
+    "completion": "Yes, you can specify a different username in the 'Advanced Setup' options."
+  },
+  {
+    "prompt": "What should I do if my connection setup fails?",
+    "completion": "Check the server and database information for accuracy and try again."
+  },
+  {
+    "prompt"    : "How do I specify a backup server?"                      ,
+    "completion": "Select a server from the 'Backup Server' dropdown list."
+  },
+  {
+    "prompt": "What happens if I change the terminal number?",
+    "completion": "The terminal settings will be stored uniquely based on the new terminal number. For example, if you have a till on terminal 2 and change terminal 1's number to terminal 2, terminal's 2 till will now be accessible on terminal 1."
+  },
+  {
+    "prompt": "How do I access the back office settings?",
+    "completion": "After setting the database connection, you will be taken to the Back Office/Server setup screen."
+  },
+  {
+    "prompt"    : "What is the default username for SQL user access?",
+    "completion": "The default username is typically 'sa'."
+  },
+  {
+    "prompt"    : "What is the default password for SQL user access?",
+    "completion": "The default password is 'pspwd7277'."
+  },
+  {
+    "prompt": "Can I change the port number for back office access?",
+    "completion": "Yes, you can specify a different port number during the Back Office/Server setup."
+  },
+  {
+    "prompt": "How do I change the timezone settings?",
+    "completion": "Select the appropriate timezone from the dropdown list in the Back Office/Server setup screen."
+  },
+  {
+    "prompt": "What should I do if I need external access to the back office?",
+    "completion": "Select 'Yes' for external access in the Back Office/Server setup options."
+  },
+  {
+    "prompt": "How do I execute a database command?",
+    "completion": "Select the desired SQL query from the 'Database Commands' options and click 'Execute Command'."
+  },
+  {
+    "prompt": "How do I remove unprinted receipts?",
+    "completion": "Navigate to the database settings button on the login screen and click 'Database Commands'. Select 'Remove all receipts that have not printed' from the dropdown and then click 'Excute Command'."
+  },
+  {
+    "prompt": "How do I clear all sales data?",
+    "completion": "Select 'Clear all sales data' from the Database Commands options."
+  },
+  {
+    "prompt": "How do I confirm my connection setup?",
+    "completion": "After entering the necessary information, press 'Continue' to confirm the setup."
+  },
+  {
+    "prompt": "What is the purpose of the 'Advanced Setup' button?",
+    "completion": "It provides additional options for specifying a username and password for SQL user access."
+  },
+  {
+    "prompt": "How do I know if the connection setup is successful?",
+    "completion": "You will see a message box saying 'Connection Set!' once the setup is successful."
+  },
+  {
+    "prompt": "Can I set up multiple terminals with different numbers?",
+    "completion": "Yes, each terminal should have a unique terminal number for identification."
+  },
+  {
+    "prompt": "What if I need to change the server after setup?",
+    "completion": "You can go back to the 'Change Connection' option and update the server information."
+  },
+  {
+    "prompt": "How do I set up remote access for the back office?",
+    "completion": "Specify the port number and select 'Yes' for external access during the Back Office/Server setup."
+  },
+  {
+    "prompt": "What should I do if I receive an error during connection setup?",
+    "completion": "Verify all entered information, check network connectivity, and try again."
+  },
+  {
+    "prompt": "How do I access the terminal independence settings?",
+    "completion": "Select 'Terminal Independence Settings' from the connection setup options."
+  },
+  {
+    "prompt"    : "What is the 'Clear License Information' option for?"      ,
+    "completion": "It clears the stored license information from the system."
+  },
+  {
+    "prompt": "How do I change the connection settings if I move the server?",
+    "completion": "Use the 'Change Connection' option to update the server and database information."
+  },
+  {
+    "prompt": "What should I do if the server list does not refresh?",
+    "completion": "Ensure network connectivity and try pressing the 'Refresh Servers' button again."
+  },
+  {
+    "prompt": "Can I set up a backup server later?",
+    "completion": "Yes, you can add or change the backup server at any time using the connection setup options."
+  },
+  {
+    "prompt": "How do I know which database to connect to?",
+    "completion": "The database you connect to is typically the one setup for your business. It will often be named in the format of 'ocpos_yourbusinses'."
+  },
+  {
+    "prompt": "How do I change the external access settings after initial setup?",
+    "completion": "You can modify the settings in the Back Office/Server setup screen as needed."
+  },
+  {
+    "prompt": "How do I close the OrderCounter software?",
+    "completion": "To close the OrderCounter software, press the X button on the top left corner of the login screen. You will be prompted to enter an override code to confirm the action."
+  },
+  {
+    "prompt": "What happens if I press the restart button on the login screen?",
+    "completion": "Pressing the restart button will prompt you to enter an override code. Once entered, the software will restart."
+  },
+  {
+    "prompt": "Where can I find the time clock button?",
+    "completion": "The time clock button is located on the right side of the login screen. Press it to clock into your job"
+  },
+  {
+    "prompt": "What options are available after pressing the time clock button?",
+    "completion": "You will see four options: In, Out, Mgr Override In, and Mgr Override Out."
+  },
+  {
+    "prompt": "How do I clock in?",
+    "completion": "Press the 'In' button on the time clock screen, then enter your numeric password or swipe your card when prompted."
+  },
+  {
+    "prompt": "How do I clock out?",
+    "completion": "Press the 'Out' button on the time clock screen, then enter your numeric password when prompted."
+  },
+  {
+    "prompt": "What are the manager override options for?",
+    "completion": "The manager override options allow a manager to clock in or out on behalf of an employee if needed."
+  },
+  {
+    "prompt": "What is the 'EMV Card Swipe' button for?",
+    "completion": "The 'EMV Card Swipe' button allows you to clock in using your card instead of entering a numeric password."
+  },
+  {
+    "prompt": "Where are job roles configured?",
+    "completion": "Job roles are configured in the Back Office under the Employee Manager for an employee."
+  },
+  {
+    "prompt": "What should I do if I forget my password?",
+    "completion": "Contact your manager or system administrator to reset your password."
+  },
+  {
+    "prompt": "Can I clock in for multiple job roles?",
+    "completion": "Yes, you can select the appropriate job role from the list after entering your password."
+  },
+  {
+    "prompt": "What information is displayed on the initial login screen?",
+    "completion": "The initial login screen displays a numeric keypad for entering your password, the time and date, and options to close, restart, or access the time clock."
+  },
+  {
+    "prompt": "How can a manager clock in for an employee?",
+    "completion": "A manager can use the 'Mgr Override In' button to clock in for an employee by entering their own override code."
+  },
+  {
+    "prompt": "What happens after entering my password to clock in?",
+    "completion": "You will be prompted to select your job role from the available options."
+  },
+  {
+    "prompt": "What do I do if my card swipe fails?",
+    "completion": "If your card swipe fails, you can manually enter your numeric password instead."
+  },
+  {
+    "prompt": "How do I know which terminal I am using?",
+    "completion": "The terminal number is displayed at the bottom of the screen, such as 'Terminal: 0001'."
+  },
+  {
+    "prompt": "Can I clock out using my card?",
+    "completion": "Yes, you can use the 'EMV Card Swipe' button to clock out with your card."
+  },
+  {
+    "prompt": "Is there a way to confirm my clock-in time?",
+    "completion": "Yes, your clock-in time will be displayed on the screen after you complete the process."
+  },
+  {
+    "prompt": "What should I do if the system does not recognize my card swipe?",
+    "completion": "Ensure the card is properly swiped and try again. If the problem persists, contact your manager."
+  },
+  {
+    "prompt": "How often can I change my job role?",
+    "completion": "You can change your job role each time you clock in by selecting the appropriate role from the list."
+  },
+  {
+    "prompt": "How do I access the database settings?",
+    "completion": "Press the 'Database Settings' button on the bottom right corner of the screen to access database settings."
+  },
+  {
+    "prompt": "What is the 'Printer Settings' button for?",
+    "completion": "The 'Printer Settings' button allows you to configure printer settings for the terminal."
+  },
+  {
+    "prompt": "I'm so frustrated! I can't figure out how to split a single item between multiple seats. Help me before I lose it!",
+    "completion": "I'm sorry to hear that you're having trouble. Let's fix this together. Go to the 'Order' screen, select the item you want to split, then press 'Split Item.' Enter the number of splits needed and confirm by pressing 'Submit.' This should split the item as needed."
+  },
+  {
+    "prompt": "I need to move an item to a different check, and it's driving me crazy that I can't find how! Can you help?",
+    "completion": "I understand how frustrating this can be. Let's get it sorted. On the 'Order' screen, select the item you want to move. Press 'Move' and choose the check you want to transfer the item to. Confirm the move, and it should be done."
+  },
+  {
+    "prompt": "Why is it so hard to add gratuity to all tickets? I need to do this quickly!",
+    "completion": "I apologize for the inconvenience. To add gratuity to all tickets, go to the 'Order' screen and press 'Add Gratuity To All Tickets.' Enter the gratuity amount or percentage, then confirm. This will apply the gratuity to all tickets."
+  },
+  {
+    "prompt": "I need to split an order by seat, and I'm running out of patience here!",
+    "completion": "Let's handle this quickly. Go to the 'Order' screen, select 'Split Order By Seat.' Assign each item to the respective seat and confirm the split. This should organize your order correctly."
+  },
+  {
+    "prompt": "I'm getting really annoyed! How do I use Terminal Mirror Mode? I can't figure it out!",
+    "completion": "I understand your frustration. To use Terminal Mirror Mode, go to the 'Control Panel' and select 'Terminal Mirror.' Choose the terminal you want to mirror and whether to include the printer. Save and restart to apply the changes."
+  },
+  {
+    "prompt": "Running a sales report shouldn't be this hard! I'm at my wits' end!",
+    "completion": "I can help you with that. From the 'Control Panel,' go to 'Reports' and select 'Sales Reports.' Choose the specific report you need, this will then open up the report on the back office. This should give you the sales data you're looking for."
+  },
+  {
+    "prompt": "Why can't I find how to redeem a gift card balance? This is so irritating!",
+    "completion": "Let's resolve this quickly. Go to the 'Gift Cards' section from the main screen and select 'Balance Inquiry.' Enter the gift card number and press 'Check Balance.' This will show the current balance of the gift card."
+  },
+  {
+    "prompt": "I'm under a lot of stress here! How do I check out with an unapplied credit transaction?",
+    "completion": "Don't worry, we can fix this. In the 'Checkout' screen, select 'Unapplied Credit Trans.' Find the transaction, select it, and press 'Apply Selected.' This will apply the credit to the current transaction."
+  },
+  {
+    "prompt": "I'm losing my patience! How do I add a new event deposit? This shouldn't be so difficult!",
+    "completion": "I apologize for the trouble. To add a new event deposit, go to the 'Events' section, select the event, and press 'Add Deposit.' Enter the deposit amount and submit. This will add the deposit to the event."
+  },
+  {
+    "prompt": "I can't believe how hard this is! How do I generate a daily transaction report?",
+    "completion": "I'm sorry for the inconvenience. To generate a daily transaction report, go to the 'Reports' section and select 'Daily Transaction Report.' Set the date for today and generate the report. This should provide the details you need."
+  },
+  {
+    "prompt": "I'm at my wit's end! How do I apply a promotion to an order?",
+    "completion": "I understand your frustration. To apply a promotion, go to the 'Checkout' screen and press 'Add Promotion.' Select the promotion from the list and apply it to the order. This should adjust the total accordingly."
+  },
+  {
+    "prompt": "It's driving me nuts that I can't figure out how to void an item! Can you help?",
+    "completion": "Absolutely, let's get this sorted. On the 'Order' screen, select the item you want to void and press 'Void.' Confirm the void action, and the item will be removed from the order."
+  },
+  {
+    "prompt": "I'm getting really irritated! How do I set up a new price level?",
+    "completion": "I apologize for the frustration. To set up a new price level, go to 'Price Level Setup' from the 'Control Panel.' Enter the details for the new price level and save. This will add the new price level to your system."
+  },
+  {
+    "prompt": "I'm about to lose it! How do I merge two checks together?",
+    "completion": "Don't worry, we can fix this. On the 'Order' screen, select both checks you want to merge and press 'Merge.' Confirm the merge action, and the checks will be combined into one."
+  },
+  {
+    "prompt": "How do I handle a customer complaint if I can't find where to make adjustments? This is so frustrating!",
+    "completion": "I understand your concern. To make adjustments, go to the 'Order' screen and select 'Edit.' Make the necessary changes to the order. This should address the complaint."
+  },
+  {
+    "prompt": "It's so annoying that I can't find how to add a new item to the menu. Can you help?",
+    "completion": "Sure, let's do this together. Go to 'Menu Management' from the main screen and select 'Menu Items (Create/Edit).' Select the menu category where the item will be going then an empty gray square. Enter the details for the new item and save. This will add the new item to your menu."
+  },
+  {
+    "prompt": "I'm getting really irritated trying to figure out how to apply a deposit to an event. Help me out!",
+    "completion": "I apologize for the difficulty. To apply a deposit to an event, go to the 'Events' section, select the event, and press 'Add Deposit.' Enter the deposit amount and submit. This will apply the deposit to the event."
+  },
+  {
+    "prompt": "How do I change the tax rate for an item? This is becoming so stressful!",
+    "completion": "Let's fix this quickly. Go to 'Menu Management,' Menu Items (Create/Edit), Find the cateogry where the item is in then select the item, and edit its details. Change the tax rate under 'Tax Code' and save. This will update the tax rate for the item."
+  },
+  {
+    "prompt": "I'm under a lot of stress here! How do I add a new modifier set to an item?",
+    "completion": "I understand your frustration. Go to 'Modifier Sets' from 'Menu Management,' create the new set, then go to 'Menu Items,' select the item, and add the modifier set. Save the changes, and the new modifiers will be applied."
+  },
+  {
+    "prompt": "I'm losing my patience! How do I close out a check?",
+    "completion": "I can help with that. On the 'Manage Ticket' screen, ensure all payments are applied, then press 'Pay'."
+  },
+  {
+    "prompt": "I'm struggling to figure out how to add a new menu item to my list. Can you help me?",
+    "completion": "Of course! Start by going to the 'Control Panel,' then select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the category where you want to add the item, then click 'Add Item.' Fill in the item details, including name, price, and description, and save your changes."
+  },
+  {
+    "prompt": "I need to correct the price of a menu item because it's wrong. How can I do that?",
+    "completion": "To correct a menu item price, first, navigate to the 'Control Panel' and select 'Menu Management.' In 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Click the category the item is in you need to correct, click on it, adjust the price in the 'Item Price' field, and save your changes."
+  },
+  {
+    "prompt": "I accidentally added the wrong image to a menu item. How can I fix this?",
+    "completion": "No problem! Go to the 'Control Panel' and choose 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the category where the item is located. Select the item with the wrong image, click 'Remove Image,' then 'Add Image' to upload the correct one, and save your changes."
+  },
+  {
+    "prompt": "I need to add a special modifier set to a new menu item. How do I do that?",
+    "completion": "To add a special modifier set, go to the 'Control Panel,' then select 'Menu Management.' Under 'Basic Menu Management,' click on 'Modifier Sets (Create/Edit).' Create or edit the modifier set as needed. Then go to 'Add A Modifier Set To A Menu Item,' select your menu item, and add the modifier set to it."
+  },
+  {
+    "prompt": "My new menu item isn't showing up during certain hours. How can I fix this?",
+    "completion": "To fix this, go to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the item that's not showing up, and ensure the 'Timeset' field is correctly set to match the hours you want it to be available. Save your changes."
+  },
+  {
+    "prompt": "The button color for my menu item isn't standing out. How can I change it?",
+    "completion": "To change the button color, go to the 'Control Panel' and choose 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the category where the item is located, Select the item you want to modify, then in the item editor change the 'Button Color' to a more noticeable option, and save your changes."
+  },
+  {
+    "prompt": "I need to delete an old menu item that's no longer available. What's the process?",
+    "completion": "To delete an old menu item, go to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the cateogry where the item is located then find the item you want to delete, select it, and click the 'Delete' button. Confirm your choice to remove the item."
+  },
+  {
+    "prompt": "How do I add a description to a menu item?",
+    "completion": "To add a description, navigate to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the cateogry where the item is located, select the item you want to add a description to, fill in the 'Description' field, and save your changes."
+  },
+  {
+    "prompt": "Can I set up item availability based on the time of day?",
+    "completion": "Absolutely! To set up time-based availability, go to the 'Control Panel' and select 'Menu Management.' Under 'Advanced Menu Management,' click on 'Menu Item Time Availability Restrictors.' Set the times for when each item should be available and save your settings."
+  },
+  {
+    "prompt": "I need to reorder the items in a menu category. How do I do this?",
+    "completion": "To reorder items, go to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the category and then click 'Move'. After clicking 'Move', select the item and click a gray square to move it."
+  },
+  {
+    "prompt": "How can I make an item available only for online orders?",
+    "completion": "To set an item for online orders only, navigate to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the item, then check the 'Online (Default Visible)' box under 'Order Method Availability,' and save your changes."
+  },
+  {
+    "prompt": "I want to create a new set of recommended items. How can I do this?",
+    "completion": "To create a set of recommended items, go to the 'Control Panel' and select 'Menu Management.' Under 'Advanced Menu Management,' click on 'Recommended Item Sets.' Create a new set, add the recommended items, and save the set for future use."
+  },
+  {
+    "prompt": "I'm struggling to figure out how to add a new modifier set for my taco toppings. Can you help?",
+    "completion": "No problem! Start by going to the Control Panel and selecting 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Then, click 'New Set' and name it something like 'Taco Toppings'. Make the set an 'OptionSet'. After that, set your options, such as adding options for extra cheese, guacamole, or sour cream. Don't forget to hit 'Save As New' for each option."
+  },
+  {
+    "prompt": "I've got a new dessert menu and I need to set up a modifier set for ice cream toppings. What's the best way to do this?",
+    "completion": "Setting up a new modifier set for ice cream toppings is easy! Go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Click 'New Set', name it 'Ice Cream Toppings', and make it an 'OptionSet'. Then add your options like chocolate chips, sprinkles, and caramel sauce. Configure any other settings you need."
+  },
+  {
+    "prompt": "How do I add images to the 'Special Sauces' modifier set to make it more visually appealing?",
+    "completion": "To add images, go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Choose the 'Special Sauces' set, then click on 'Add Image to Selected'. Upload your images and save the changes to enhance the visual appeal."
+  },
+  {
+    "prompt": "How do I assign a specific printer for my 'Side Dishes' modifiers?",
+    "completion": "To assign a printer, navigate to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Select your 'Side Dishes' set, then choose the appropriate printer from the 'Printer' dropdown options. Save your configuration by clicking 'Save Selected'."
+  },
+  {
+    "prompt": "I need to set up a modifier set for different meat temperatures. How can I do this?",
+    "completion": "Set up a meat temperature modifier by going to the Control Panel and selecting 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Create a new set named 'Meat Temperature', add options like 'Rare', 'Medium Rare', and 'Well Done'. "
+  },
+  {
+    "prompt": "How do I add a new set for vegan options in my menu?",
+    "completion": "To add a new vegan options set, go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Click 'New Set', name it 'Vegan Options', and add relevant items like 'Tofu' and 'Veggie Burger'. Then add the set to the menu items."
+  },
+  {
+    "prompt": "I want to create a modifier set for seasonal items that appear only at certain times. How do I configure this?",
+    "completion": "For seasonal items, go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Create a new set, name it 'Seasonal Items', and configure the times and dates under the 'Timeset' options. Save your set to apply the changes."
+  },
+  {
+    "prompt": "How can I create a new recommended item set?",
+    "completion": "Go to the control panel and access 'Menu Management.' Select 'Recommended Item Sets' from the advanced menu management options. Enter a name for your new set in the 'Create New Set' field and click 'New.'"
+  },
+  {
+    "prompt": "I need to define when an item is available. How do I set this up?",
+    "completion": "In the control panel, navigate to 'Menu Management' and choose 'Menu Item Time Availability Restrictors.' Create a new timeset by entering a name and specifying the availability for each day of the week, then click 'Save.'"
+  },
+  {
+    "prompt": "How can I automatically add modifiers to items?",
+    "completion": "Go to the control panel and open 'Menu Management.' Select 'Auto Add Modifiers to Items.' Choose the item from the list on the left, select the modifier set and specific modifiers you want to auto add, and enable the auto add options."
+  },
+  {
+    "prompt": "How do I create a new counter set for tracking item quantities?",
+    "completion": "Access the control panel and go to 'Menu Management.' Choose 'Menu Counter Sets.' Click on 'New Counter Set,' enter a name, initial quantity, and select the affected items. Make sure to activate the counter set and then click 'Save.'"
+  },
+  {
+    "prompt": "How can I configure multiple price levels for an item?",
+    "completion": "Navigate to the control panel and open 'Menu Management.' Select 'Price Level Setup.' Enter names and pretexts for the price levels, define the auto prices and pricing types, and click 'Save' to apply the new price levels."
+  },
+  {
+    "prompt": "How do I delete a recommended item set?",
+    "completion": "From the control panel, go to 'Menu Management' and select 'Recommended Item Sets.' Choose the set you want to delete from the list, and then click the 'Delete Selected' button."
+  },
+  {
+    "prompt": "Can I limit an item's availability to certain times?",
+    "completion": "Yes. In the control panel, access 'Menu Management' and choose 'Menu Item Time Availability Restrictors.' Create or edit a timeset by setting the desired availability times for each day, then save the changes."
+  },
+  {
+    "prompt": "How do I disable automatic addition of modifiers?",
+    "completion": "Open the control panel and go to 'Menu Management.' Select 'Auto Add Modifiers to Items.' Choose the item, and then disable the auto add options for the modifier sets you don't want to be automatically added."
+  },
+  {
+    "prompt": "What is the process to edit a counter set?",
+    "completion": "Access the control panel, go to 'Menu Management,' and select 'Menu Counter Sets.' Choose the counter set you want to edit, make the necessary changes, and then click 'Save.'"
+  },
+  {
+    "prompt": "How can I add items to an existing item set?",
+    "completion": "Go to the control panel and open 'Menu Management.' Select 'Item Sets.' Choose the existing set you want to add items to, select the items from the list, and save the changes."
+  },
+  {
+    "prompt": "How do I adjust price levels for a specific item?",
+    "completion": "In the control panel, navigate to 'Menu Management' and select 'Price Level Setup.' Choose the item and adjust the price levels as needed. Save your changes once you're done."
+  },
+  {
+    "prompt": "How do I set up a recommended item set?",
+    "completion": "From the control panel, go to 'Menu Management' and select 'Recommended Item Sets.' Enter the name of your new set, click 'New,' then add the items to the set and save your configuration."
+  },
+  {
+    "prompt": "What is the best way to manage item availability throughout the week?",
+    "completion": "Go to the control panel, access 'Menu Management,' and select 'Menu Item Time Availability Restrictors.' Create a timeset by naming it and defining the available times for each day, then save the timeset."
+  },
+  {
+    "prompt": "How do I ensure certain modifiers are automatically included with items?",
+    "completion": "In the control panel, navigate to 'Menu Management' and select 'Auto Add Modifiers to Items.' Choose the item, enable the auto add option for the desired modifier set, and save the settings."
+  },
+  {
+    "prompt": "How do I activate a gift card for a customer?",
+    "completion": "To activate a gift card, click on 'Activate Gift Card' under 'Order Functions' and follow the prompts to complete the activation."
+  },
+  {
+    "prompt": "A customer wants to add a custom item to their order. How can I do this?",
+    "completion": "Click on 'Custom Item' under 'Order Functions' to add a custom item to the customer's order."
+  },
+  {
+    "prompt": "How do I apply a promotion to a customer's order?",
+    "completion": "Select 'Add Promotion' from the 'Order Functions' menu and choose the appropriate promotion to apply to the order."
+  },
+  {
+    "prompt": "I need to remove a promotion from an order. What steps should I follow?",
+    "completion": "Click on 'Remove Promotion' under 'Order Functions' to remove any applied promotions from the order."
+  },
+  {
+    "prompt": "A customer wants to schedule their order for later. How can I do that?",
+    "completion": "Use the 'Schedule Order' option in 'Order Functions' to set a specific time for the order to be prepared and ready."
+  },
+  {
+    "prompt": "How can I show all available menu items to a customer?",
+    "completion": "Click on 'Show All Menu Items' under 'Order Functions' to display the full menu to the customer."
+  },
+  {
+    "prompt": "How do I add a new account for a customer in the POS system?",
+    "completion": "Select 'New Account' from the 'Order Functions' menu to add a new customer account to the system."
+  },
+  {
+    "prompt": "A customer needs to authorize their credit card for a large purchase. What should I do?",
+    "completion": "Click on 'Authorize Credit Card' under 'Order Functions' and follow the instructions to authorize the card."
+  },
+  {
+    "prompt": "How can I waste an item that was incorrectly added to an order?",
+    "completion": "Use the 'Waste Items' option in 'Order Functions' to mark items that should be wasted and removed from the order."
+  },
+  {
+    "prompt": "How do I add service fees to an order?",
+    "completion": "Select 'Add Service Fees' from the 'Order Functions' menu and select the corret service fee."
+  },
+  {
+    "prompt": "I need to tax exempt an order for a non-profit organization. How can I do this?",
+    "completion": "Click on 'Tax Exempt Order' under 'Order Functions' to exempt the order from taxes."
+  },
+  {
+    "prompt": "A customer wants to see specific item information. How do I show this?",
+    "completion": "Use the 'Show Item Information' option in 'Order Functions' to display detailed information about a specific item."
+  },
+  {
+    "prompt": "How can I sell a custom gift card to a customer?",
+    "completion": "Select 'Sell Custom Gift Card' from the 'Order Functions' menu and enter the necessary details to complete the sale."
+  },
+  {
+    "prompt": "A customer wants to pay using a QR code. What steps should I follow?",
+    "completion": "Click on 'Send QR Pay Link' under 'Order Functions' to generate and send a QR code payment link to the customer."
+  },
+  {
+    "prompt": "How do I modify a custom item for a customer?",
+    "completion": "Select 'Custom Modifier' from the 'Order Functions' menu to make modifications to a custom item in the order."
+  },
+  {
+    "prompt": "A customer wants to activate their VIP or loyalty account. How do I proceed?",
+    "completion": "Click on 'VIP/Loyalty' under 'Order Functions' and follow the prompts to activate the customer's account."
+  },
+  {
+    "prompt": "How can I add an item to a customer's order that isn't on the menu?",
+    "completion": "Use the 'Custom Item' option under 'Order Functions' to manually add an item that isn't listed on the menu."
+  },
+  {
+    "prompt": "I need to apply a discount to a customer's order. Where do I find this option?",
+    "completion": "Select 'Add Promotion' from 'Order Functions' to apply a discount or promotion to the order."
+  },
+  {
+    "prompt": "How do I remove a service fee from an order?",
+    "completion": "Go to 'Order Functions' and select 'Add Service Fees.' Then, follow the prompts to remove the unwanted service fee."
+  },
+  {
+    "prompt": "A customer is requesting to see the tax information for their order. How can I provide this?",
+    "completion": "Use the 'Show Item Information' option in 'Order Functions' to display detailed tax information for the order items."
+  },
+  {
+    "prompt": "Can I schedule an order to be prepared at a specific time? How?",
+    "completion": "Yes, you can schedule an order by selecting 'Schedule Order' from 'Order Functions' and setting the desired preparation time."
+  },
+  {
+    "prompt": "How do I view and manage all the items on a customer's order?",
+    "completion": "Click on 'Show All Menu Items' under 'Order Functions' to view and manage all items on the customer's order."
+  },
+  {
+    "prompt": "A customer wants to authorize their debit card for payment. What is the process?",
+    "completion": "Select 'Authorize Credit Card' from 'Order Functions' and follow the steps to authorize the debit card for payment."
+  },
+  {
+    "prompt": "How can I set up a new customer account quickly?",
+    "completion": "Go to 'Order Functions' and select 'New Account' to create a new customer account efficiently."
+  },
+  {
+    "prompt": "A customer is asking for a customized item with specific modifications. How do I handle this?",
+    "completion": "Use the 'Custom Modifier' option under 'Order Functions' to apply the specific modifications to the customized item."
+  },
+  {
+    "prompt": "I can't find a pending retail order. I tried looking on the POS but I don't see it anywhere. Can you help me out?",
+    "completion": "The pending retail order you're looking for is most likely under 'Retail' in the Pending Orders screen. Try checking there."
+  },
+  {
+    "prompt": "I need to pay for a delivery order but I'm not sure where to find it in the system. What should I do?",
+    "completion": "You can find the delivery order under the 'Delivery' section in the Pending Orders screen. Once located, you can proceed to settle the payment."
+  },
+  {
+    "prompt": "How do I handle a bar tab that needs to be closed out?",
+    "completion": "To close out a bar tab, go to the 'Bar Tabs' section in the Pending Orders screen, select the tab you need to close and press 'Close Tab' to goto the checkout screen."
+  },
+  {
+    "prompt": "I have a takeout order but the customer hasn't picked it up yet. How can I mark it as ready?",
+    "completion": "In the 'Pending Orders' screen, select 'Takeout,' find the specific order, and ensure it's marked as 'Ready for Pickup' once it's prepared."
+  },
+  {
+    "prompt": "A customer wants to split their table service bill among multiple people. How can I do this?",
+    "completion": "For splitting a table service bill, go to the 'Manage Tickets' screen, select the table, and use the 'Split Tickets' option to divide the bill accordingly."
+  },
+  {
+    "prompt": "I need to edit a pending drive-thru order. What steps should I follow?",
+    "completion": "In the 'Pending Orders' screen, select 'Drive Thru,' find the specific order, and choose 'Edit Order' to make the necessary changes."
+  },
+  {
+    "prompt": "How do I cancel an order that was placed for 'For Here' but now the customer wants it to go?",
+    "completion": "To cancel the 'For Here' order, go to 'Pending Orders,' select 'For Here,' find the order, and use the 'Cancel Order' option. Then, create a new 'To Go' order for the customer. You can also change the Order type of the Order in Order Functions."
+  },
+  {
+    "prompt": "A customer called to modify their delivery order. How can I update their information?",
+    "completion": "Locate the delivery order in 'Pending Orders' under 'Delivery.' Select the order and choose 'Edit Order' to update the customer's details and modify the order as needed."
+  },
+  {
+    "prompt": "Can I print a receipt for a bar tab before closing it out?",
+    "completion": "Yes, go to the 'Bar Tabs' section in 'Pending Orders,' select the tab, and use the 'Print Tab' option to print the receipt without closing it out."
+  },
+  {
+    "prompt": "I need to reassign a delivery order to a different driver. How do I do that?",
+    "completion": "In the 'Pending Orders' screen, select 'Delivery,' find the order, and choose 'Re-Assign Driver' to assign the order to a different driver."
+  },
+  {
+    "prompt": "A customer forgot their wallet and left a retail order unpaid. How can I save it?",
+    "completion": "In the 'Pending Orders' screen under 'Retail,' you can save the order without payment. It will remain in the system until the customer returns to pay."
+  },
+  {
+    "prompt": "Our restaurant has multiple terminals. How can I ensure only one terminal handles 'Table Service' orders?",
+    "completion": "Go to 'Terminal Settings' on the POS, ensure you have the security privilege for 'Settings,' and turn off 'Table Service' for other terminals except the one designated for it."
+  },
+  {
+    "prompt": "How do I add gratuity to a table service order?",
+    "completion": "In the 'Manage Tickets' screen, select the table service order, and use the 'Gratuity' option to add the desired percentage before finalizing the payment."
+  },
+  {
+    "prompt": "A customer wants to change their 'Takeout' order to 'For Here.' How do I handle this?",
+    "completion": "Cancel the existing 'Takeout' order from 'Pending Orders,' then create a new order under 'For Here' for the customer. You could also change the Order"
+  },
+  {
+    "prompt": "How can I look up a previous delivery order for a customer?",
+    "completion": "In the 'Delivery' section of 'Pending Orders,' enter the customer's name or phone number to access their previous orders and select the one you need."
+  },
+  {
+    "prompt": "We need to print duplicate receipts for a pending takeout order. What is the process?",
+    "completion": "In 'Pending Orders,' select 'Takeout,' find the order, and use the 'Print Receipts' option to print duplicate receipts."
+  },
+  {
+    "prompt": "How do I reset the default takeout wait time displayed on the login screen?",
+    "completion": "Go to 'Back Office > Settings > POS > Order Wait Time Settings' and configure the 'Default Takeout Time' and 'Auto Time Reset' options to reset the default wait time daily."
+  },
+  {
+    "prompt": "Our terminal is not showing 'Drive Thru' order type. What could be the issue?",
+    "completion": "Ensure that 'Drive Thru' is enabled in 'Terminal Settings.' You might need to enter the passcode and override the settings to turn on this order type."
+  },
+  {
+    "prompt": "How can I ensure that a server cannot clock out with open tables?",
+    "completion": "Go to 'Back Office > Settings > POS > Table Service' and enable the 'Table Check' option. This will prevent servers from clocking out if they have open tables."
+  },
+  {
+    "prompt": "I need to combine two bar tabs into one. How do I do this?",
+    "completion": "In the 'Bar Tabs' section of 'Pending Orders,' select the tabs you want to combine, choose the 'Combine' option, and follow the prompts to merge them into one tab."
+  },
+  {
+    "prompt": "A customer wants to pay for their delivery order using a different payment method. How can I change it?",
+    "completion": "Find the delivery order in 'Pending Orders,' select it, and proceed to the payment screen where you can choose the new payment method."
+  },
+  {
+    "prompt": "How do I assign a table section to a server upon clocking in?",
+    "completion": "In 'Back Office > Settings > POS > Table Service,' enable the 'Assign Sections' option. Ensure table sections are set up in 'Settings > Table Sections.'"
+  },
+  {
+    "prompt": "Can I edit the number of guests for a table service order after it's been placed?",
+    "completion": "Yes, go to the 'Manage Tickets' screen, select the table, and use the 'Edit Guests' option to update the number of guests for the order."
+  },
+  {
+    "prompt": "How can I print tickets for multiple pending delivery orders at once?",
+    "completion": "In 'Pending Orders,' select 'Delivery,' check the orders you want to print tickets for, and use the 'Print Tickets' option to print them all simultaneously."
+  },
+  {
+    "prompt": "I've placed a retail order, but the items aren't printing in the designated station. My staff is confused about why they're not receiving the order. Can you assist?",
+    "completion": "Ensure that a printer is assigned to the stations for retail orders. Also, verify that the menu items have the correct station selected as an option to print to for one of the three printers."
+  },
+  {
+    "prompt": "My takeout orders aren't showing up on the kitchen printer. I sent a takeout order, but the kitchen staff didn't get it. Any idea what's wrong?",
+    "completion": "Check if a printer is assigned to the stations for takeout orders. Additionally, the menu items need to have that station selected as an option to print to for one of the three printers."
+  },
+  {
+    "prompt": "Delivery orders are not being printed in the kitchen. I just had a delivery order, but it didn't print out. What should I check?",
+    "completion": "Verify that a printer is set up for the stations handling delivery orders. Ensure that the menu items are configured to print to one of the selected printers at the station."
+  },
+  {
+    "prompt": "I have an issue with table orders not printing. I sent a table order to the kitchen, but it never printed. Can you help?",
+    "completion": "Make sure a printer is assigned to the stations for table orders. Confirm that the menu items have the appropriate station selected to print to for one of the three printers."
+  },
+  {
+    "prompt": "My bar orders aren't appearing on the printer. I've sent multiple bar orders, but none of them are printing. What's the problem?",
+    "completion": "Ensure that a printer is assigned to the stations for bar orders. Also, check that the menu items are set to print to one of the designated printers at the station."
+  },
+  {
+    "prompt": "For Here orders are not printing at the station. I placed an order for dine-in, but it's not coming through. What do I need to do?",
+    "completion": "Verify that a printer is assigned to the stations for For Here orders. Ensure that the menu items have that station selected as an option to print to for one of the three printers."
+  },
+  {
+    "prompt": "To Go orders are not being printed. I sent an order for pickup, but it didn't print at the kitchen. How can I fix this?",
+    "completion": "Check if a printer is assigned to the stations for To Go orders. Make sure that the menu items are set to print to one of the selected printers at the station."
+  },
+  {
+    "prompt": "My drive-thru orders aren't coming out on the printer. I processed a drive-thru order, but it didn't print. Any advice?",
+    "completion": "Confirm that a printer is assigned to the stations for drive-thru orders. Ensure that the menu items have the correct station selected to print to for one of the three printers."
+  },
+  {
+    "prompt": "I assigned seat numbers, but they're not printing on the orders. How can I ensure the seat numbers are printed?",
+    "completion": "Make sure the 'Seat?' checkbox is checked in Printer Settings for the relevant stations and order types."
+  },
+  {
+    "prompt": "Expo tickets are not printing. I need expo tickets for better order management, but they aren't showing up. What should I do?",
+    "completion": "Verify that the 'Send Expo?' checkbox is checked in Printer Settings for the relevant stations and order types."
+  },
+  {
+    "prompt": "The cash drawer isn't opening when I process orders. How can I ensure it functions correctly?",
+    "completion": "Ensure that a cash drawer is selected in Printer Settings under 'Cash Drawer 1' or 'Cash Drawer 2' for the relevant station."
+  },
+  {
+    "prompt": "Slip printers are not working properly. Orders aren't being printed on the slip printer. What could be wrong?",
+    "completion": "Check if the 'Slip Printer?' checkbox is checked in Printer Settings and ensure a printer is selected for the relevant station and order type."
+  },
+  {
+    "prompt": "Dot matrix printers aren't functioning. My orders are not being printed on the dot matrix printer. How can I resolve this?",
+    "completion": "Verify that the 'Dot Matrix?' checkbox is checked in Printer Settings and ensure a printer is selected for the relevant station and order type."
+  },
+  {
+    "prompt": "My scale isn't working for weighing items. How do I set it up properly?",
+    "completion": "Check if the scale is turned on in Printer Settings and that the correct scale name is entered."
+  },
+  {
+    "prompt": "The receipt printer isn't working for any orders. What could be the issue?",
+    "completion": "Make sure the receipt printer is selected in Printer Settings for the relevant stations."
+  },
+  {
+    "prompt": "I can't seem to get the barcode printing on my receipts. What do I need to check?",
+    "completion": "Ensure that the 'Print Barcodes?' option is selected in Printer Settings and that the printer supports barcode printing."
+  },
+  {
+    "prompt": "The kitchen printer isn't receiving any orders. How can I troubleshoot this?",
+    "completion": "Ensure that the kitchen printer is selected in Printer Settings for the relevant order types and that menu items are set to print to that printer."
+  },
+  {
+    "prompt": "Only some of my stations are printing orders. Why is this happening?",
+    "completion": "Check Printer Settings to make sure each station has a printer assigned for all relevant order types and that menu items are configured to print to those stations."
+  },
+  {
+    "prompt": "The cash drawer opens randomly. How can I fix this?",
+    "completion": "Verify that the cash drawer is properly configured in Printer Settings and check if the drawer is set to open only for specific transactions."
+  },
+  {
+    "prompt": "How can I ensure Retail orders are processed at my terminal?",
+    "completion": "Make sure you have the setting for 'Retail' set to 'On' for the terminal. This will make the Retail Order Type Available."
+  },
+  {
+    "prompt": "Why can't I process Takeout orders at my terminal?",
+    "completion": "Make sure you have the setting for \"Takeout\" set to \"On\" for the terminal. This will make the Takeout Order Type Available."
+  },
+  {
+    "prompt": "How do I enable Delivery orders at my terminal?",
+    "completion": "Make sure you have the setting for \"Delivery\" set to \"On\" for the terminal. This will make the Delivery Order Type Available."
+  },
+  {
+    "prompt": "Why are Bar Tab orders not being processed at my terminal?",
+    "completion": "Check the 'Bar Tab' setting in Terminal Settings and ensure it's turned on to use the Bar Tab Order Type."
+  },
+  {
+    "prompt": "How can I enable Table Service orders at my terminal?",
+    "completion": "In Terminal Settings, make sure the 'Table Service' setting is turned on to use the Table Service order type. After enabling this service, you will see the table diagram."
+  },
+  {
+    "prompt": "Why can't I process For Here orders?",
+    "completion": "Verify that the 'For Here' setting in Terminal Settings is enabled to use the For Here order type."
+  },
+  {
+    "prompt": "How do I enable To Go orders at my terminal?",
+    "completion": "Ensure the 'To Go' setting in Terminal Settings is turned on to use the To Go type."
+  },
+  {
+    "prompt": "Why are Drive Thru orders not being processed?",
+    "completion": "Check the 'Drive Thru' setting in Terminal Settings and make sure it's turned on to use the Drive Thru order type."
+  },
+  {
+    "prompt": "How can I use Dual Drive Thru at my terminal?",
+    "completion": "Enable the 'Dual Drive Thru' setting in Terminal Settings to allow processing with two screens for taking and closing orders."
+  },
+  {
+    "prompt": "Why aren't the dual screens working for Dual Drive Thru?",
+    "completion": "Ensure 'Multi Screen' is enabled in Terminal Settings to use two physical screens for Dual Drive Thru."
+  },
+  {
+    "prompt": "Why can't I use the cash drawer at my terminal?",
+    "completion": "Make sure the 'Till' setting in Terminal Settings is turned on to require a cash drawer and enable till functions."
+  },
+  {
+    "prompt": "How do I remove the tip line from receipts?",
+    "completion": "In Terminal Settings, disable the 'Tip Line' setting to remove the tip line from credit card receipts."
+  },
+  {
+    "prompt": "Why am I being logged off automatically?",
+    "completion": "Check the 'Terminal Timeout' setting in Terminal Settings and adjust the time before automatic logoff."
+  },
+  {
+    "prompt": "What does the 'Card Login' setting do?",
+    "completion": "Note that 'Card Login' is an obsolete setting and will be removed shortly. It currently has no effect."
+  },
+  {
+    "prompt": "How can I set the initial category visible when signing on?",
+    "completion": "Adjust the 'First Category' setting in Terminal Settings to set the category visible upon signing on."
+  },
+  {
+    "prompt": "Why is the wrong table section being selected when creating new orders?",
+    "completion": "Ensure the correct section is selected in the 'Table Section' setting in Terminal Settings."
+  },
+  {
+    "prompt": "How can I set the default order type when logging in?",
+    "completion": "Adjust the 'Order Start' setting in Terminal Settings to select the default order type when logging in."
+  },
+  {
+    "prompt": "Why are seats and tickets not displaying correctly?",
+    "completion": "Ensure the 'Order Style' setting in Terminal Settings is set appropriately to either seats or tickets."
+  },
+  {
+    "prompt": "Why can't I see all bar tabs on my terminal?",
+    "completion": "Check the 'Show Tabs' setting in Terminal Settings and ensure it's enabled to display all bar tabs."
+  },
+  {
+    "prompt": "How can I ensure the modifiers screen only shows when required?",
+    "completion": "Enable the 'Stay on category' setting in Terminal Settings to keep the modifiers screen showing only if needed."
+  },
+  {
+    "prompt": "How can I choose what items to send to the kitchen?",
+    "completion": "Enable the 'Kitchen Selection' setting in Terminal Settings. This will bring up a new screen whenever you click \"Save & Send\" that will allow you to choose the items to send to the kitchen."
+  },
+  {
+    "prompt": "How can I keep closed drive thru orders on the pending screen?",
+    "completion": "Enable the 'Pend Completed Orders' setting in Terminal Settings to keep closed drive thru orders on the pending screen."
+  },
+  {
+    "prompt": "How can I allow payments at my terminal?",
+    "completion": "Enable the 'Allow Checkout' setting in Terminal Settings to permit order payments at the terminal."
+  },
+  {
+    "prompt": "Why is the on-screen keyboard not appearing?",
+    "completion": "Check the 'On Screen Keyboard' setting in Terminal Settings and make sure it's enabled for text input areas."
+  },
+  {
+    "prompt": "Why are tips not being assigned to the till?",
+    "completion": "Ensure the 'Always Till' setting in Terminal Settings is enabled to assign tips to the till instead of personal banks. This is only when using the \"Group Till\" setting and does not apply to Strict Till."
+  },
+  {
+    "prompt": "How can I use two cash drawers with one till?",
+    "completion": "Enable the 'Dual Till' setting in Terminal Settings if you have two cash drawers assigned to the same till, typically with an Epson printer."
+  },
+  {
+    "prompt": "Why are orders not signing off after completion?",
+    "completion": "Check the 'Sign Off After Order' setting in Terminal Settings and ensure it's enabled for orders to sign off upon completion."
+  },
+  {
+    "prompt": "How can I improve performance on lower spec machines?",
+    "completion": "Disable the 'Show Totals' setting in Terminal Settings to replace the running total with a 'Show Totals' button, improving performance."
+  },
+  {
+    "prompt": "Why can't I use Quick Sign In?",
+    "completion": "Ensure 'Quick Sign In' is enabled in Back Office > Employees > Job Manager and adjust the 'Quick Sign In' setting in Terminal Settings."
+  },
+  {
+    "prompt": "How can I add fast cash and credit buttons?",
+    "completion": "Enable the 'Fast Cash / Credit' setting in Terminal Settings to add these buttons when using the 'Bar' Order Method."
+  },
+  {
+    "prompt": "Why are items not being sent to the KDS?",
+    "completion": "Check the 'KDS' setting in Terminal Settings and ensure it's enabled for items to be sent to KDS."
+  },
+  {
+    "prompt": "How can I prompt for the number of guests in line?",
+    "completion": "Enable the 'KDS Guests' setting in Terminal Settings to prompt for the number of guests after each order."
+  },
+  {
+    "prompt": "What does the '7 Rooms Int' setting do?",
+    "completion": "Enable the '7 Rooms Int' setting in Terminal Settings to integrate with 7 rooms."
+  },
+  {
+    "prompt": "Why is the EOD button missing from the control panel?",
+    "completion": "Ensure the 'Allow EOD' setting in Terminal Settings is enabled to display the EOD button."
+  },
+  {
+    "prompt": "How can I enable the Batch/Settle button?",
+    "completion": "Enable the 'Allow Batch' setting in Terminal Settings to display the Batch/Settle button in the control panel."
+  },
+  {
+    "prompt": "How do I change what prints on receipts?",
+    "completion": "Adjust the 'Receipt Header' setting in Terminal Settings to change the header text on printed receipts."
+  },
+  {
+    "prompt": "Why am I not staying in the sub-item screen?",
+    "completion": "Enable the 'Stay on Sub Items' setting in Terminal Settings to remain in the sub-item screen after selection."
+  },
+  {
+    "prompt": "How can I check if PCCharge is running?",
+    "completion": "Enable the 'Check for PCCharge' setting in Terminal Settings to ensure PCCharge software is running in the background."
+  },
+  {
+    "prompt": "How can I ensure the OrderCounter Payment Server software is running?",
+    "completion": "Enable the 'Check for OCPP' setting in Terminal Settings to check and start the OrderCounter Payment Server software if it's not running."
+  },
+  {
+    "prompt": "How can I add a logo to the login screen?",
+    "completion": "Use the 'Login Screen Logo' setting in Terminal Settings to browse and select a logo for the terminal login screen."
+  },
+  {
+    "prompt": "How do I change the colors of the buttons?",
+    "completion": "Adjust the 'Terminal Theme' setting in Terminal Settings to select different themes for button colors"
+  },
+  {
+    "prompt": "Why are items not consolidating on print?",
+    "completion": "Enable the 'Consolidate on Print' setting in Terminal Settings to consolidate items on screen and on the printed kitchen ticket."
+  },
+  {
+    "prompt": "How can I ensure modifiers are shown in different colors?",
+    "completion": "Enable the 'Modifier Colors' setting in Terminal Settings to display modifiers in different colors for better performance."
+  },
+  {
+    "prompt": "Why am I not being logged off after pressing Save and Send?",
+    "completion": "Enable the 'Bar Close After Save Send' setting in Terminal Settings to ensure users are logged off after pressing 'Save and Send' on a Bar order."
+  },
+  {
+    "prompt": "How can I make the screen appear in landscape or portrait mode?",
+    "completion": "Use the 'Orientation' setting in Tablet Settings to choose between landscape and portrait mode."
+  },
+  {
+    "prompt": "How do I capture customer signatures on a tablet?",
+    "completion": "Enable the 'Show Signature' setting in Tablet Settings to display a signature screen for capturing customer signatures."
+  },
+  {
+    "prompt": "Why are receipt options not showing during payment?",
+    "completion": "Enable the 'Show Receipt options' setting in Tablet Settings to display options for email receipt, printed receipt, or no receipt during payment."
+  },
+  {
+    "prompt": "How can I allow customers to enter a tip on a tablet?",
+    "completion": "Enable the 'Show Tips' setting in Tablet Settings to allow customers to enter a tip, shown as a percentage or cash figure."
+  },
+  {
+    "prompt": "I'm trying to set up an event for a customer's birthday party but I'm not sure where to start. Can you guide me through it?",
+    "completion": "Of course! Begin by going to the Control Panel and selecting 'Events'. Click on 'New Event'. Enter the customer's information, including their name, phone number, and the date and time of the event. Specify the number of guests and any notes you want to add. Click 'Save' to create the event."
+  },
+  {
+    "prompt": "I need to add a deposit for a wedding event but can't find the option. How do I do this?",
+    "completion": "To add a deposit, go to the 'Events' section in the Control Panel. Select the event you want to add a deposit to and click 'Edit Selected Event'. Click 'Add Deposit', enter the deposit amount, and click 'Submit'. You will then be brought to the checkout screen."
+  },
+  {
+    "prompt": "How can I view the details of an upcoming event for a customer?",
+    "completion": "To view event details, navigate to the 'Events' section in the Control Panel. Find the event you want to view from the list and select it. Click 'Edit Selected Event' to see all the details including customer information, date, time, and the number of guests."
+  },
+  {
+    "prompt": "I need to change the date for a corporate meeting event. What's the process?",
+    "completion": "To change the event date, go to the Control Panel and select 'Events'. Find the corporate meeting event from the list and click 'Edit Selected Event'. Update the date and time fields to the new schedule, and click 'Save' to apply the changes."
+  },
+  {
+    "prompt": "I want to add a note to an event for special dietary requirements. How can I do this?",
+    "completion": "To add a note for special dietary requirements, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Enter the dietary requirements in the 'Notes' section and click 'Save' to update the event details."
+  },
+  {
+    "prompt": "How can I add multiple deposits for an event that requires staggered payments?",
+    "completion": "To add multiple deposits, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Click 'Add Deposit', enter the deposit amount, and submit. Repeat this process for each additional deposit you need to add."
+  },
+  {
+    "prompt": "I need to adjust the guest count for an event that's increased. What steps should I follow?",
+    "completion": "To adjust the guest count, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Update the '# Guests' field to reflect the new guest count and click 'Save' to apply the changes."
+  },
+  {
+    "prompt": "I need to update the contact information for a customer who has an event scheduled. How do I do this?",
+    "completion": "To update customer contact information, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Update the customer's phone number or email address in the relevant fields and click 'Save' to keep the changes."
+  },
+  {
+    "prompt": "How can I add a custom field for specific event requirements?",
+    "completion": "To add a custom field for event requirements, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Use the 'Notes' section to add any custom requirements or fields that you need to track, then save the event."
+  },
+  {
+    "prompt": "I want to see all upcoming events for the next week. How can I filter this information?",
+    "completion": "To filter upcoming events, go to the 'Events' section in the Control Panel. Use the date range filter to select the next week. This will display all events scheduled within that timeframe, allowing you to review and manage them."
+  },
+  {
+    "prompt": "A customer wants to know the remaining balance for their event deposit. How can I check this?",
+    "completion": "To check the remaining balance for an event deposit, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Review the deposit section to see the total amount paid and the remaining balance due."
+  },
+  {
+    "prompt": "How do I add a payment method for an event deposit?",
+    "completion": "To add a payment method for an event deposit, go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. Click 'Add Deposit', enter the deposit amount, and then on the checkout screen, select the payment method (e.g., Credit, Cash). Click 'Submit' and then 'Done' to save."
+  },
+  {
+    "prompt": "Can I assign specific staff to manage an event? How do I do this?",
+    "completion": "Yes, you can assign staff to an event. Go to the 'Events' section in the Control Panel. Select the event and click 'Edit Selected Event'. In the notes or additional fields, specify the staff member responsible for managing the event, then save the event details."
+  }
 ]
-
