@@ -10,3 +10,4 @@ Example:
 ```json
 {"prompt": "I can't find a pending retail order, I tried looking on the POS but I don't see it anywhere. Can you help me out?", "completion": "The pending retail order you're looking for is most likely under "Retail" in the Pending Orders Screen. Try checking there."}
 ```
+Fix the attached JSON file. Verify that it is structured properly for a fine tuning job.
