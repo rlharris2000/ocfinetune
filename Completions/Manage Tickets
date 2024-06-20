@@ -1,0 +1,82 @@
+[
+    {
+        "prompt": "I'm so frustrated! I can't figure out how to split a single item between multiple seats. Help me before I lose it!",
+        "completion": "I'm sorry to hear that you're having trouble. Let's fix this together. Go to the 'Order' screen, select the item you want to split, then press 'Split Item.' Enter the number of splits needed and confirm by pressing 'Submit.' This should split the item as needed."
+    },
+    {
+        "prompt": "I need to move an item to a different check, and it's driving me crazy that I can't find how! Can you help?",
+        "completion": "I understand how frustrating this can be. Let's get it sorted. On the 'Order' screen, select the item you want to move. Press 'Move' and choose the check you want to transfer the item to. Confirm the move, and it should be done."
+    },
+    {
+        "prompt": "Why is it so hard to add gratuity to all tickets? I need to do this quickly!",
+        "completion": "I apologize for the inconvenience. To add gratuity to all tickets, go to the 'Order' screen and press 'Add Gratuity To All Tickets.' Enter the gratuity amount or percentage, then confirm. This will apply the gratuity to all tickets."
+    },
+    {
+        "prompt": "I need to split an order by seat, and I'm running out of patience here!",
+        "completion": "Let's handle this quickly. Go to the 'Order' screen, select 'Split Order By Seat.' Assign each item to the respective seat and confirm the split. This should organize your order correctly."
+    },
+    {
+        "prompt": "I'm getting really annoyed! How do I use Terminal Mirror Mode? I can't figure it out!",
+        "completion": "I understand your frustration. To use Terminal Mirror Mode, go to the 'Control Panel' and select 'Terminal Mirror.' Choose the terminal you want to mirror and whether to include the printer. Save and restart to apply the changes."
+    },
+    {
+        "prompt": "Running a sales report shouldn't be this hard! I'm at my wits' end!",
+        "completion": "I can help you with that. From the 'Control Panel,' go to 'Reports' and select 'Sales Reports.' Choose the specific report you need, this will then open up the report on the back office. This should give you the sales data you're looking for."
+    },
+    {
+        "prompt": "Why can't I find how to redeem a gift card balance? This is so irritating!",
+        "completion": "Let's resolve this quickly. Go to the 'Gift Cards' section from the main screen and select 'Balance Inquiry.' Enter the gift card number and press 'Check Balance.' This will show the current balance of the gift card."
+    },
+    {
+        "prompt": "I'm under a lot of stress here! How do I check out with an unapplied credit transaction?",
+        "completion": "Don't worry, we can fix this. In the 'Checkout' screen, select 'Unapplied Credit Trans.' Find the transaction, select it, and press 'Apply Selected.' This will apply the credit to the current transaction."
+    },
+    {
+        "prompt": "I'm losing my patience! How do I add a new event deposit? This shouldn't be so difficult!",
+        "completion": "I apologize for the trouble. To add a new event deposit, go to the 'Events' section, select the event, and press 'Add Deposit.' Enter the deposit amount and submit. This will add the deposit to the event."
+    },
+    {
+        "prompt": "I can't believe how hard this is! How do I generate a daily transaction report?",
+        "completion": "I'm sorry for the inconvenience. To generate a daily transaction report, go to the 'Reports' section and select 'Daily Transaction Report.' Set the date for today and generate the report. This should provide the details you need."
+    },
+    {
+        "prompt": "I'm at my wit's end! How do I apply a promotion to an order?",
+        "completion": "I understand your frustration. To apply a promotion, go to the 'Checkout' screen and press 'Add Promotion.' Select the promotion from the list and apply it to the order. This should adjust the total accordingly."
+    },
+    {
+        "prompt": "It's driving me nuts that I can't figure out how to void an item! Can you help?",
+        "completion": "Absolutely, let's get this sorted. On the 'Order' screen, select the item you want to void and press 'Void.' Confirm the void action, and the item will be removed from the order."
+    },
+    {
+        "prompt": "I'm getting really irritated! How do I set up a new price level?",
+        "completion": "I apologize for the frustration. To set up a new price level, go to 'Price Level Setup' from the 'Control Panel.' Enter the details for the new price level and save. This will add the new price level to your system."
+    },
+    {
+        "prompt": "I'm about to lose it! How do I merge two checks together?",
+        "completion": "Don't worry, we can fix this. On the 'Order' screen, select both checks you want to merge and press 'Merge.' Confirm the merge action, and the checks will be combined into one."
+    },
+    {
+        "prompt": "How do I handle a customer complaint if I can't find where to make adjustments? This is so frustrating!",
+        "completion": "I understand your concern. To make adjustments, go to the 'Order' screen and select 'Edit.' Make the necessary changes to the order. This should address the complaint."
+    },
+    {
+        "prompt": "It's so annoying that I can't find how to add a new item to the menu. Can you help?",
+        "completion": "Sure, let's do this together. Go to 'Menu Management' from the main screen and select 'Menu Items (Create/Edit).' Select the menu category where the item will be going then an empty gray square. Enter the details for the new item and save. This will add the new item to your menu."
+    },
+    {
+        "prompt": "I'm getting really irritated trying to figure out how to apply a deposit to an event. Help me out!",
+        "completion": "I apologize for the difficulty. To apply a deposit to an event, go to the 'Events' section, select the event, and press 'Add Deposit.' Enter the deposit amount and submit. This will apply the deposit to the event."
+    },
+    {
+        "prompt": "How do I change the tax rate for an item? This is becoming so stressful!",
+        "completion": "Let's fix this quickly. Go to 'Menu Management,' Menu Items (Create/Edit), Find the cateogry where the item is in then select the item, and edit its details. Change the tax rate under 'Tax Code' and save. This will update the tax rate for the item."
+    },
+    {
+        "prompt": "I'm under a lot of stress here! How do I add a new modifier set to an item?",
+        "completion": "I understand your frustration. Go to 'Modifier Sets' from 'Menu Management,' create the new set, then go to 'Menu Items,' select the item, and add the modifier set. Save the changes, and the new modifiers will be applied."
+    },
+    {
+        "prompt": "I'm losing my patience! How do I close out a check?",
+        "completion": "I can help with that. On the 'Manage Ticket' screen, ensure all payments are applied, then press 'Pay'."
+    }
+]
