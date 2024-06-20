@@ -1,0 +1,77 @@
+[
+    {
+        "prompt": "I'm struggling to figure out how to add a new menu item to my list. Can you help me?",
+        "completion": "Of course! Start by going to the 'Control Panel,' then select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the category where you want to add the item, then click 'Add Item.' Fill in the item details, including name, price, and description, and save your changes."
+    },
+    {
+        "prompt": "I need to correct the price of a menu item because it's wrong. How can I do that?",
+        "completion": "To correct a menu item price, first, navigate to the 'Control Panel' and select 'Menu Management.' In 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Click the category the item is in you need to correct, click on it, adjust the price in the 'Item Price' field, and save your changes."
+    },
+    {
+        "prompt": "I accidentally added the wrong image to a menu item. How can I fix this?",
+        "completion": "No problem! Go to the 'Control Panel' and choose 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the category where the item is located. Select the item with the wrong image, click 'Remove Image,' then 'Add Image' to upload the correct one, and save your changes."
+    },
+    {
+        "prompt": "I need to add a special modifier set to a new menu item. How do I do that?",
+        "completion": "To add a special modifier set, go to the 'Control Panel,' then select 'Menu Management.' Under 'Basic Menu Management,' click on 'Modifier Sets (Create/Edit).' Create or edit the modifier set as needed. Then go to 'Add A Modifier Set To A Menu Item,' select your menu item, and add the modifier set to it."
+    },
+    {
+        "prompt": "My new menu item isn't showing up during certain hours. How can I fix this?",
+        "completion": "To fix this, go to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the item that's not showing up, and ensure the 'Timeset' field is correctly set to match the hours you want it to be available. Save your changes."
+    },
+    {
+        "prompt": "The button color for my menu item isn't standing out. How can I change it?",
+        "completion": "To change the button color, go to the 'Control Panel' and choose 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the category where the item is located, Select the item you want to modify, then in the item editor change the 'Button Color' to a more noticeable option, and save your changes."
+    },
+    {
+        "prompt": "I need to delete an old menu item that's no longer available. What's the process?",
+        "completion": "To delete an old menu item, go to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the cateogry where the item is located then find the item you want to delete, select it, and click the 'Delete' button. Confirm your choice to remove the item."
+    },
+    {
+        "prompt": "How do I add a description to a menu item?",
+        "completion": "To add a description, navigate to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Find the cateogry where the item is located, select the item you want to add a description to, fill in the 'Description' field, and save your changes."
+    },
+    {
+        "prompt": "Can I set up item availability based on the time of day?",
+        "completion": "Absolutely! To set up time-based availability, go to the 'Control Panel' and select 'Menu Management.' Under 'Advanced Menu Management,' click on 'Menu Item Time Availability Restrictors.' Set the times for when each item should be available and save your settings."
+    },
+    {
+        "prompt": "I need to reorder the items in a menu category. How do I do this?",
+        "completion": "To reorder items, go to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the category and then click 'Move'. After clicking 'Move', select the item and click a gray square to move it."
+    },
+    {
+        "prompt": "How can I make an item available only for online orders?",
+        "completion": "To set an item for online orders only, navigate to the 'Control Panel' and select 'Menu Management.' Under 'Basic Menu Management,' click on 'Menu Items (Create/Edit).' Select the item, then check the 'Online (Default Visible)' box under 'Order Method Availability,' and save your changes."
+    },
+    {
+        "prompt": "I want to create a new set of recommended items. How can I do this?",
+        "completion": "To create a set of recommended items, go to the 'Control Panel' and select 'Menu Management.' Under 'Advanced Menu Management,' click on 'Recommended Item Sets.' Create a new set, add the recommended items, and save the set for future use."
+    }
+        {
+        "prompt": "I'm struggling to figure out how to add a new modifier set for my taco toppings. Can you help?",
+        "completion": "No problem! Start by going to the Control Panel and selecting 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Then, click 'New Set' and name it something like 'Taco Toppings'. Make the set an 'OptionSet'. After that, set your options, such as adding options for extra cheese, guacamole, or sour cream. Don't forget to hit 'Save As New' for each option."
+    },
+    {
+        "prompt": "I've got a new dessert menu and I need to set up a modifier set for ice cream toppings. What's the best way to do this?",
+        "completion": "Setting up a new modifier set for ice cream toppings is easy! Go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Click 'New Set', name it 'Ice Cream Toppings', and make it an 'OptionSet'. Then add your options like chocolate chips, sprinkles, and caramel sauce. Configure any other settings you need."
+    },
+    {
+        "prompt": "How do I add images to the 'Special Sauces' modifier set to make it more visually appealing?",
+        "completion": "To add images, go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Choose the 'Special Sauces' set, then click on 'Add Image to Selected'. Upload your images and save the changes to enhance the visual appeal."
+    },
+    {
+        "prompt": "How do I assign a specific printer for my 'Side Dishes' modifiers?",
+        "completion": "To assign a printer, navigate to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Select your 'Side Dishes' set, then choose the appropriate printer from the 'Printer' dropdown options. Save your configuration by clicking 'Save Selected'."
+    },
+    {
+        "prompt": "I need to set up a modifier set for different meat temperatures. How can I do this?",
+        "completion": "Set up a meat temperature modifier by going to the Control Panel and selecting 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Create a new set named 'Meat Temperature', add options like 'Rare', 'Medium Rare', and 'Well Done'. "
+    },
+    {
+        "prompt": "How do I add a new set for vegan options in my menu?",
+        "completion": "To add a new vegan options set, go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Click 'New Set', name it 'Vegan Options', and add relevant items like 'Tofu' and 'Veggie Burger'. Then add the set to the menu items."
+    },
+    {
+        "prompt": "I want to create a modifier set for seasonal items that appear only at certain times. How do I configure this?",
+        "completion": "For seasonal items, go to the Control Panel and select 'Menu Management'. Click on 'Modifier Sets' under 'Basic Menu Management'. Create a new set, name it 'Seasonal Items', and configure the times and dates under the 'Timeset' options. Save your set to apply the changes."
+    },
