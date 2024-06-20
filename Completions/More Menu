@@ -1,0 +1,58 @@
+[
+    {
+        "prompt": "How can I create a new recommended item set?",
+        "completion": "Go to the control panel and access 'Menu Management.' Select 'Recommended Item Sets' from the advanced menu management options. Enter a name for your new set in the 'Create New Set' field and click 'New.'"
+    },
+    {
+        "prompt": "I need to define when an item is available. How do I set this up?",
+        "completion": "In the control panel, navigate to 'Menu Management' and choose 'Menu Item Time Availability Restrictors.' Create a new timeset by entering a name and specifying the availability for each day of the week, then click 'Save.'"
+    },
+    {
+        "prompt": "How can I automatically add modifiers to items?",
+        "completion": "Go to the control panel and open 'Menu Management.' Select 'Auto Add Modifiers to Items.' Choose the item from the list on the left, select the modifier set and specific modifiers you want to auto add, and enable the auto add options."
+    },
+    {
+        "prompt": "How do I create a new counter set for tracking item quantities?",
+        "completion": "Access the control panel and go to 'Menu Management.' Choose 'Menu Counter Sets.' Click on 'New Counter Set,' enter a name, initial quantity, and select the affected items. Make sure to activate the counter set and then click 'Save.'"
+    },
+    {
+        "prompt": "How can I configure multiple price levels for an item?",
+        "completion": "Navigate to the control panel and open 'Menu Management.' Select 'Price Level Setup.' Enter names and pretexts for the price levels, define the auto prices and pricing types, and click 'Save' to apply the new price levels."
+    },
+    {
+        "prompt": "How do I delete a recommended item set?",
+        "completion": "From the control panel, go to 'Menu Management' and select 'Recommended Item Sets.' Choose the set you want to delete from the list, and then click the 'Delete Selected' button."
+    },
+    {
+        "prompt": "Can I limit an item's availability to certain times?",
+        "completion": "Yes. In the control panel, access 'Menu Management' and choose 'Menu Item Time Availability Restrictors.' Create or edit a timeset by setting the desired availability times for each day, then save the changes."
+    },
+    {
+        "prompt": "How do I disable automatic addition of modifiers?",
+        "completion": "Open the control panel and go to 'Menu Management.' Select 'Auto Add Modifiers to Items.' Choose the item, and then disable the auto add options for the modifier sets you don't want to be automatically added."
+    },
+    {
+        "prompt": "What is the process to edit a counter set?",
+        "completion": "Access the control panel, go to 'Menu Management,' and select 'Menu Counter Sets.' Choose the counter set you want to edit, make the necessary changes, and then click 'Save.'"
+    },
+    {
+        "prompt": "How can I add items to an existing item set?",
+        "completion": "Go to the control panel and open 'Menu Management.' Select 'Item Sets.' Choose the existing set you want to add items to, select the items from the list, and save the changes."
+    },
+    {
+        "prompt": "How do I adjust price levels for a specific item?",
+        "completion": "In the control panel, navigate to 'Menu Management' and select 'Price Level Setup.' Choose the item and adjust the price levels as needed. Save your changes once you're done."
+    },
+    {
+        "prompt": "How do I set up a recommended item set?",
+        "completion": "From the control panel, go to 'Menu Management' and select 'Recommended Item Sets.' Enter the name of your new set, click 'New,' then add the items to the set and save your configuration."
+    },
+    {
+        "prompt": "What is the best way to manage item availability throughout the week?",
+        "completion": "Go to the control panel, access 'Menu Management,' and select 'Menu Item Time Availability Restrictors.' Create a timeset by naming it and defining the available times for each day, then save the timeset."
+    },
+    {
+        "prompt": "How do I ensure certain modifiers are automatically included with items?",
+        "completion": "In the control panel, navigate to 'Menu Management' and select 'Auto Add Modifiers to Items.' Choose the item, enable the auto add option for the desired modifier set, and save the settings."
+    }
+]
