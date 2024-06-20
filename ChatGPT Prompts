@@ -6,3 +6,4 @@ You will structure your response as a single JSON file using the following forma
 {"prompt": "What are modifier's?", "completion": "Modifiers are options to customize a menu item."}
 ```
 
+Write a series of 10 fake customer situations. Make the scenarios complex in nature where the user is asking for something but confused on what they're actually answering for. The answer remains the same. Make sure the situations have critical emergency tones that express fustration.
