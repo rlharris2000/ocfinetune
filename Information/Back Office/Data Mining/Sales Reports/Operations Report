@@ -1,0 +1,102 @@
+Explanation of the Operations Report
+The Operations Report provides a detailed overview of the performance and financial activities of the business. Here's a section-by-section breakdown of the report:
+
+Header Information
+Title: The title of the report is "Operations Report."
+Restaurant Name: Pizzazia.
+Address: The address is 9270 University Pkwy, Pensacola, FL 32514.
+Date and Time: The report was generated on 06/21/2024 at 12:54:11.
+Report Options
+Fast Dates: Predefined date ranges that can be quickly selected, such as Today, Yesterday, Current Week, Last Week, etc.
+Custom Date Range: Allows the user to specify a custom date range for the report.
+Sales Summary
+Gross Sales: The total sales amount before any deductions like discounts or refunds.
+Refunds: The total amount refunded to customers.
+Discounts/Promos: The value of discounts and promotions applied to sales.
+Comps: The value of items given away for free (complementary).
+Pay Ins/Pay Outs: Cash transactions such as money added to or removed from the cash register.
+Fees Collected: Any fees collected from customers.
+On Account Transactions: Sales transactions billed to customer accounts.
+Event Deposits: Deposits received for events.
+Adjusted Gross: Gross sales minus adjustments like refunds, discounts, and comps.
+Tax Collected: The total amount of tax collected on sales.
+Gift Cards Sold: The value of gift cards sold.
+Net Sales: Gross sales minus refunds, discounts, comps, and other deductions.
+Total Transactions: The total number of sales transactions.
+Sales Summary by Taxcode
+Taxcode: Different tax rates applied to sales.
+Sales: Total sales under each tax code.
+Nontaxable Discount: Discounts that are not taxable.
+Collected: The amount of tax collected.
+Tips Summary
+Tips Collected: Total tips collected, categorized by payment method (Cash, Credit, Online Credit, Check, Gift Card, Other, On Account).
+Tips Distributed: Total tips distributed to employees.
+Gratuity Summary
+Grat. Collected: Total gratuity collected, categorized by payment method.
+Grat. Distributed: Total gratuity distributed to employees.
+Deposit Summary
+Cash Sales: Total sales made in cash.
+Cash Gratuity: Gratuity collected in cash.
+Total Tips Collected: Total tips collected in cash.
+Total Gratuity Collected: Total gratuity collected in cash.
+Pay Ins/Pay Outs: Cash transactions involving adding or removing cash.
+Fees Collected: Fees collected in cash.
+Cash Refunds: Refunds given in cash.
+Event Deposits: Cash deposits for events.
+Cash Deposit Expected: Expected cash deposit amount.
+Credit Sales: Total sales made with credit cards.
+Credit Tips: Tips collected via credit cards.
+Credit Gratuity: Gratuity collected via credit cards.
+Credit Refunds: Refunds given via credit cards.
+Credit Event Deposits: Credit deposits for events.
+Credit Deposit Expected: Expected credit deposit amount.
+Online Credit Sales: Total sales made with online credit transactions.
+Online Credit Tips: Tips collected via online credit transactions.
+Online Credit Deposit Expected: Expected online credit deposit amount.
+Check Sales: Total sales made with checks.
+Check Tips: Tips collected via checks.
+Check Gratuity: Gratuity collected via checks.
+Check Refunds: Refunds given via checks.
+Check Event Deposits: Check deposits for events.
+Check Deposit Expected: Expected check deposit amount.
+Gift Card Sales: Total sales made with gift cards.
+Gift Card Tips: Tips collected via gift cards.
+Gift Card Gratuity: Gratuity collected via gift cards.
+Gift Card Refunds: Refunds given via gift cards.
+Gift Card Event Deposits: Gift card deposits for events.
+Gift Card Deposit Expected: Expected gift card deposit amount.
+Other Payment Sales: Sales made with other payment methods.
+Other Tips: Tips collected via other payment methods.
+Vocabulary List
+Gross Sales: The total revenue from sales before any deductions.
+Refunds: Amounts returned to customers for returned goods or services.
+Discounts: Reductions in price given to customers.
+Promos: Short for promotions; special deals or discounts to encourage sales.
+Comps: Short for complimentary items; goods or services given for free.
+Pay Ins/Pay Outs: Cash transactions involving adding to or removing money from the cash register.
+Fees Collected: Additional charges collected from customers, such as service fees.
+On Account Transactions: Sales billed to a customer's account to be paid later.
+Event Deposits: Money received in advance for special events.
+Adjusted Gross: Gross sales after adjusting for refunds, discounts, and comps.
+Tax Collected: The amount of sales tax collected from customers.
+Gift Cards Sold: The value of gift cards purchased by customers.
+Net Sales: Gross sales minus refunds, discounts, and comps.
+Taxcode: The rate at which sales tax is applied.
+Nontaxable Discount: Discounts that do not affect the taxable amount.
+Tips Collected: Gratuities received from customers.
+Tips Distributed: Gratuities given to employees.
+Gratuity: A tip given to service workers.
+Deposit Summary: A breakdown of deposits expected and received.
+Credit: Sales made using credit cards.
+Check: Sales made using checks.
+Gift Card: A prepaid card used to purchase goods or services.
+Order Method: The manner in which orders are placed (e.g., Table Orders, Bar Orders).
+Expected Deposit: The anticipated amount of money to be deposited based on sales.
+Adjustment: A change made to correct or improve a financial statement.
+Tills: Cash registers used to process sales transactions.
+Banks: Accounts or funds used to manage cash flow within the business.
+Category Trends: Analysis of sales performance by product category.
+
+
+
+
