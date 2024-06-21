@@ -1,0 +1,100 @@
+End of Day / Reports
+End of Day Report: Toggle whether the end-of-day transaction report should be printed.
+
+Options: On/Off
+Hourly Report: Toggle whether the hourly sales report for the end of the day should be printed.
+
+Options: On/Off
+Manager Comp Report: Toggle whether the report detailing manager comps should be printed.
+
+Options: On/Off
+Employee Comp Report: Toggle whether the report detailing employee comps should be printed.
+
+Options: On/Off
+Promotion Report: Toggle whether the report on promotions should be printed.
+
+Options: On/Off
+Pre Send Removal Report: Toggle whether the report on items removed before being sent should be printed.
+
+Options: On/Off
+Manager Removal Report: Toggle whether the report on items removed by a manager after being sent should be printed.
+
+Options: On/Off
+Employee Removal Report: Toggle whether the report on items removed by an employee after being sent should be printed.
+
+Options: On/Off
+Sales Category Report: Toggle whether the report on sales categorized by type should be printed.
+
+Options: On/Off
+Fee Group Report: Toggle whether the report on grouped fees should be printed.
+
+Options: On/Off
+Labor Report: Toggle whether the report on labor statistics for the end of the day should be printed.
+
+Options: On/Off
+Account Report: Toggle whether the detailed account report should be printed.
+
+Options: On/Off
+Comp Detail Report: Toggle whether the detailed compensation report should be printed.
+
+Options: On/Off
+Number of Employee Transactions Report: Toggle whether the report showing the number of transactions handled by each employee should be printed.
+
+Options: On/Off
+Adjustments System: Enable or disable the adjustments system designed to create additional values based on percentages or adjustments to daily compiled core values.
+
+Options: On/Off
+Must Close Bar Tabs: Toggle whether all bar tabs must be closed before the end-of-day process can be completed.
+
+Options: On/Off
+Auto Save Bar Tabs: Toggle whether bar tab totals should be automatically saved whenever an item is added to the bar tab.
+
+Options: On/Off
+Bar Tab Order: Determine the order in which bar tabs are displayed.
+
+Options: Customer Name/Date Entered - Ascending/Date Entered - Descending
+Quick Reports: Set the number of times a quick report can be pulled per end-of-day cycle.
+
+Options: Input field (default: 20)
+Report Time Cutoff: Set the cutoff time for generating reports. It is recommended to set this time a few hours after the location is closed.
+
+Options: Various times from 12 AM to 11 PM
+Start Day: Set the starting day of the week for reports.
+
+Options: Sunday/Monday/Tuesday/Wednesday/Thursday/Friday/Saturday
+Retail Only: Toggle whether the end-of-day report should exclude location-specific information, making it applicable only for retail.
+
+Options: On/Off
+Allow EMV Partial Authorization: Enable or disable partial authorizations for EMV transactions, applicable only with NETePay EMV setups.
+
+Options: On/Off
+Show Estimated Cash Discount Fees In Store: Toggle whether estimated cash discount fees and an estimated credit deposit (considering the fee estimate) should be shown in store-related reports.
+
+Options: On/Off
+Estimated Cash Discount Fee Percent In Store: Set the percentage of in-store credit received that will constitute the estimated cash discount fees.
+
+Options: Input field (default: 0.00%)
+Show Estimated Cash Discount Fees Online: Toggle whether estimated cash discount fees and an estimated credit deposit (considering the fee estimate) should be shown in online-related reports.
+
+Options: On/Off
+Estimated Cash Discount Fee Percent Online: Set the percentage of online credit received that will constitute the estimated cash discount fees.
+
+Options: Input field (default: 0.00%)
+Hide Payrates on Employee Hours Report: Toggle whether to hide pay rates on the employee hours report.
+
+Options: On/Off
+Credit Breakdown on Reports: Enable or disable the breakdown of credit card transactions by issuer on end-of-day and quick reports.
+
+Options: On/Off
+Hide Zero Rows on Printed Reports: Toggle whether to hide rows or sections with zero values in printed end-of-day and quick reports.
+
+Options: On/Off
+Service Fee Report Categories: Enable or disable the assignment of service fees to report categories, affecting their display in various reports.
+
+Options: On/Off
+Remove Discounts From Categories: Toggle whether discounts should be excluded from category trends in reports.
+
+Options: On/Off
+Show Nontaxable Discount On Tax Breakdown: Toggle whether nontaxable discounts per tax code should be displayed in a separate section on end-of-day and operations reports.
+
+Options: On/Off
