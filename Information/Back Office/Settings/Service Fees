@@ -1,0 +1,55 @@
+Service Fees Overview
+Service fees are additional charges added to orders, which can either be a percentage of the order amount or a fixed set fee. Below is a detailed explanation of the settings available for configuring service fees, along with some examples.
+
+Key Settings for Service Fees
+Service Fee Name: The name assigned to the service fee.
+Service Fee Amount: The amount of the service fee, which can be a percentage or a set amount.
+Service Fee Type: Determines if the fee is a percentage of the order or a set fee.
+Count Towards Sales: Indicates if the service fee is included in gross/net sales.
+Auto-Add Orders: Specifies if the service fee is automatically added to different order types.
+Auto-Add Payments: Specifies if the service fee is automatically added to different payment methods.
+Tax Code: Defines the tax code applied to the service fee.
+Add To Split Checks: Determines if the service fee is added to additional tickets in split checks.
+Rounding: Specifies if the service fee is rounded up, down, or both.
+Discountable: Indicates if the service fee can be discounted.
+Calculate Pre Discount: Indicates if the percentage service fee is calculated based on the pre-discount subtotal.
+Calculate Pre Tax: Indicates if the percentage service fee is calculated based on the pre-tax subtotal.
+Show As Receipt Item: Determines if the service fee appears as a line item on customer receipts.
+Show As Total Line: Indicates if the service fee appears as a total line above the subtotal.
+Show As Customer Display Total: Specifies if the service fee is included in the non-payment fee total line on the Customer Display instead of in the list of items.
+Sort Order: Determines the sort order of the service fee on the receipt.
+Example Setups
+Example 1: Set Fee
+Service Fee Name: Cleaning Fee
+Service Fee Amount: 5.00
+Service Fee Type: Set Fee
+Count Towards Sales: Yes
+Auto-Add Orders: Retail, Takeout, Delivery, Bar Tabs, Table Order, For Here, ToGo, Drive Thru, All Order Methods
+Auto-Add Payments: All Payment Methods
+Tax Code: Default Taxrate
+Add To Split Checks: Yes
+Rounding: Always Round Up
+Discountable: No
+Calculate Pre Discount: No
+Calculate Pre Tax: Yes
+Show As Receipt Item: On
+Show As Total Line: Off
+Show As Customer Display Total: Off
+Sort Order: 1
+Example 2: Percentage Fee
+Service Fee Name: Service Charge
+Service Fee Amount: 10.00
+Service Fee Type: Percentage
+Count Towards Sales: Yes
+Auto-Add Orders: All Order Methods
+Auto-Add Payments: All Payment Methods
+Tax Code: Tax Exempt
+Add To Split Checks: Yes
+Rounding: Round Up and Down
+Discountable: Yes
+Calculate Pre Discount: Yes
+Calculate Pre Tax: No
+Show As Receipt Item: On
+Show As Total Line: On
+Show As Customer Display Total: On
+Sort Order: 0
