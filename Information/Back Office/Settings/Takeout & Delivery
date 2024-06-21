@@ -1,0 +1,252 @@
+Google Maps Integration
+
+Description: Enables or disables the use of the Google Maps API to display maps and geocode addresses.
+Example: Turning on this setting will allow your system to use Google Maps for address lookup and visualization.
+Options:
+On (Y)
+Off (N)
+Google Mapping API (Override)
+
+Description: Allows you to input custom Google Maps API credentials instead of using the default provided by the system.
+Example: If you have your own Google Maps API key, enter it here to override the default key.
+Options:
+Text input field for the API key
+Show Mapping Buttons
+
+Description: Enables or disables the display of map buttons in the point-of-sale (POS) interface.
+Example: Enabling this will show map buttons on the POS for easier address visualization.
+Options:
+On (Y)
+Off (N)
+Require Delivery Zone
+
+Description: Specifies whether a delivery address must be within a predefined delivery zone.
+Example: If this is turned on, customers must provide an address within a delivery zone to place an order.
+Options:
+On (Y)
+Off (N)
+Minimum Delivery Order
+
+Description: Sets the minimum order amount required for delivery when no delivery zone is found.
+Example: Setting this to $10.00 means that customers must order at least $10 worth of items for delivery if they are not in a delivery zone.
+Options:
+Text input field for the minimum order amount
+Default State
+
+Description: Sets the default state for takeout and delivery orders.
+Example: Setting the default state to "California" will auto-select California for all new orders unless changed.
+Options:
+Dropdown menu with US state options
+Default City
+
+Description: Sets the default city for takeout and delivery orders.
+Example: If the default city is set to "Los Angeles," it will be pre-filled for all new orders.
+Options:
+Text input field for the city name
+Default Zipcode
+
+Description: Sets the default zipcode for takeout and delivery orders.
+Example: Setting the default zipcode to "90210" will pre-fill this zipcode for new orders.
+Options:
+Text input field for the zipcode
+Default Areacode
+
+Description: Sets the default area code for phone numbers in takeout and delivery orders.
+Example: Setting the default area code to "310" will auto-fill this area code for new orders.
+Options:
+Text input field for the area code
+No Zone Delivery Service Fee
+
+Description: Determines the service fee applied for deliveries outside of defined zones.
+Example: Choosing a fee of $5.00 will apply this charge for any delivery that doesn't fall within a delivery zone.
+Options:
+Dropdown menu for selecting the fee
+Require Full Name
+
+Description: Specifies whether a full name (first and last) is required when entering a customer's information.
+Example: Enabling this setting ensures customers provide their full names during order placement.
+Options:
+On (Y)
+Off (N)
+Valid Phone Number Digits
+
+Description: Sets the minimum number of digits required for a valid phone number.
+Example: Setting this to "10" means that phone numbers must have at least 10 digits.
+Options:
+Text input field for the number of digits
+Caller ID
+
+Description: Enables or disables the Caller ID module to pull phone caller information.
+Example: Turning this on will allow the system to display caller information when a call is received.
+Options:
+On (Y)
+Off (N)
+Caller ID Lines
+
+Description: Specifies the number of lines the Caller ID module supports.
+Example: Choosing "4" means the Caller ID can handle information from up to four lines simultaneously.
+Options:
+2
+4
+8
+Caller ID - Takeout
+
+Description: Determines whether the Caller ID module automatically pops up for takeout orders.
+Example: Enabling this will automatically show caller information for takeout orders.
+Options:
+On (Y)
+Off (N)
+Caller ID - Delivery
+
+Description: Determines whether the Caller ID module automatically pops up for delivery orders.
+Example: Enabling this will automatically show caller information for delivery orders.
+Options:
+On (Y)
+Off (N)
+Takeout Picked Up
+
+Description: Specifies whether a takeout order is marked as picked up automatically, manually, or by prompt.
+Example: Setting this to "Automatic" will mark orders as picked up without user intervention.
+Options:
+Automatic (A)
+Manual (M)
+Prompt (P)
+EOD Auto-Complete Takeout
+
+Description: Determines if takeout orders are set to complete at the end of the day if they have been paid for.
+Example: Enabling this setting will automatically complete all paid takeout orders at the end of the day.
+Options:
+Yes (Y)
+No (N)
+Delivery Map Scale
+
+Description: Sets the scale of the delivery map.
+Example: Setting the scale to "5" will adjust the zoom level of the delivery map for better visibility.
+Options:
+Dropdown menu with scale options from 1 to 20
+Bar Tab Customer Require Phone
+
+Description: Specifies whether a phone number is required for bar tab customers.
+Example: Enabling this setting ensures that a phone number is collected for all bar tab customers.
+Options:
+Yes (Y)
+No (N)
+Bar Tab Customer Require Email
+
+Description: Specifies whether an email is required for bar tab customers.
+Example: Enabling this setting ensures that an email address is collected for all bar tab customers.
+Options:
+Yes (Y)
+No (N)
+Retail Customer Require Phone
+
+Description: Specifies whether a phone number is required for retail customers.
+Example: Enabling this setting ensures that a phone number is collected for all retail customers.
+Options:
+Yes (Y)
+No (N)
+Retail Customer Require Email
+
+Description: Specifies whether an email is required for retail customers.
+Example: Enabling this setting ensures that an email address is collected for all retail customers.
+Options:
+Yes (Y)
+No (N)
+Takeout Customer Require Phone
+
+Description: Specifies whether a phone number is required for takeout customers.
+Example: Enabling this setting ensures that a phone number is collected for all takeout customers.
+Options:
+Yes (Y)
+No (N)
+Takeout Customer Require Email
+
+Description: Specifies whether an email is required for takeout customers.
+Example: Enabling this setting ensures that an email address is collected for all takeout customers.
+Options:
+Yes (Y)
+No (N)
+Table Service Customer Require Phone
+
+Description: Specifies whether a phone number is required for table service customers.
+Example: Enabling this setting ensures that a phone number is collected for all table service customers.
+Options:
+Yes (Y)
+No (N)
+Table Service Customer Require Email
+
+Description: Specifies whether an email is required for table service customers.
+Example: Enabling this setting ensures that an email address is collected for all table service customers.
+Options:
+Yes (Y)
+No (N)
+Delivery Customer Require Phone
+
+Description: Specifies whether a phone number is required for delivery customers.
+Example: Enabling this setting ensures that a phone number is collected for all delivery customers.
+Options:
+Yes (Y)
+No (N)
+Delivery Customer Require Email
+
+Description: Specifies whether an email is required for delivery customers.
+Example: Enabling this setting ensures that an email address is collected for all delivery customers.
+Options:
+Yes (Y)
+No (N)
+For Here Customer Require Phone
+
+Description: Specifies whether a phone number is required for customers dining in.
+Example: Enabling this setting ensures that a phone number is collected for all dine-in customers.
+Options:
+Yes (Y)
+No (N)
+For Here Customer Require Email
+
+Description: Specifies whether an email is required for customers dining in.
+Example: Enabling this setting ensures that an email address is collected for all dine-in customers.
+Options:
+Yes (Y)
+No (N)
+ToGo Customer Require Phone
+
+Description: Specifies whether a phone number is required for to-go customers.
+Example: Enabling this setting ensures that a phone number is collected for all to-go customers.
+Options:
+Yes (Y)
+No (N)
+ToGo Customer Require Email
+
+Description: Specifies whether an email is required for to-go customers.
+Example: Enabling this setting ensures that an email address is collected for all to-go customers.
+Options:
+Yes (Y)
+No (N)
+Drive Thru Customer Require Phone
+
+Description: Specifies whether a phone number is required for drive-thru customers.
+Example: Enabling this setting ensures that a phone number is collected for all drive-thru customers.
+Options:
+Yes (Y)
+No (N)
+Drive Thru Customer Require Email
+
+Description: Specifies whether an email is required for drive-thru customers.
+Example: Enabling this setting ensures that an email address is collected for all drive-thru customers.
+Options:
+Yes (Y)
+No (N)
+Driver Address Emails
+
+Description: Specifies if drivers will receive emails with addresses for delivery orders when checked out.
+Example: Enabling this setting will ensure drivers get an email with delivery addresses.
+Options:
+Yes (1)
+No (0)
+Driver Address SMS
+
+Description: Specifies if drivers will receive SMS messages with addresses for delivery orders when checked out.
+Example: Enabling this setting will ensure drivers get an SMS with delivery addresses.
+Options:
+Yes (1)
+No (0)
