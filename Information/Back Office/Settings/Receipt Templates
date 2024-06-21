@@ -1,0 +1,101 @@
+Receipt Templates
+Overview
+Receipt templates are essential for creating professional and organized documentation of financial transactions. This guide will help you create and edit receipt templates, enabling you to customize and optimize your receipt generation workflow.
+
+Navigation
+To access Receipt Templates Settings:
+Go to Back Office > Settings > Receipt Template
+Editing Templates
+Find the template you want to edit. You can also clone an existing template to begin creating a new one.
+
+
+
+Click "Edit" to access the receipt items
+
+
+
+Here is where you can arrange, add, or modify the various receipt lines.
+
+To add a row, click the "Add Row" button at either the top or bottom
+Once a receipt line is added, you'll see a  line. Click this and it'll bring you to a menu of receipt items
+
+Once done, hit "Save"
+
+
+ = Makes the text Bold
+ = Underlines the text
+ = Ink Color
+ = The size of the text
+S = Small
+2xH = Double Height
+2xW = Double Width
+2xHW = Double Height/Width
+Receipt Line Options
+
+Authorization: Approval by a payment processor for a transaction.
+Blank Line: An empty line.
+Card Holder: The individual who authorized the payment card.
+Card Type: The category of payment card used (e.g., Visa, Mastercard).
+Cashier: The employee who processed the payment.
+Character Line: A line for characters (letters, numbers, symbols).
+Credit Copy: A duplicate receipt for the merchant.
+Credit ID: An ID number for the credit card transaction.
+Custom Text: Enter custom text on the receipt.
+Customer Address: The address of the customer.
+Customer Name: The name of the customer.
+Customer Notes: Notes from the POS for the customer.
+Customer Phone: The customer's contact number.
+Date: The date of the transaction.
+Date/Time: The date and time of the transaction.
+Discount: A deduction from the total amount.
+Driver Instructions: Instructions for the delivery driver.
+EMV Info: Information related to EMV chip technology.
+Entry Method: The method of payment card entry (swiped, tapped, manually keyed).
+Grand Total: The total amount including subtotal, taxes, and additional charges.
+Gratuity: A tip provided by the customer.
+Invoice ID: A unique identifier for the invoice.
+Kitchen ID: A code used to reference the order in the kitchen.
+Last 4: The last four digits of the payment card number.
+Loyalty Calculated New Balance Line: The new balance of loyalty points after the transaction.
+Loyalty Disclaimer: Terms and conditions of a loyalty program.
+Loyalty Points Used Line: The number of loyalty points redeemed.
+Loyalty Starting Balance Line: The initial balance of loyalty points.
+Merchant ID: ID of the merchant.
+Number Of Guests: Number of guests assigned to an order or table.
+Order ID: Unique identifier for the order.
+Order Method: Method the order was completed (Delivery, Takeout, Table).
+Order Notes: Notes made during the order.
+Order Number: The order number.
+Order Status: Status of the order.
+Order Tag: Specific tags used for the order.
+Paid Line: The amount or method of payment confirming payment.
+Pay Line Agreement: Terms and conditions for payment.
+Print Other Station Items: Whether additional items should be printed at other stations.
+Ready Time: Estimated time for order pickup or delivery.
+Receipt Header Text: Information at the top of the receipt (business name, logo, address).
+Reference: A reference number or code for the transaction.
+Restaurant Address: The address of the restaurant.
+Restaurant Email: The email address of the restaurant.
+Restaurant Info: General information about the restaurant.
+Restaurant Name: The name of the restaurant.
+Restaurant Phone: The contact number of the restaurant.
+Scheduled Order Date: The date for a scheduled order.
+Scheduled Order Line: Details of a scheduled order.
+Scheduled Order Time: The time for a scheduled order.
+Server: The name of the server who assisted with the order.
+Signature Line: A line for the customer’s signature.
+Station Number of Items: The number of items at a specific station.
+Station ID: Identification number of the station.
+Station Items: Items associated with the station.
+Station Name: Name or label of the station.
+Sub-Total: Total amount before taxes and discounts.
+Suggested Tips: Tip recommendations.
+Table Number: Number assigned to the table.
+Tax Total: Total amount of taxes.
+Terminal: Device used to process the transaction.
+Ticket Number: Unique number assigned to the receipt.
+Time: Specific time of the transaction.
+Tip Line: Line for the customer to write the tip amount.
+Total Items: Total number of items in the transaction.
+Total Line: Final total amount to be paid.
+Trans ID: Transaction ID number for tracking.
