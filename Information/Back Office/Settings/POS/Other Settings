@@ -1,0 +1,211 @@
+Show All Items Button
+Timeset Items: Toggle whether the "show all items" button will display items even if they are not available due to timeset restrictions.
+
+Options: On/Off
+Unavailable Items: Toggle whether the "show all items" button will display items even if they are marked as unavailable.
+
+Options: On/Off
+Order Type Items: Toggle whether the "show all items" button will display items even if they are not available for the selected order type.
+
+Options: On/Off
+Menu Display Options
+Options - Sort: Determine whether options are sorted horizontally or vertically on the screen.
+
+Options: Horizontal/Vertical
+Speed Modifier - Sort: Determine whether speed modifiers are sorted horizontally or vertically on the screen.
+
+Options: Horizontal/Vertical
+Show Price: Toggle whether prices appear on the menu buttons.
+
+Options: On/Off
+Automated Services
+Automated Services: Enable or disable automated end-of-day services.
+
+Options: On/Off
+Server Terminal: Select the terminal where automated services will take place. This should be the primary server terminal of the system; otherwise, some services may fail.
+
+Options: [List of connected terminals, e.g., 0001, 0004]
+Auto EOD: Enable or disable automatic end-of-day processes to run at a specified time.
+
+Options: On/Off
+Auto EOD Terminal: Select the terminal where the auto end-of-day process will be completed.
+
+Options: [List of connected terminals, e.g., 0001, 0004]
+Auto Batch: Enable or disable automatic batching processes to run at a specified time.
+
+Options: On/Off
+Auto Batch Terminal: Select the terminal where the auto batch process will be completed.
+
+Options: [List of connected terminals, e.g., 0001, 0004]
+Auto Start Hour: Set the hour when the auto end-of-day or batch process will start.
+
+Options: Various times from 12 AM to 11 PM
+Auto Start Minute: Set the minute when the auto end-of-day or batch process will start.
+
+Options: Various minutes from 00 to 59
+Display Wait Times
+Display Takeout Wait Time: Toggle whether the takeout wait time is displayed.
+
+Options: Yes/No
+Display Delivery Wait Time: Toggle whether the delivery wait time is displayed.
+
+Options: Yes/No
+Current Takeout Time: Set the current wait time for takeout orders.
+
+Options: Input field (default: 15 minutes)
+Default Takeout Time: Set the default wait time for takeout orders.
+
+Options: Input field (default: 15 minutes)
+Current Delivery Time: Set the current wait time for delivery orders.
+
+Options: Input field (default: 45 minutes)
+Default Delivery Time: Set the default wait time for delivery orders.
+
+Options: Input field (default: 45 minutes)
+Auto Time Reset: Enable or disable automatic resetting of default takeout and delivery times each day at a specified time.
+
+Options: On/Off
+Auto Time Reset Time: Set the time at which the auto time reset feature will activate.
+
+Options: Various times from 12 AM to 11 PM
+
+Display Wait Times
+Display Takeout Wait Time: Toggle the visibility of the takeout wait time display.
+
+Options: Yes/No
+Display Delivery Wait Time: Toggle the visibility of the delivery wait time display.
+
+Options: Yes/No
+Current Takeout Time: Set the current wait time for takeout orders.
+
+Options: Input field (default: 15 minutes)
+Default Takeout Time: Set the default wait time for takeout orders.
+
+Options: Input field (default: 15 minutes)
+Current Delivery Time: Set the current wait time for delivery orders.
+
+Options: Input field (default: 45 minutes)
+Default Delivery Time: Set the default wait time for delivery orders.
+
+Options: Input field (default: 45 minutes)
+Auto Time Reset: Enable or disable automatic resetting of default takeout and delivery times each day at a specified time.
+
+Options: On/Off
+Auto Time Reset Time: Set the time at which the auto time reset feature will activate.
+
+Options: Various times from 12 AM to 11 PM
+Guest Count Methods
+Retail Guest Count Method: Determine how guest counts are calculated for retail orders.
+
+Options: Prompt/Amount/Drinks/One/Zero
+Takeout Guest Count Method: Determine how guest counts are calculated for takeout orders.
+
+Options: Prompt/Amount/Drinks/One/Zero
+Delivery Guest Count Method: Determine how guest counts are calculated for delivery orders.
+
+Options: Prompt/Amount/Drinks/One/Zero
+Bar Tab Guest Count Method: Determine how guest counts are calculated for bar tab orders.
+
+Options: Prompt/Amount/Drinks/One/Zero
+Table Guest Count Method: Determine how guest counts are calculated for table orders.
+
+Options: Prompt/Amount/Drinks/One/Zero
+For Here Guest Count Method: Determine how guest counts are calculated for dine-in orders.
+
+Options: Prompt/Amount/Drinks/One/Zero
+ToGo Guest Count Method: Determine how guest counts are calculated for to-go orders.
+
+Options: Prompt/Amount/Drinks/One/Zero
+Drive Thru Guest Count Method: Determine how guest counts are calculated for drive-thru orders.
+
+Options: Prompt/Amount/Drinks/One/Zero
+Amount Threshold: Set the amount that, when surpassed, will count an additional guest using the amount count method.
+
+Options: Input field (default: $10.00)
+Max Prompt Entry: Set the maximum number of guests that can be entered in the guest prompt for methods using the prompt. Disabled if set to zero.
+
+Options: Input field (default: 0)
+Confirmation Settings
+Disable Order Ticket Reprint Confirmation: Disable the confirmation prompt for reprinting an order ticket.
+
+Options: Yes/No
+Disable Confirm Delivery Orders: Disable the confirmation prompt for delivery orders.
+
+Options: Yes/No
+Disable Confirm Order Without Payment: Disable the confirmation prompt for orders without payment.
+
+Options: Yes/No
+Inventory Settings
+Enable Inventory Invoice Edits: Allow or prevent editing of inventory invoices after they are received.
+
+Options: Yes/No
+Enable Inventory Order Quantity Suggestions: Enable or disable the suggestion of previously ordered amounts for new inventory orders.
+
+Options: Yes/No
+Ordering Below Reorder Default On: Determine whether the option to "Only return items with quantity below reorder point" is on by default when ordering.
+
+Options: Yes/No
+Calculate On Hand at EOD: Enable or disable calculation of on-hand inventory at the end of the day.
+
+Options: Yes/No
+Auto Create Inventory Count at EOD: Automatically create an inventory count with the on-hand calculation at the end of the day if "Calculate On Hand at EOD" is enabled.
+
+Options: Yes/No
+Allow Inventory Transfer: Enable or disable the "Transfer Inventory" button on the POS control panel, allowing transfer of inventory between different databases.
+
+Options: Yes/No
+Scan Not Found Inventory Sales Item: Allow the user to add a new inventory sales item when an item is scanned on the order screen and not found in the POS.
+
+Options: Yes/No
+Allow POS Invoices: Enable or disable the creation of invoices from the POS under the control panel.
+
+Options: Yes/No
+Inventory Sales Item Require Report Category: Make the report category a required field when adding inventory sales items.
+
+Options: Yes/No
+Inventory Sales Item Require Tare Weight: Make the tare weight a required field when adding inventory sales items.
+
+Options: Yes/No
+Inventory Sales Item Require Barcode: Make the barcode a required field when adding inventory sales items.
+
+Options: Yes/No
+Inventory Sales Item Require Inventory Name: Make the inventory name a required field when adding inventory sales items.
+
+Options: Yes/No
+Inventory Sales Item Require Stock Number: Make the stock number a required field when adding inventory sales items.
+
+Options: Yes/No
+Inventory Sales Item Require Cost Per Unit: Make the cost per unit a required field when adding inventory sales items.
+
+Options: Yes/No
+Claimed Tips
+Total Transactions: Show or hide the total number of transactions on the claimed tip screen.
+
+Options: Yes/No
+Total Electronic Tips: Show or hide the total number of electronic tips (e.g., gift card, credit, account) on the claimed tip screen.
+
+Options: Yes/No
+Show 25%: Show or hide 25% of tips received on the claimed tip screen.
+
+Options: Yes/No
+Show 20%: Show or hide 20% of tips received on the claimed tip screen.
+
+Options: Yes/No
+Show 15%: Show or hide 15% of tips received on the claimed tip screen.
+
+Options: Yes/No
+Show 10%: Show or hide 10% of tips received on the claimed tip screen.
+
+Options: Yes/No
+Show Claimed Tip: Show or hide the claimed tip on the tip printout.
+
+Options: Yes/No
+Claimed Tip As Percentage: Determine if the minimum allowed tip is counted as a percentage.
+
+Options: Yes/No
+Require Minimum Claim: Require the claimed tip amount to be at least a percentage of the credit and gift card tips received. Override possible with "Override Minimum Claimed Tip" privilege.
+
+Options: On/Off
+Require Minimum Claim Amount: Set the amount of tips that need to be claimed. "Claimed Tip As Percentage" determines if this is counted as a percentage.
+
+Options: Input field (default: 100%)
