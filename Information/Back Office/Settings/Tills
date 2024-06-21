@@ -1,0 +1,410 @@
+General Till Settings
+Till Type
+
+Description: The type of till used. Group till allows anyone access to the till. Strict till only allows the cashier(s) assigned access to the till.
+Example: Setting this to "Strict Till" ensures that only the assigned cashier(s) can access the till.
+Options:
+Group Till (Y)
+Strict Till (N)
+Pay Ins/Outs
+
+Description: Determines whether pay ins/outs can be done from personal banks and tills or just tills.
+Example: Enabling "Banks and Tills" allows employees to perform pay ins/outs from both personal banks and tills.
+Options:
+Tills Only (Y)
+Banks and Tills (N)
+Credit Over Tender
+
+Description: Determines whether a credit transaction can be made for an amount over the total.
+Example: Enabling this allows customers to charge an amount greater than the purchase total for cash back or tips.
+Options:
+Yes (Y)
+No (N)
+Apply Credit Over Tender to Tips
+
+Description: Determines whether a credit transaction over tender is applied as a tip.
+Example: Enabling this setting applies any over-tendered credit amount as a tip.
+Options:
+Yes (Y)
+No (N)
+Credit Over Tender Limit
+
+Description: The amount a credit transaction can be over the total for cash back/tip.
+Example: Setting this to "20.00" allows credit transactions to be up to $20 over the purchase total.
+Options:
+Text input field for the amount
+Check Over Tender
+
+Description: Determines whether a check can be written for an amount over the total.
+Example: Enabling this allows checks to be written for more than the purchase total for cash back or tips.
+Options:
+Yes (Y)
+No (N)
+Apply Check Over Tender to Tips
+
+Description: Determines whether a check transaction over tender is applied as a tip.
+Example: Enabling this setting applies any over-tendered check amount as a tip.
+Options:
+Yes (Y)
+No (N)
+Check Over Tender Limit
+
+Description: The amount a check can be written over for cash back/tip.
+Example: Setting this to "50.00" allows checks to be written for up to $50 over the purchase total.
+Options:
+Text input field for the amount
+Gift Card Over Tender
+
+Description: Determines whether a gift card transaction can be made for an amount over the total.
+Example: Enabling this allows gift card transactions to exceed the purchase total for cash back or tips.
+Options:
+Yes (Y)
+No (N)
+Apply Gift Card Over Tender to Tips
+
+Description: Determines whether a gift card transaction over tender is applied as a tip.
+Example: Enabling this setting applies any over-tendered gift card amount as a tip.
+Options:
+Yes (Y)
+No (N)
+Gift Card Over Tender Limit
+
+Description: The amount a gift card transaction can be over the total for cash back/tip.
+Example: Setting this to "10.00" allows gift card transactions to be up to $10 over the purchase total.
+Options:
+Text input field for the amount
+Other Payment Over Tender
+
+Description: Determines whether an other payment transaction can be made for an amount over the total.
+Example: Enabling this allows transactions using other payment methods to exceed the purchase total for cash back or tips.
+Options:
+Yes (Y)
+No (N)
+Apply Other Payment Over Tender to Tips
+
+Description: Determines whether an other payment transaction over tender is applied as a tip.
+Example: Enabling this setting applies any over-tendered amount from other payment methods as a tip.
+Options:
+Yes (Y)
+No (N)
+Other Payment Over Tender Limit
+
+Description: The amount an other payment transaction can be over the total for cash back/tip.
+Example: Setting this to "15.00" allows transactions to be up to $15 over the purchase total.
+Options:
+Text input field for the amount
+Default Starting Amount
+
+Description: Default funds a till is opened with.
+Example: Setting this to "300.00" ensures each till starts with $300.
+Options:
+Text input field for the amount
+Fee Split Groups
+
+Description: Determines whether fee groups are used to split the tips and fees in a till/bank to different groups assigned.
+Example: Selecting "Table Based Fee Group" splits tips and fees based on the table assignments.
+Options:
+Table Based Fee Group (T)
+Select Group Each Time (Y)
+Use Default Group (D)
+No (N)
+Default Fee Group
+
+Description: Default fee group to split fees/tips.
+Example: Setting a default fee group ensures consistent splitting of fees and tips.
+Options:
+Dropdown menu for selecting the default fee group
+Retain Credit Tip Percentage
+
+Description: Percentage of credit card tips retained to the location.
+Example: Setting this to "0.05" retains 5% of credit card tips for the location.
+Options:
+Text input field for the percentage
+Retain Credit Gratuity Percentage
+
+Description: Percentage of gratuity retained by the location.
+Example: Setting this to "0.02" retains 2% of gratuity for the location.
+Options:
+Text input field for the percentage
+Delivery Fee Driver Percentage
+
+Description: Percentage of delivery fee that should be assigned to the driver. Entered as a decimal (0.50 = 50%).
+Example: Setting this to "0.50" assigns 50% of the delivery fee to the driver.
+Options:
+Text input field for the percentage
+Simplified Cash Management
+
+Description: Tills are removed from Till and Bank management. Banks become the default option. Drawers can be assigned to employees.
+Example: Enabling this simplifies cash management by using personal banks as the default option.
+Options:
+On (Y)
+Off (N)
+Tip To First Employee All Payment Methods
+
+Description: Tips go to the employee who started an order regardless of who closed the order for all payment methods. When set to On, this setting overrides other "Tip To First Employee" settings.
+Example: Enabling this ensures the first employee receives the tip for any order they start.
+Options:
+On (Y)
+Off (N)
+Tip To First Employee Takeout
+
+Description: Tips go to the employee who started an order regardless of who closed the order for takeout orders.
+Example: Enabling this ensures the first employee receives the tip for takeout orders they start.
+Options:
+On (Y)
+Off (N)
+Tip To First Employee Bar
+
+Description: Tips go to the employee who started an order regardless of who closed the order for bar orders.
+Example: Enabling this ensures the first employee receives the tip for bar orders they start.
+Options:
+On (Y)
+Off (N)
+Tip To First Employee Delivery
+
+Description: Tips go to the employee who started an order regardless of who closed the order for delivery orders.
+Example: Enabling this ensures the first employee receives the tip for delivery orders they start.
+Options:
+On (Y)
+Off (N)
+Tip To First Employee Drive Thru
+
+Description: Tips go to the employee who started an order regardless of who closed the order for drive thru orders.
+Example: Enabling this ensures the first employee receives the tip for drive-thru orders they start.
+Options:
+On (Y)
+Off (N)
+Tip To First Employee Retail
+
+Description: Tips go to the employee who started an order regardless of who closed the order for retail orders.
+Example: Enabling this ensures the first employee receives the tip for retail orders they start.
+Options:
+On (Y)
+Off (N)
+Simplified Cash Management - Open Drawer
+
+Description: Determines when the drawer opens when using SCM and an assigned drawer.
+Example: Setting this to "Assigned Terminal" opens the drawer only at the terminal assigned to the drawer.
+Options:
+Any Terminal (A)
+Assigned Terminal (T)
+Never (N)
+Assigned Gratuity
+
+Description: Determines who is assigned gratuity on an order.
+Example: Setting this to "Cashier" assigns the gratuity to the cashier who processes the order.
+Options:
+Server (S)
+Cashier (C)
+Personal Bank Settings
+Default Starting Amount
+
+Description: Default funds a bank is opened with.
+Example: Setting this to "100.00" ensures each personal bank starts with $100.
+Options:
+Text input field for the amount
+Table Order
+
+Description: Allows employees without a till assigned to check out a table order and have the funds assigned to their personal bank.
+Example: Enabling this allows employees to manage table orders through their personal bank.
+Options:
+On (Y)
+Off (N)
+Bar Order
+
+Description: Allows employees without a till assigned to check out a bar order and have the funds assigned to their personal bank.
+Example: Enabling this allows employees to manage bar orders through their personal bank.
+Options:
+On (Y)
+Off (N)
+Retail Order
+
+Description: Allows employees without a till assigned to check out a retail order and have the funds assigned to their personal bank.
+Example: Enabling this allows employees to manage retail orders through their personal bank.
+Options:
+On (Y)
+Off (N)
+Takeout Order
+
+Description: Allows employees without a till assigned to check out a takeout order and have the funds assigned to their personal bank.
+Example: Enabling this allows employees to manage takeout orders through their personal bank.
+Options:
+On (Y)
+Off (N)
+Delivery Order
+
+Description: Allows employees without a till assigned to check out a delivery order and have the funds assigned to their personal bank.
+Example: Enabling this allows employees to manage delivery orders through their personal bank.
+Options:
+On (Y)
+Off (N)
+Starting Amount
+
+Description: Allows employees to enter a starting amount for their bank.
+Example: Enabling this setting allows employees to input their initial bank funds.
+Options:
+On (Y)
+Off (N)
+Driver Banks
+
+Description: If driver banks are turned on, funds are always removed from where they were originally assigned and assigned to the delivery driver bank when the delivery order is completed. If off, funds will stay assigned to where they were originally assigned. Also, if off, tips that are already entered before the delivery order is complete will be assigned to the cashier and not the driver.
+Example: Enabling this ensures that delivery funds and tips are reassigned to the driver's bank upon order completion.
+Options:
+On (Y)
+Off (N)
+Banks - Check for Open Tables
+
+Description: Determines whether closing a bank checks for open tables or not.
+Example: Enabling this ensures that banks cannot be closed if there are open table orders.
+Options:
+Yes (Y)
+No (N)
+Banks - Check for Open Bar Tabs
+
+Description: Determines whether closing a bank checks for open bar tabs or not.
+Example: Enabling this ensures that banks cannot be closed if there are open bar tabs.
+Options:
+Yes (Y)
+No (N)
+Banks - Check for Open Takeout Orders
+
+Description: Determines whether closing a bank checks for open takeout orders or not.
+Example: Enabling this ensures that banks cannot be closed if there are open takeout orders.
+Options:
+Yes (Y)
+No (N)
+Banks - Check for Open Delivery Orders
+
+Description: Determines whether closing a bank checks for open delivery orders or not.
+Example: Enabling this ensures that banks cannot be closed if there are open delivery orders.
+Options:
+Yes (Y)
+No (N)
+Banks - Check for Open Retail Orders
+
+Description: Determines whether closing a bank checks for open retail orders or not.
+Example: Enabling this ensures that banks cannot be closed if there are open retail orders.
+Options:
+Yes (Y)
+No (N)
+Tills - Check for Open Tables
+
+Description: Determines whether closing a till checks for open tables or not.
+Example: Enabling this ensures that tills cannot be closed if there are open table orders.
+Options:
+Yes (Y)
+No (N)
+Tills - Check for Open Bar Tabs
+
+Description: Determines whether closing a till checks for open bar tabs or not.
+Example: Enabling this ensures that tills cannot be closed if there are open bar tabs.
+Options:
+Yes (Y)
+No (N)
+Tills - Check for Open Takeout Orders
+
+Description: Determines whether closing a till checks for open takeout orders or not.
+Example: Enabling this ensures that tills cannot be closed if there are open takeout orders.
+Options:
+Yes (Y)
+No (N)
+Tills - Check for Open Delivery Orders
+
+Description: Determines whether closing a till checks for open delivery orders or not.
+Example: Enabling this ensures that tills cannot be closed if there are open delivery orders.
+Options:
+Yes (Y)
+No (N)
+Tills - Check for Open Retail Orders
+
+Description: Determines whether closing a till checks for open retail orders or not.
+Example: Enabling this ensures that tills cannot be closed if there are open retail orders.
+Options:
+Yes (Y)
+No (N)
+Cash Drawer Opens
+Cash Refund
+
+Description: Determines whether the cash drawer will open on a cash refund.
+Example: Enabling this ensures that the cash drawer opens whenever a cash refund is processed.
+Options:
+Yes (Y)
+No (N)
+Credit Refund
+
+Description: Determines whether the cash drawer will open on a credit refund.
+Example: Enabling this ensures that the cash drawer opens whenever a credit refund is processed.
+Options:
+Yes (Y)
+No (N)
+Check Refund
+
+Description: Determines whether the cash drawer will open on a check refund.
+Example: Enabling this ensures that the cash drawer opens whenever a check refund is processed.
+Options:
+Yes (Y)
+No (N)
+Gift Card Refund
+
+Description: Determines whether the cash drawer will open on a gift card refund.
+Example: Enabling this ensures that the cash drawer opens whenever a gift card refund is processed.
+Options:
+Yes (Y)
+No (N)
+Account Refund
+
+Description: Determines whether the cash drawer will open on an account refund.
+Example: Enabling this ensures that the cash drawer opens whenever an account refund is processed.
+Options:
+Yes (Y)
+No (N)
+Cash Void
+
+Description: Determines whether the cash drawer will open on a cash void.
+Example: Enabling this ensures that the cash drawer opens whenever a cash void is processed.
+Options:
+Yes (Y)
+No (N)
+Credit Void
+
+Description: Determines whether the cash drawer will open on a credit void.
+Example: Enabling this ensures that the cash drawer opens whenever a credit void is processed.
+Options:
+Yes (Y)
+No (N)
+Check Void
+
+Description: Determines whether the cash drawer will open on a check void.
+Example: Enabling this ensures that the cash drawer opens whenever a check void is processed.
+Options:
+Yes (Y)
+No (N)
+Gift Card Void
+
+Description: Determines whether the cash drawer will open on a gift card void.
+Example: Enabling this ensures that the cash drawer opens whenever a gift card void is processed.
+Options:
+Yes (Y)
+No (N)
+Adjustment Settings
+Adjustments Required
+
+Description: Requires employees to enter till/bank adjustments in order to close the till/bank. If employees close out of adjustments, the till/bank will not be closed. Closing out of adjustments will also prevent an EOD from running.
+Example: Enabling this setting ensures that all adjustments must be logged before closing a till/bank.
+Options:
+On (Y)
+Off (N)
+Cash Calculator
+
+Description: Enables the Cash Calculator when logging a till/bank adjustment. The Cash Calculator allows the employee to enter quantities of different denominations to calculate cash. Denominations are set up on the Denominations Settings page.
+Example: Enabling this provides a tool to help employees accurately calculate cash during adjustments.
+Options:
+On (Y)
+Off (N)
+Show Expected Values
+
+Description: Allows employees to see expected cash, credit, etc. values when entering till/bank adjustments.
+Example: Enabling this helps employees verify their adjustments against expected values.
+Options:
+On (Y)
+Off (N)
