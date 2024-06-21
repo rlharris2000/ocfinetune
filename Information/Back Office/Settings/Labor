@@ -1,0 +1,95 @@
+Labor Settings
+These settings manage various aspects of employee labor, such as work schedules, pay periods, overtime, and notifications. Here's an explanation of each setting:
+
+Work Week Starts
+Description: Determines which day of the week the work week begins.
+Example: Setting this to "Monday" means the work week starts on Monday.
+Options: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+Pay Period
+Description: Defines how often employees are paid.
+Example: Choosing "Weekly" means employees are paid every week.
+Options:
+Weekly
+Bi-Weekly
+Pay Period Ends
+Description: For bi-weekly pay periods, determines when the pay period ends.
+Example: Selecting "Next Week" means the pay period ends on the next week after the current one.
+Options:
+This Week
+Next Week
+Minimum Wage
+Description: Sets the minimum wage for employees.
+Example: Inputting "7.50" ensures that the minimum hourly wage is $7.50.
+Options: Text input field for the wage amount
+Overtime
+Percentage
+
+Description: Specifies if overtime pay is calculated as a percentage.
+Example: Checking this option and setting "150%" means overtime is paid at 150% of the regular rate.
+Options:
+Checkbox
+Text input field for the percentage amount
+Amount
+
+Description: Specifies if overtime pay is calculated as a fixed amount.
+Example: Checking this option and setting "$1.00" means overtime is paid an additional $1.00 per hour.
+Options:
+Checkbox
+Text input field for the amount
+Overtime Hours
+Description: Defines the number of hours per week after which overtime pay applies.
+Example: Setting this to "40" means overtime pay is applied after 40 hours of work per week.
+Options: Text input field for the number of hours
+Early Clock In Limit
+Description: Sets the limit for early clock-ins before a scheduled shift.
+Example: Inputting "7" means employees can clock in up to 7 minutes before their shift starts.
+Options: Text input field for the number of minutes
+Tardy Notification
+Description: Specifies if a notification is sent when an employee is tardy.
+Example: Selecting "Yes" means a notification is sent when an employee is late.
+Options:
+Yes
+No
+Tardy Limit
+Description: Sets the limit for how late an employee can be before being marked as tardy.
+Example: Inputting "0" means any lateness will be marked as tardy.
+Options: Text input field for the number of minutes
+Late Clock Out Notification
+Description: Specifies if a notification is sent when an employee clocks out late.
+Example: Selecting "Yes" means a notification is sent when an employee clocks out late.
+Options:
+Yes
+No
+Late Clock Out Limit
+Description: Sets the limit for how late an employee can clock out.
+Example: Inputting "0" means any lateness will be marked as a late clock out.
+Options: Text input field for the number of minutes
+Employee Pay Rates
+Description: Determines if pay rates are set per employee or per job.
+Example: Selecting "Per Employee" means each employee can have a unique pay rate.
+Options:
+Per Employee
+Per Jobs
+Salary Employees Percentage Per Hour
+Description: Sets the percentage per hour for salaried employees.
+Example: Inputting ".00" means salaried employees are not paid by the hour.
+Options: Text input field for the percentage
+Labor Period Settings
+These settings manage different labor periods within the day, such as breakfast, lunch, dinner, and late night.
+
+Labor Period Name
+Description: The name of the labor period.
+Example: "Breakfast," "Lunch," "Dinner," "Late Night"
+Options: Text input field for the name
+Hours
+Description: Specifies the hours that each labor period covers.
+Example: Checking the boxes for "5 AM to 11 AM" sets the breakfast period to those hours.
+Options: Checkboxes for each hour of the day
+Create New Labor Period
+Description: Allows the creation of a new labor period with a specified name and hours.
+Example: Inputting "Brunch" and checking "10 AM to 2 PM" creates a new labor period for brunch.
+Options:
+Text input field for the name
+Checkboxes for each hour of the day
+Button to save the new labor period
+Each of these settings helps to structure and manage labor operations effectively, ensuring compliance with wage laws, proper scheduling, and efficient management of employee work hours and notifications.
