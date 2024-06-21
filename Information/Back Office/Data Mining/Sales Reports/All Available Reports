@@ -1,0 +1,120 @@
+Till and Bank Reports
+Active Banks: Shows the status and details of currently active banks.
+Active Tills: Provides information on tills that are currently active.
+Closed Banks: Displays details of banks that have been closed.
+Closed Tills: Shows information on tills that have been closed.
+Consolidated Bank and Till Report: Combines data from both banks and tills into a single report.
+Bank and Till Tracker: Tracks the activity and status of banks and tills.
+R365 Drawer: Specific to the R365 drawer details and status.
+Sales Reports
+Operations Report: Provides an overview of the sales operations.
+Credit Card Batch Report: Shows batch details of credit card transactions.
+Credit Card Detail Report: Provides detailed information on each credit card transaction.
+Daily Transaction Report (Deprecated): An older version of daily transaction summaries.
+End Of Day Search: Allows searching for transactions at the end of the day.
+Gift Card Report: Details on gift card sales and usage.
+Hourly Sales Comparison Report By Time Entered: Compares sales on an hourly basis by the time entered.
+Hourly Sales Comparison Report By Time Transaction Completed: Compares sales on an hourly basis by the time the transaction was completed.
+Hourly Transaction Report: A report on transactions broken down by hour.
+Operations Report Old: An older version of the operations report.
+Orders By Zip Code Report: Shows orders sorted by zip code.
+Sales Journal: A detailed journal of sales transactions.
+Scheduled Order Report: Report on orders that are scheduled for future dates.
+Table Statistics Report: Statistics related to table usage and sales.
+Terminal Performance Report: Performance metrics for sales terminals.
+Transaction Report: General report on all transactions.
+Open Tabs Report: Shows details of open tabs.
+Transaction Taxcode Report: Report on transactions categorized by tax codes.
+Scheduled Item Report: Details on items scheduled for future transactions.
+Category Tracking Report: Tracks sales and performance by category.
+Profit Centers Report: Report on the performance of different profit centers.
+R365 Details: Specific details related to R365 transactions.
+R365 Sales: Sales data specific to R365.
+R365 Payments: Details on payments through R365.
+Redeemed Deposit Report: Report on redeemed deposits.
+Sales By Serving Period: Sales data categorized by serving periods.
+Operations Report CSV Export: Export of the operations report in CSV format.
+Daily System Sales Detail With Labor: Detailed sales report including labor costs.
+Clearing Account Balancing CSV Day Report: Balancing report for clearing accounts.
+Transaction CSV Export Report: Export of transaction details in CSV format.
+Transaction CSV Export Report By Category: CSV export of transactions sorted by category.
+Transaction CSV Export Report By Day: Daily transaction details in CSV format.
+Transaction CSV Export Report Amount Paid By Category: Report on amounts paid categorized by transaction category.
+Transaction CSV Export Report Amount Paid By Day: Daily amounts paid in CSV format.
+Average Transaction Report: Report on the average value of transactions.
+Profit Centers Tips Report: Tips report categorized by profit centers.
+Ring Check Report: Report on ring checks.
+Pull Tab Liability Report: Report on liabilities related to pull tabs.
+Employee Reports
+Employee Performance Report: Performance metrics for employees.
+Claimed Tip Report: Report on tips claimed by employees.
+Comp Detail Report: Detailed report on comps given.
+Promotion Detail Report: Details on promotions.
+Credit Tips Report: Report on credit card tips.
+Employee Hours Report: Hours worked by employees.
+Employee Payroll Income Report: Report on payroll income for employees.
+Employee Payroll Report: General payroll report.
+Employee Performance Report Old: Older version of the employee performance report.
+Manager Performance Report: Performance metrics for managers.
+Post-Submit Removal Detail Report: Details on items removed after submission.
+Pre-Submit Removal Detail Report: Details on items removed before submission.
+Employee Payroll Report CSV: CSV export of the payroll report.
+Employee Payroll Estimate Report: Estimated payroll report.
+Fee Group Report: Report on fee groups.
+Employee Payroll Report Mansion: Payroll report specific to a mansion.
+Labor Tracking Report: Tracking report for labor metrics.
+Kds Performance Report: Performance report for KDS systems.
+R365 Employee Jobs: Details on jobs handled by R365 employees.
+R365 Employees: Report on R365 employees.
+R365 Jobs: Report on jobs within R365.
+R365 Time Card: Time card details for R365.
+Waste Detail Report: Report on waste.
+Tip Share Report: Report on shared tips.
+Employee Detail Report: Detailed report on employees.
+Labor Period Report: Report on labor periods.
+Claimed Tip Detail Report: Detailed report on claimed tips.
+Consolidated Payroll Report: Consolidated payroll details.
+Transaction Detail Report By Employee: Transaction details categorized by employee.
+Credit Tips Report By Time: Report on credit card tips categorized by time.
+Employee Punch Report: Report on employee punch times.
+Voucher Redemption Report: Details on voucher redemptions.
+Gusto CSV Report: Gusto report in CSV format.
+Beta - Custom Date Employee Payroll Income Report: Custom date payroll income report.
+Promotion Category Performance Report: Performance of promotion categories.
+Inventory Reports
+Cost Report: Report on inventory costs.
+Current Market Value Report: Current market value of inventory.
+Estimated Current Market Value Report: Estimated market value of inventory.
+Gain And Loss Report: Report on gains and losses in inventory.
+Retail Markup Report: Markup values for retail items.
+Theoretical To Actual Comparison Report: Comparison between theoretical and actual inventory.
+Purchase Order Report: Details on purchase orders.
+Actual Inventory Report: Report on actual inventory counts.
+Recipe Report: Report on recipes and their costs.
+Product Yield - Cost Report: Yield and cost metrics for products.
+Product Yield - Cost Metrics Report: Detailed cost metrics for product yields.
+Inventory Transfer Report: Report on inventory transfers.
+Customer Reports
+Customer Report: General report on customers.
+Promotion Usage Report: Report on usage of promotions.
+Account Transaction Report: Report on customer account transactions.
+Accounts List: List of customer accounts.
+Unified Customer Report: Consolidated report on customers.
+Customer VIP Report: Report on VIP customers.
+Menu Reports
+Category Performance Report: Performance metrics for menu categories.
+Item Performance Report: Performance metrics for individual menu items.
+Item Price Report: Pricing report for menu items.
+Item Report: General report on menu items.
+Modifier Performance Report By Item: Performance of modifiers categorized by items.
+Modifier Price Report: Pricing report for menu modifiers.
+Menu Categorization Report: Report on menu categorization.
+Custom Menu Items Report: Report on custom menu items.
+Modifier Performance Report: Performance metrics for modifiers.
+Custom Menu Modifier Report: Report on custom menu modifiers.
+Gorditas Custom Report: Specific report for Gorditas custom items.
+Food Cost Report: Report on food costs.
+Dual Pricing Menu Item Report: Report on menu items with dual pricing.
+Dual Pricing Menu Modifier Report: Report on modifiers with dual pricing.
+Other Reports
+Systems Redundancy Report: Report on system redundancy metrics.
