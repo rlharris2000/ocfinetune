@@ -1,0 +1,68 @@
+import pandas as pd
+import pdfkit
+
+# Path to the CSV file
+file_path = "C:\\Users\\Rlhar\\Desktop\\Article.csv"
+
+# Load the CSV file
+data = pd.read_csv(file_path)
+
+# Extract the relevant columns
+articles = data[['Article Title', 'Answer']]
+
+# Initialize an empty string to accumulate the HTML content
+html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .article { margin-bottom: 40px; }
+        .title { font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+        .content { font-size: 14px; }
+    </style>
+</head>
+<body>
+"""
+
+# Add articles to the HTML content
+for index, row in articles.iterrows():
+    html_content += f"""
+    <div class="article">
+        <div class="title">{row['Article Title']}</div>
+        <div class="content">{row['Answer']}</div>
+    </div>
+    """
+
+# Close the HTML tags
+html_content += """
+</body>
+</html>
+"""
+
+# Path to save the temporary HTML file
+html_file_path = "C:\\Users\\Rlhar\\Desktop\\Articles.html"
+
+# Write the HTML content to the file
+with open(html_file_path, "w", encoding="utf-8") as file:
+    file.write(html_content)
+
+# Path to save the final PDF file
+pdf_file_path = "C:\\Users\\Rlhar\\Desktop\\Article_Export.pdf"
+
+# Specify the path to the wkhtmltopdf executable
+config = pdfkit.configuration(wkhtmltopdf='C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe')
+
+# Options to disable loading of external resources
+options = {
+    'no-images': '',
+    'disable-javascript': ''
+}
+
+# Convert HTML file to PDF
+pdfkit.from_file(html_file_path, pdf_file_path, configuration=config, options=options)
+
+print(f"PDF created successfully at {pdf_file_path}")
