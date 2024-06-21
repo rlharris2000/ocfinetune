@@ -1,0 +1,105 @@
+Payment Methods
+Accept Cash: Enable or disable acceptance of cash transactions.
+Accept Credit: Enable or disable acceptance of credit card transactions.
+Accept Checks: Enable or disable acceptance of check payments.
+Accept Gift Cards: Enable or disable acceptance of gift card payments.
+Credit Processing: Enable or disable credit card processing through the POS system.
+Authorize Bar Tabs: Enable or disable authorization of credit cards for bar tabs.
+Gift Cards on Account: Enable or disable charging gift cards to customer accounts when sold.
+Tips on Account: Enable or disable adding tips to orders closed to customer accounts.
+Enable Fiscal Invoices: Enable or disable printing of fiscal invoices under transaction view.
+Clear Payments: Allow or prevent clearing of payments on the checkout screen.
+Tip Management
+Claim Tips: Enable or disable prompts for employees to claim tips upon clocking out.
+Claim Tips Include Credit Tips: Enable or disable inclusion of credit tips when claiming tips.
+Acceptable Claim Percentage: Set the acceptable percentage range for claimed tips relative to electronically documented tips.
+Change Tips: Allow or prevent employees from changing their credit tips (managers can always change tips).
+Tip Confirmation: Enable or disable a confirmation window when entering credit card tips.
+Tip Entry Method: Choose between entering tip amounts only or entering the total transaction amount plus tip.
+Tip After Account: Enable or disable prompts for adding a tip after an order is added to an account.
+Tip Notice Percentage: Set the percentage over subtotal to highlight the tip line in red on the tip entry screen.
+Add Tip Auto Decimal: Enable or disable automatic inclusion of a decimal point when entering tips.
+Order Management
+Custom Item: Allow or prevent entry of custom items and prices.
+Custom Modifier: Allow or prevent entry of custom modifiers and prices.
+Retail Order Number: Enable or disable prompts for order numbers on retail order receipts.
+Takeout Order Number: Enable or disable prompts for order numbers on takeout order receipts.
+Delivery Order Number: Enable or disable prompts for order numbers on delivery order receipts.
+Bar Order Number: Enable or disable prompts for order numbers on bar order receipts.
+For Here Number: Enable or disable prompts for order numbers on dine-in order receipts.
+For Here Customer Name: Enable or disable prompts for customer names on dine-in orders.
+Togo Customer Name: Enable or disable prompts for customer names on to-go orders.
+Drive Thru Customer Name: Enable or disable prompts for customer names on drive-thru orders.
+Retail Customer Name: Enable or disable prompts for customer names on retail orders.
+Table Customer Selection: Require or not require customer selection for table orders.
+Table Tab Customer Selection: Require or not require customer selection for bar orders.
+For Here Customer Selection: Require or not require customer selection for dine-in orders.
+ToGo Customer Selection: Require or not require customer selection for to-go orders.
+Drive Thru Customer Selection: Require or not require customer selection for drive-thru orders.
+Retail Customer Selection: Require or not require customer selection for retail orders.
+Removal Reason: Enable or disable prompts for removal reasons when items are removed without manager override.
+Invoice Totals Entry: Enable or disable invoice total entries for accuracy.
+Quantity Button: Allow or prevent users from changing item quantities using the Quantity button.
+Repeat Item Button: Allow or prevent users from ringing up a copy of an item using the Repeat Item button.
+Repeat Quantity: Set the default quantity for repeated items: current quantity, always one, or prompt for quantity.
+Require Customers on Orders: Require or not require a customer on an order before checkout.
+Auto Clear For Here Orders: Automatically clear pending dine-in orders at end of day (EOD), till/bank close, and auto sign off.
+Auto Clear ToGo Orders: Automatically clear pending to-go orders at EOD, till/bank close, and auto sign off.
+Auto Clear Drive Thru Orders: Automatically clear pending drive-thru orders at EOD, till/bank close, and auto sign off.
+Auto Clear Retail Orders: Automatically clear pending retail orders at EOD, till/bank close, and auto sign off.
+Reopen Unsaved Tabs: Prompt to continue working on unsaved tabs if the last tab was not saved.
+Transaction Management
+Authorize Amount: Set the amount authorized for bar tabs using credit cards.
+Prompt for Authorize Amount: Enable or disable prompts for the amount when authorizing credit cards.
+Deposit Tax Method: Set the tax method for deposits: taxable, nontaxable, or reverse (total entered includes tax).
+Save Tab Immediate: Save a tab before or after ringing items.
+Deposit Tax Code: Set the tax code used on deposits, if applicable.
+Combine Bar Tabs Method: Choose whether combining bar tabs will create separate tickets or one combined ticket.
+Fast Cash Confirm: Enable or disable a confirmation step for fast cash transactions.
+Fast Credit Confirm: Enable or disable a confirmation step for fast credit transactions.
+Default Pending Order Sort: Set the default sort order for pending orders: time entered or customer name.
+View Account Information: Enable or disable visibility of account information on the POS for users without view account privileges.
+Giftcard Digit Length: Set the accepted number of digits for a gift card number.
+Itemized Refunds: Enable or disable itemized refunds requiring scanned receipts and allowing only items on the scanned receipts to be refunded.
+Allow Customer Card Lookup: Enable or disable looking up a customer card using phone number or name when using advanced loyalty.
+Adjustment Management
+Adjust Payments: Allow or prevent payment adjustments for takeout and delivery orders using DataCap processing.
+Manual Account Balance Adjustments: Allow or prevent manual account balance adjustments that are not reflected in system accounting.
+Account Violations Remove Item: Remove items that cause orders to exceed the remaining account balance when accounts are attached to orders.
+Authorization Management
+Authorize Confirm Windows: Enable or disable a window confirming card authorization after authorizing a card.
+Confirm Tab Name: Enable or disable a window confirming the bar tab name if pulled from credit authorization.
+DataCap Surcharge With Lookup: Enable or disable sending credit payment fees as a surcharge to DataCap.
+DataCap SAF Surcharge: Include or exclude payment fees in SAF mode when DataCap Surcharge With Lookup is enabled.
+Open Order Pre-Auth EOD/Batch Override: Allow or prevent users from overriding EOD or batch with open orders that have pre-auth payments.
+Disable PreAuth Button: Remove or keep the Pre Auth button under Order Functions.
+Authorize Confirm Windows: Enable or disable a confirmation window after authorizing a credit card.
+Combine Transferred Tickets: Enable or disable automatic combination of transferred tickets.
+Credit Un-Apply Void: Allow or prevent unapplied credit transactions instead of voiding them when voiding an order with credit transactions.
+Void Un-Applied Credit at Batch: Enable or disable voiding of all unapplied credit transactions prior to batching.
+Clear Credit on Order Change: Choose whether to unapply or void credit transactions when modifying an order.
+Auto Process Offline at Batch: Enable or disable automatic processing of offline transactions when running the batch.
+Disable Manual Process Offline: Disable manual processing of offline transactions before batch when Auto Process Offline at Batch is enabled.
+Reporting and Monitoring
+Previous Year Stats: Enable or disable display of previous year's stats on the dashboard, end of day reports, and notifications.
+Clock In Message: Set a custom message to display to employees when they clock in.
+Back Up Prompt Days: Set the number of days after which a prompt to create a backup will appear if a backup has not been made.
+Data Grid Row Size: Set the row height for viewing transactions and adding tips: 1x or 2x.
+Sent Confirmation: Enable or disable a confirmation window after sending an order.
+Break Monitoring: Enable or disable the break monitoring system to show alerts to employees that need to take breaks.
+Require Item Descriptions When Adding/Editing Items: Enable or disable requirement for item descriptions when adding or editing menu items.
+Other Settings
+Default Custom Item Tax: Set the tax code preselected when creating a new custom item.
+Sell Gift Card on Account: Enable or disable charging gift cards to accounts when being sold (not supported with cash basis turned on).
+Rounding Off: Round the grand total of an order to the nearest specified amount (e.g., 0.25 for the nearest quarter).
+Rounding Taxcode: Set the tax code for calculating rounding (should be a reverse tax for expected rounding).
+Rounding Print Display: Choose how rounding is displayed on the print: off, as an item, or as a line.
+Rounding Includes Payment Fees: Enable or disable rounding for payments including payment service fees.
+Calculate Fee Taxes in Payment Fees: Enable or disable calculation of taxes in payment fees.
+Show Payment Fee Totals: Enable or disable display of both cash and credit totals when there is a payment fee on an order.
+Prepend Time to Item Name: Add the time an item was rung up in front of the item name.
+Force Order Scheduling: Enable or disable the schedule order prompt before checkout or saving retail, takeout, and delivery orders.
+Item Commissions: Enable or disable the commission system for items, allowing commission settings in item edit screens.
+Advances: Enable or disable the advances system for items, allowing new item types that affect cash when sold.
+Set Scan Item As Sent: Enable or disable counting scanned items as sent when scanned in.
+Combine Transferred Tickets: Automatically combine tickets that were transferred.
