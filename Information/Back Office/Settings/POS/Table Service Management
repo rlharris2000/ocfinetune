@@ -1,0 +1,70 @@
+Table Service Management
+Assign Sections: Automatically assign table sections to servers upon clocking in (sections must be set up in Settings -> Table Sections).
+
+Options: On/Off
+Advanced Table Statuses: Enable or disable advanced table status tracking.
+
+Options: On/Off
+Auto Table Reset: Automatically set tables to open when all tickets are cashed out.
+
+Options: On/Off
+Table Check: Prevent servers from clocking out with open tables.
+
+Options: On/Off
+Check For Open Bank When Clocking Out: Prevent servers from clocking out if they have an open bank.
+
+Options: On/Off
+Open Gratuity: Allow or prevent servers from entering a gratuity amount when gratuity is added.
+
+Options: On/Off
+Gratuity: Determine whether gratuity is added before or after tax.
+
+Options: Before Tax/After Tax
+Gratuity Includes Discounts: Decide if gratuity should include or exclude discounts.
+
+Options: Includes Discount/Excludes Discount
+Gratuity Amount: Set the default percentage of gratuity added to tickets.
+
+Options: Input field (default: 18%)
+Gratuity Edit: Allow or prevent editing gratuity on the checkout screen; this also enables automatic gratuity thresholds.
+
+Options: On/Off
+Gratuity Edit Default Type: Choose whether the default gratuity edit type is amount or percentage.
+
+Options: Percentage/Amount
+Gratuity Includes Non-Payment Fees: Include or exclude non-payment fees in gratuity calculations (payment fees are never included).
+
+Options: On/Off
+Number of Guests: Prompt for the number of guests when a table is opened.
+
+Options: On/Off
+Drinks Per Guest: Prompt when the number of drinks is not equal to or greater than the number of guests.
+
+Options: On/Off
+Server Accept Cash: Allow or prevent servers from accepting cash transactions.
+
+Options: Yes/No
+Server Accept Credit: Allow or prevent servers from accepting credit transactions.
+
+Options: Yes/No
+Server Accept Check: Allow or prevent servers from accepting check transactions.
+
+Options: Yes/No
+Server Accept Gift Card: Allow or prevent servers from accepting gift card transactions.
+
+Options: Yes/No
+Action After Send: Determine what action occurs after sending an order.
+
+Options: Nothing/Table Diagram/Sign Off
+Print Category Sales on Bank: Include or exclude a server's category sales on their bank report.
+
+Options: On/Off
+Print Button: Enable or disable a print button at the top of the screen for printing all tickets.
+
+Options: On/Off
+Table Service Checkout Button: Enable or disable the checkout button in the bottom right of the table orders screen.
+
+Options: On/Off
+Exempt Gift Cards From Gratuity: Determine whether or not gift cards are exempt from gratuity.
+
+Options: On/Off
