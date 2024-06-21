@@ -1,0 +1,393 @@
+Auto Authorize
+
+Description: Determines whether a manager being logged in to the terminal will automatically authorize overrides.
+Example: Turning this setting on allows any manager logged in to the terminal to automatically authorize actions without additional confirmation.
+Options:
+On (Y)
+Off (N)
+No Sale
+
+Description: Specifies if a manager override is required to open the cash drawer without a sale.
+Example: Enabling this setting ensures that a manager must authorize any instance of opening the cash drawer without a sale.
+Options:
+On (Y)
+Off (N)
+Custom Modifier
+
+Description: Determines whether a manager override is required to add custom options to an item.
+Example: If this setting is on, a manager must approve adding any custom modifier to an item.
+Options:
+On (Y)
+Off (N)
+Custom Modifier w/ Price
+
+Description: Requires a manager override to add a custom option with a price to an item.
+Example: Enabling this ensures that any custom option with an additional price is approved by a manager.
+Options:
+On (Y)
+Off (N)
+Custom Item
+
+Description: Requires a manager override to add a custom item.
+Example: If enabled, adding a new custom item to an order needs manager approval.
+Options:
+On (Y)
+Off (N)
+Custom Item w/ Price
+
+Description: Requires a manager override to add a custom item with a price.
+Example: Managers must approve adding any custom item that includes a price.
+Options:
+On (Y)
+Off (N)
+Remove Items
+
+Description: Determines if a manager override is needed to remove sent items or all items.
+Example: Setting this to "All Items" requires manager approval for removing any items from an order.
+Options:
+All Items (A)
+Items Submitted (S)
+Items Sent (Y)
+No Items (N)
+Edit Wait Times
+
+Description: Specifies if a manager override is required to change delivery/takeout preparation times.
+Example: Enabling this setting means managers must approve any changes to wait times.
+Options:
+On (Y)
+Off (N)
+Voids
+
+Description: Requires a manager override to void a transaction.
+Example: If this is enabled, voiding a transaction needs manager authorization.
+Options:
+On (Y)
+Off (N)
+Refunds
+
+Description: Requires a manager override to perform a refund.
+Example: Enabling this ensures that refunds can only be processed with manager approval.
+Options:
+On (Y)
+Off (N)
+Approve Delivery Address
+
+Description: Requires a manager override to approve a delivery address that failed smart mapping.
+Example: If a delivery address is not recognized, a manager must approve it.
+Options:
+On (Y)
+Off (N)
+Cancel Takeout
+
+Description: Requires a manager override to cancel a takeout order.
+Example: Cancelling any takeout order will need manager approval if this setting is on.
+Options:
+On (Y)
+Off (N)
+Cancel Delivery
+
+Description: Requires a manager override to cancel a delivery order.
+Example: Enabling this means that any delivery order cancellation must be approved by a manager.
+Options:
+On (Y)
+Off (N)
+Cancel Drive Thru
+
+Description: Requires a manager override to cancel a drive-thru order.
+Example: If this setting is on, managers must approve cancellations of drive-thru orders.
+Options:
+On (Y)
+Off (N)
+Fail Delivery
+
+Description: Requires a manager override to fail a delivery.
+Example: Failing a delivery will need manager authorization if this setting is enabled.
+Options:
+On (Y)
+Off (N)
+View Transactions
+
+Description: Requires a manager override to view transactions or print the open batch report.
+Example: Enabling this setting ensures that only managers can view or print transaction reports.
+Options:
+On (Y)
+Off (N)
+Add Gratuity
+
+Description: Requires a manager override to add gratuity to a ticket.
+Example: Any gratuity addition must be approved by a manager if this setting is on.
+Options:
+On (Y)
+Off (N)
+Edit Price
+
+Description: Requires a manager override to edit a price.
+Example: Managers must approve any price changes if this setting is enabled.
+Options:
+On (Y)
+Off (N)
+Edit Customer Database
+
+Description: Requires a manager override to edit the customer database.
+Example: Any changes to customer information need manager approval.
+Options:
+On (Y)
+Off (N)
+Pay In / Pay Out
+
+Description: Requires a manager override to perform a Pay In / Pay Out.
+Example: Enabling this setting means managers must approve cash register adjustments.
+Options:
+On (Y)
+Off (N)
+Add Depleted Items
+
+Description: Requires a manager override to add an item marked as depleted.
+Example: Managers must approve adding items that are out of stock.
+Options:
+On (Y)
+Off (N)
+Reprint Credit
+
+Description: Requires a manager override to reprint a credit slip.
+Example: If this setting is on, reprinting credit slips needs manager authorization.
+Options:
+On (Y)
+Off (N)
+End of Day
+
+Description: Requires a manager override to perform end-of-day processing.
+Example: Enabling this ensures that end-of-day tasks need manager approval.
+Options:
+On (Y)
+Off (N)
+Batch
+
+Description: Requires a manager override to perform a credit batch.
+Example: Processing credit batches needs manager authorization if this is enabled.
+Options:
+On (Y)
+Off (N)
+Add Fingerprint
+
+Description: Requires a manager override to add a fingerprint to an employee profile.
+Example: Adding employee fingerprints needs manager approval.
+Options:
+On (Y)
+Off (N)
+Menu
+
+Description: Requires a manager override to edit the menu.
+Example: Any changes to the menu need to be approved by a manager.
+Options:
+On (Y)
+Off (N)
+Comps
+
+Description: Requires a manager override to perform a comp.
+Example: Managers must approve any complimentary items or discounts.
+Options:
+On (Y)
+Off (N)
+Credit Void
+
+Description: Requires a manager override to void a credit transaction.
+Example: Voiding credit transactions needs manager authorization if this setting is on.
+Options:
+On (Y)
+Off (N)
+Exit POS
+
+Description: Requires a manager override to exit the POS system.
+Example: If enabled, managers must approve any exit from the POS system.
+Options:
+On (Y)
+Off (N)
+Ignore Printer Error
+
+Description: Requires a manager override to ignore a printer error.
+Example: Managers must approve ignoring printer errors if this is turned on.
+Options:
+On (Y)
+Off (N)
+Transfer Tables
+
+Description: Requires a manager override to transfer a ticket from one table to another.
+Example: Managers must approve transferring orders between tables.
+Options:
+On (Y)
+Off (N)
+Non Default Job
+
+Description: Requires a manager override to clock in with a non-default job code.
+Example: If enabled, managers must approve employees clocking in under a different job code.
+Options:
+On (Y)
+Off (N)
+Drinks Per Guest
+
+Description: Requires a manager override to ring up a table with fewer drinks than guests.
+Example: Managers must approve orders with fewer drinks than guests.
+Options:
+On (Y)
+Off (N)
+Tip Amount Override
+
+Description: Requires a manager override to add a tip above a certain percentage of the total order.
+Example: If enabled, managers must approve adding tips above the specified percentage.
+Options:
+On (Y)
+Off (N)
+Tip Amount
+
+Description: Sets the percentage of the total order that triggers the tip amount override.
+Example: Setting this to "20%" will require manager approval for tips above 20% of the total order.
+Options:
+Text input field for the percentage
+Accept Check
+
+Description: Requires a manager override to checkout with a check.
+Example: If enabled, paying by check needs manager authorization.
+Options:
+On (Y)
+Off (N)
+Scale Manual Entry
+
+Description: Requires a manager override to enter a manual weight when a scale is present.
+Example: Managers must approve manually entering weights if this is on.
+Options:
+On (Y)
+Off (N)
+Scale Item Removal
+
+Description: Requires a manager override to remove an item that was weighed on a scale.
+Example: If enabled, removing weighed items needs manager approval.
+Options:
+On (Y)
+Off (N)
+Override Credit Auth
+
+Description: Requires a manager override to bypass a credit authorization.
+Example: Managers must approve bypassing credit authorizations if this setting is on.
+Options:
+On (Y)
+Off (N)
+Add to Account
+
+Description: Requires a manager override to add an order to an account.
+Example: Adding orders to customer accounts needs manager approval.
+Options:
+On (Y)
+Off (N)
+Service Fees
+
+Description: Requires a manager override to add service fees to an order.
+Example: Managers must approve adding any service fees.
+Options:
+On (Y)
+Off (N)
+Table Access
+
+Description: Requires a manager override to access a table not assigned to the employee.
+Example: If enabled, managers must approve employees accessing unassigned tables.
+Options:
+On (Y)
+Off (N)
+Consolidate Items
+
+Description: Requires a manager override to consolidate items.
+Example: Managers must approve the consolidation of multiple items.
+Options:
+On (Y)
+Off (N)
+Open Till
+
+Description: Requires a manager override to open a till.
+Example: If enabled, opening the cash drawer needs manager approval.
+Options:
+On (Y)
+Off (N)
+Combine Bar Tabs
+
+Description: Requires a manager override to combine bar tabs.
+Example: Managers must approve combining different bar tabs.
+Options:
+On (Y)
+Off (N)
+Open Transferred Bar Tab
+
+Description: Requires an override to open a transferred bar tab.
+Example: If enabled, opening a bar tab that was transferred from another employee needs manager approval.
+Options:
+On (Y)
+Off (N)
+Skip Break
+
+Description: Requires an override to skip a break.
+Example: Managers must approve if an employee wants to skip their scheduled break.
+Options:
+On (Y)
+Off (N)
+Continue Without Skipping Break
+
+Description: Requires an override to continue working without skipping a break during break monitoring.
+Example: If enabled, employees must get manager approval to continue working without skipping their break.
+Options:
+On (Y)
+Off (N)
+Custom Gift Card
+
+Description: Requires an override to sell a custom gift card.
+Example: Managers must approve the sale of any custom gift cards.
+Options:
+On (Y)
+Off (N)
+Activate Gift Card
+
+Description: Requires an override to activate a pre-made gift card.
+Example: Activating pre-made gift cards needs manager approval.
+Options:
+On (Y)
+Off (N)
+Table Access By Barcode
+
+Description: Requires an override to access another user’s table using the barcode on the ticket.
+Example: Managers must approve accessing a table assigned to another employee via barcode.
+Options:
+On (Y)
+Off (N)
+Pull Tab Sale
+
+Description: Requires an override to sell a pull tab game.
+Example: If enabled, selling pull tab games needs manager approval.
+Options:
+On (Y)
+Off (N)
+Reserve Pull Tab
+
+Description: Requires an override to reserve a pull tab game.
+Example: Managers must approve reserving pull tab games.
+Options:
+On (Y)
+Off (N)
+Manage Pull Tab
+
+Description: Requires an override to manage a pull tab game.
+Example: If enabled, managing pull tab games needs manager approval.
+Options:
+On (Y)
+Off (N)
+Hold Pull Tab
+
+Description: Requires an override to hold a pull tab game.
+Example: Managers must approve putting a hold on pull tab games.
+Options:
+On (Y)
+Off (N)
+Edit Inventory On POS
+
+Description: Requires an override when editing or receiving inventory from the front end using a scanner.
+Example: If enabled, changes to inventory via POS need manager approval.
+Options:
+On (Y)
+Off (N)
