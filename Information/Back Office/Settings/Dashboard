@@ -1,0 +1,140 @@
+Show Sales Graph
+
+Description: Turns the sales graph on or off. Useful for visually tracking sales performance.
+Options:
+Yes (Y)
+No (N)
+Graph Position
+
+Description: Sets the relative position for the sales graph module. For example, setting this to 2.5 places it after a module with position 2.0 and before a module with position 3.0.
+Options: Input a numerical value (e.g., 1.00, 2.50)
+Show Category Sales Chart
+
+Description: Turns the category sales chart on or off. Useful for analyzing sales by category.
+Options:
+Yes (Y)
+No (N)
+Category Sales Chart Position
+
+Description: Sets the relative position for the category sales chart module.
+Options: Input a numerical value (e.g., 5.00)
+Show Order Method Chart
+
+Description: Turns the sales by order method chart on or off. Useful for understanding which sales channels are performing best.
+Options:
+Yes (Y)
+No (N)
+Order Method Chart Position
+
+Description: Sets the relative position for the order method chart module.
+Options: Input a numerical value (e.g., 2.60)
+Show Sales Totals
+
+Description: Turns the sales totals module on or off. Useful for displaying overall sales figures.
+Options:
+Yes (Y)
+No (N)
+Sales Totals Module Position
+
+Description: Sets the relative position for the sales totals module.
+Options: Input a numerical value (e.g., 2.00)
+Show Statistics
+
+Description: Turns the statistics module on or off. Useful for showing various sales statistics.
+Options:
+Yes (Y)
+No (N)
+Statistics Module Position
+
+Description: Sets the relative position for the statistics module.
+Options: Input a numerical value (e.g., 3.00)
+Show Active Tills
+
+Description: Turns the active tills module on or off. Useful for displaying currently active tills.
+Options:
+Yes (Y)
+No (N)
+Active Tills Module Position
+
+Description: Sets the relative position for the active tills module.
+Options: Input a numerical value (e.g., 4.00)
+Show Top Selling Items
+
+Description: Turns the top selling items module on or off. Useful for highlighting the best-selling products.
+Options:
+Yes (Y)
+No (N)
+Top Selling Items Module Position
+
+Description: Sets the relative position for the top selling items module.
+Options: Input a numerical value (e.g., 5.00)
+Show Time Clock Activity
+
+Description: Turns the time clock activity module on or off. Useful for tracking employee clock-ins and clock-outs.
+Options:
+Yes (Y)
+No (N)
+Time Clock Activity Module Position
+
+Description: Sets the relative position for the time clock activity module.
+Options: Input a numerical value (e.g., 6.00)
+Show Labor
+
+Description: Turns the labor module on or off. Useful for displaying labor costs and hours.
+Options:
+Yes (Y)
+No (N)
+Labor Module Position
+
+Description: Sets the relative position for the labor module.
+Options: Input a numerical value (e.g., 7.00)
+Show Labor Period
+
+Description: Turns the labor period module on or off. Useful for displaying labor data for specific periods.
+Options:
+Yes (Y)
+No (N)
+Labor Period Module Position
+
+Description: Sets the relative position for the labor period module.
+Options: Input a numerical value (e.g., 8.00)
+Show Visit Frequency Pie Graph
+
+Description: Turns the visit frequency pie graph on or off. Useful for showing customer visit frequency distribution.
+Options:
+Yes (Y)
+No (N)
+Visit Frequency Pie Graph Position
+
+Description: Sets the relative position for the visit frequency pie graph module.
+Options: Input a numerical value (e.g., 9.00)
+Show Visit Frequency Line Chart
+
+Description: Turns the visit frequency line chart on or off. Useful for showing trends in customer visit frequency over time.
+Options:
+Yes (Y)
+No (N)
+Visit Frequency Line Chart Position
+
+Description: Sets the relative position for the visit frequency line chart module.
+Options: Input a numerical value (e.g., 10.00)
+Show Online Ordering Wait Times
+
+Description: Turns the online ordering wait times module on or off. Useful for displaying wait times for online orders.
+Options:
+Yes (Y)
+No (N)
+Online Ordering Wait Times Position
+
+Description: Sets the relative position for the online ordering wait times module.
+Options: Input a numerical value (e.g., 11.00)
+Show eGift Information
+
+Description: Turns the eGift information module on or off. Useful for displaying information about electronic gift cards.
+Options:
+Yes (Y)
+No (N)
+eGift Information Module Position
+
+Description: Sets the relative position for the eGift information module.
+Options: Input a numerical value (e.g., 9.50)
