@@ -1,0 +1,395 @@
+Printer Stations Settings
+Station Name
+Definition: The name assigned to a specific printer station.
+Purpose: Helps identify the station's role or location within the restaurant (e.g., Kitchen, Bar, Sushi).
+Example: Naming a station "Kitchen" indicates that the orders sent to this station are meant for the kitchen.
+Max Items
+Definition: The maximum number of items that can be printed on a ticket for the station.
+Purpose: Limits the number of items on a single ticket to prevent overcrowding and ensure clarity.
+Options: Can be set to a specific number or left blank/0 for no limit.
+Example: Setting this to 10 means only 10 items will be printed on each ticket, and any additional items will be printed on subsequent tickets.
+Reference
+Definition: Links the station to another station for referencing purposes.
+Purpose: Useful in enterprise menus where one station may need to reference another station's setup or orders.
+Options: Can choose from a list of stations (e.g., No Reference, Station 1, Station 2).
+Example: If Station 2 references Station 1, it might mean that Station 2’s setup or menu items are linked to those in Station 1.
+Print Course / Label for Order Method
+For each station, you can enable the following options to specify how certain order methods are handled:
+
+Seat?
+Definition: Determines if the seat number should be printed on the ticket.
+Purpose: Useful for orders where items need to be delivered to specific seats.
+Send Expo?
+Definition: Determines if the ticket should be sent to the expediter (expo) station.
+Purpose: Helps coordinate orders that require preparation at multiple stations before being finalized at the expo station.
+Order Methods (Bar, Delivery, Drive Thru, For Here, Retail, Table, Takeout, ToGo)
+Definition: Specifies whether the station should handle tickets for each of these order methods.
+Purpose: Ensures that orders for specific methods are printed at the correct station.
+Example: Enabling "Bar" for a station means that orders placed for the bar will be printed at this station.
+General Printer Settings
+Show Modifiers
+Definition: Controls how item modifiers (e.g., extra cheese, no onions) are displayed on receipts or tickets.
+Purpose: Provides flexibility in displaying additional item details to the customer or kitchen staff.
+Options:
+Show Options w/ Prices: Display all modifiers with their prices.
+Show Options with Non-zero Prices: Only show modifiers that have a cost associated.
+Show Options w/o Prices: Display all modifiers without showing their prices.
+Do Not Show Options: Do not display any modifiers.
+Print Custom Modifiers
+Definition: Determines whether custom item modifiers are printed on customer receipts or tickets.
+Purpose: Allows customization of order details for better clarity.
+Options: On, Off
+Print Quantity 1
+Definition: Controls whether the quantity of 1 is printed for items on tickets.
+Purpose: Simplifies tickets by omitting the quantity for single items if desired.
+Options:
+Print All Quantities: Print all quantities, including 1.
+Print Quantities Other Than 1: Only print quantities greater than 1.
+Display Modifier Quantity 1
+Definition: Determines if the quantity of 1 should be printed for item modifiers that allow multiples.
+Purpose: Ensures clarity by showing all quantities or simplifying tickets by omitting single quantities.
+Options:
+Print All Quantities: Print all quantities, including 1.
+Print Quantities Other Than 1: Only print quantities greater than 1.
+Expo Printer
+Definition: Indicates if an expediter (expo) printer is being used.
+Purpose: Coordinates orders through an expo station for final checks before serving.
+Options: On, Off
+Expo Printer Name
+Definition: The name or identifier of the expo printer.
+Purpose: Specifies which printer serves as the expo station.
+Gratuity on Credit Slip
+Definition: Prints a line on the credit slip if gratuity has already been added to the ticket.
+Purpose: Ensures the customer is aware of any added gratuity.
+Options: On, Off
+Tip Line
+Definition: Shows a line for tips on credit slips.
+Purpose: Allows customers to add a tip amount to their credit card payment.
+Options: On, Off
+Tip Receipt
+Definition: Prints a receipt when tips are added to a credit transaction.
+Purpose: Provides a detailed record of tips for both the customer and the business.
+Options: On, Off
+Signature Line
+Definition: Shows a signature line on credit slips.
+Purpose: Provides a space for customers to sign, authorizing the credit card transaction.
+Options: On, Off
+Credit Barcode
+Definition: Prints the transaction ID as a barcode at the bottom of credit slips.
+Purpose: Allows for easy scanning and reference of transactions.
+Options: On, Off
+Print Clock Slip
+Definition: Prints a slip when an employee clocks in or out.
+Purpose: Provides a physical record of employee work hours.
+Options: On, Off
+Clock Out Sales By
+Definition: Specifies how sales and tips are determined on clock-out slips.
+Purpose: Ensures accurate tracking of sales and tips for employees.
+Options:
+Since End of Day: Calculates from the end of the previous day.
+Since Clock In: Calculates from the employee’s clock-in time.
+Since Report Time Cutoff: Calculates from a specified report time.
+Since 12 Hours Ago: Calculates from 12 hours prior.
+Clock Out Sales Server/Cashier
+Definition: Specifies whether sales and tips on clock-out slips are tracked as server, cashier, or both.
+Purpose: Differentiates between roles for accurate tip and sales reporting.
+Options:
+As Server: Tracks sales and tips where the employee was the server.
+As Cashier: Tracks sales and tips where the employee was the cashier.
+As Server + As Cashier: Tracks both roles.
+When Clock Out Slip Prints
+Definition: Determines if the clock-out slip prints before or after the claimed tip prompt.
+Purpose: Allows customization of the clock-out process.
+Options: Before, After
+Item Name Size
+Definition: Changes the size of the item name on order tickets.
+Purpose: Enhances readability on printed tickets.
+Options:
+Normal: Regular font size.
+Double Width: Twice the width of the regular font.
+Double Height: Twice the height of the regular font.
+Double Width & Height: Both twice the width and height.
+Receipt Spacing
+Definition: Adds an extra line between each item on remote tickets.
+Purpose: Improves clarity and readability of printed tickets.
+Options: On, Off
+Receipt Line
+Definition: Customizable text displayed at the bottom of customer receipts/tickets.
+Purpose: Allows for personalized messages or branding.
+Example: "Thank you very much!"
+Receipt Box
+Definition: Determines whether a receipt box appears on customer receipts.
+Purpose: Allows for additional information or promotions to be included in a designated area.
+Options: Yes, No
+Print Address
+Definition: Prints the location address at the top of customer receipts.
+Purpose: Provides customers with location details for reference.
+Options: Yes, No
+Suggested Tip Percentages
+Definition: Specifies the percentages used to calculate suggested tips.
+Purpose: Provides customers with suggested tip amounts on their receipts.
+Options: Can be set to various percentages (e.g., 20%, 25%, 30%).
+Suggested Tips Use Paid
+Definition: Determines if suggested tips are calculated based on the paid amount or the total amount.
+Purpose: Ensures suggested tip amounts are accurately presented based on the chosen calculation method.
+Options: Yes, No
+Description on Tickets
+Definition: Prints the item description following the item on order tickets.
+Purpose: Provides additional details about items to kitchen staff or customers.
+Options: Yes, No
+Print Edited Items
+Definition: Prints edited items on the order tickets.
+Purpose: Ensures changes to orders are clearly communicated.
+Options: On, Off
+Print Removed Items
+Definition: Prints removed items on the order tickets.
+Purpose: Provides a record of items that were removed from an order.
+Options: On, Off
+Edit Order Tickets
+Definition: Determines how edits to orders are handled on order tickets.
+Purpose: Customizes the notification process for edited orders.
+Options:
+Yes: Print the edited items on the order tickets.
+Ticket notification only: Send a notification ticket without printing the edited items.
+No Edit Notifications: No notifications for edited items.
+Other Station Items
+Definition: Prints items from other stations on the order tickets.
+Purpose: Ensures all relevant items are included on tickets for reference.
+Options: Yes, No
+Print Timing Delays
+Definition: Allows servers and cashiers to delay printing of receipts to remote printers.
+Purpose: Provides flexibility in timing for order processing.
+Options: On, Off
+Modifier Separation
+Definition: Determines how modifiers are separated on tickets (commas or separate lines).
+Purpose: Customizes the format of printed modifiers for clarity.
+Options: Separated By Comma, Separate Lines
+Grand Total Large Font
+Definition: Prints the grand total in large font on customer tickets.
+Purpose: Makes the total amount more prominent.
+Options: On, Off
+Pre Auth Slip
+Definition: Prints a confirmation slip when running a pre-authorization.
+Purpose: Provides a record of pre-authorization transactions.
+Options: On, Off
+Pre Auth Slip Text
+Definition: Customizable text printed at the bottom of the pre-auth slip.
+Purpose: Allows for additional information or instructions on the slip.
+Example: "Thank you for your business."
+Show Tab Name
+Definition: Displays the bar tab name on customer receipts.
+Purpose: Helps identify the tab associated with the receipt.
+Options: On, Off
+Print Receipts Without Tip Line
+Definition: Prints receipts without a tip line if it’s not present due to settings.
+Purpose: Customizes the receipt format based on tipping preferences.
+Options: On, Off
+Print # of Tickets
+Definition: Prints "Ticket # of #" at the top of tickets to show how many tickets are at other stations.
+Purpose: Ensures clarity on the total number of tickets for an order.
+Options: On, Off
+Print After Bump
+Definition: Prints order tickets immediately or after the order is bumped from the KDS screen.
+Purpose: Customizes the printing timing for order processing.
+Options: On, Off
+Print Account Balances
+Definition: Prints the account balance on receipts for orders closed to accounts.
+Purpose: Provides a record of account balances for reference.
+Options: Yes, No
+Prefix Items with Seat
+Definition: Prefixes items with the seat number or uses headings to denote seats when printing by seat.
+Purpose: Helps organize orders by seat number.
+Options: Yes, No
+Print Prices On Order Tickets
+Definition: Prints prices along with items on station order tickets.
+Purpose: Provides pricing information on tickets for reference.
+Options: Yes, No
+Hide Cash on Till/Bank Reports
+Definition: Determines if cash totals are printed on till and bank reports.
+Purpose: Customizes the reporting format for financial tracking.
+Options: Yes, No
+QR Code Top Line
+Definition: Customizable text printed at the top of the QR code for QR Pay.
+Purpose: Provides additional information or instructions with the QR code.
+Example: "Scan to Pay"
+QR Code Bottom Line
+Definition: Customizable text printed at the bottom of the QR code for QR Pay.
+Purpose: Provides additional information or instructions with the QR code.
+Example: "Thank you for your payment."
+Barcode Label Printing
+Definition: Turns on settings for printing barcode labels for inventory products.
+Purpose: Enables barcode labeling for inventory management.
+Options: Yes, No
+Print Server Error Time Span
+Definition: The number of minutes the print server keeps track of the error count.
+Purpose: Helps monitor and manage print server errors.
+Example: Set to 60 minutes to track errors within that time frame.
+Print Server Error Threshold
+Definition: The number of errors in the error time span required for the print server to restart itself.
+Purpose: Ensures stability by automatically restarting the server after a set number of errors.
+Example: Set to 10 errors.
+Disable Reverse Font
+Definition: Disables reverse font on till and bank report printouts.
+Purpose: Customizes the appearance of printed reports.
+Options: Set a value to disable reverse font.
+Modifier Font Size
+Definition: Changes the size of the modifiers on the order ticket.
+Purpose: Enhances readability of item modifiers.
+Options:
+Normal
+Double Width
+Double Height
+Double Width & Height
+Description Font Size
+Definition: Changes the size of the description on the order ticket.
+Purpose: Enhances readability of item descriptions.
+Options:
+Normal
+Double Width
+Double Height
+Double Width & Height
+Guest Receipt Item Font Size
+Definition: Changes the size of the items on the guest receipt.
+Purpose: Enhances readability of guest receipts.
+Options:
+Normal
+Double Width
+Double Height
+Double Width & Height
+Guest Receipt Modifier Font Size
+Definition: Changes the size of the modifiers on the guest receipt.
+Purpose: Enhances readability of guest receipt modifiers.
+Options:
+Normal
+Double Width
+Double Height
+Double Width & Height
+Printer Groups
+Definition: Determines whether printer groups can be set up and used.
+Purpose: Allows multiple printers to be added to a group and assigned to a station.
+Options: On, Off
+Print Ingredients
+Definition: Enables printing ingredients on order tickets. An ingredients section needs to be added to the appropriate receipt templates to show ingredients.
+Purpose: Provides detailed information on ingredients for kitchen staff.
+Options: Yes, No
+Print Online Ordering Tips
+Definition: Enables printing online ordering tips on order tickets. Tips will print as an item.
+Purpose: Ensures tips from online orders are clearly documented.
+Options: Yes, No
+Receipts
+Customer Receipt Prompt
+Definition: Prompts for a response to print a customer receipt.
+Purpose: Allows staff to choose whether to print a customer receipt.
+Options: Yes, No
+Refund Receipt Prompt
+Definition: Prompts for a response to print a refund receipt.
+Purpose: Allows staff to choose whether to print a receipt for refunded transactions.
+Options: Yes, No
+Void Receipt Prompt
+Definition: Prompts for a response to print a void receipt.
+Purpose: Allows staff to choose whether to print a receipt for voided transactions.
+Options: Yes, No
+Print Till Report
+Definition: Determines whether till reports will print.
+Purpose: Ensures a physical copy of till reports is available for record-keeping.
+Options: Yes, No
+Print Bank Report
+Definition: Determines whether bank reports will print.
+Purpose: Ensures a physical copy of bank reports is available for record-keeping.
+Options: Yes, No
+Print Batch Report
+Definition: Determines whether batch reports will print.
+Purpose: Ensures a physical copy of batch reports is available for record-keeping.
+Options: Yes, No
+Print Slips on Delivery Orders
+Definition: Determines if receipts and credit card slips print when checking out or saving a delivery order.
+Purpose: Ensures all necessary documentation is printed for delivery orders.
+Options: Yes, No
+Print Slips on Assign Driver
+Definition: Determines if receipts and credit card slips print when assigning a driver to a delivery order.
+Purpose: Ensures all necessary documentation is printed when assigning delivery drivers.
+Options: Yes, No
+Print Slips on Takeout Orders
+Definition: Determines if receipts print when checking out or saving a takeout order.
+Purpose: Ensures all necessary documentation is printed for takeout orders.
+Options: Yes, No
+Print Gift Cards Sale
+Definition: Determines if a separate receipt prints after a gift card has been sold.
+Purpose: Provides customers with a receipt specifically for gift card transactions.
+Options: Yes, No
+Prevent Multi Receipt Printing
+Definition: Determines if the POS prevents the same receipt from being printed multiple times on the same printer.
+Purpose: Avoids duplicate receipts to maintain accuracy and save paper.
+Options: Yes, No
+Merchant Copy Min Enabled
+Definition: Determines if the POS prevents merchant copies of credit receipts from printing if the amount charged is under a set minimum.
+Purpose: Saves paper by not printing merchant copies for small transactions.
+Options: Yes, No
+Merchant Copy Minimum
+Definition: The minimum amount a credit charge needs to be for the merchant receipt to print if the minimum charge setting is enabled.
+Purpose: Sets a threshold for when merchant receipts should print.
+Example: Setting this to $5.00 means merchant receipts will not print for transactions under $5.00.
+# Credit Simple Guest Copies
+Definition: The number of simple guest copies that print for credit card transactions.
+Purpose: Provides customers with a specified number of simplified receipts.
+Options: Set to any number (e.g., 0, 1, 2).
+# Credit Simple Merchant Copies
+Definition: The number of simple merchant copies that print for credit card transactions.
+Purpose: Provides merchants with a specified number of simplified receipts.
+Options: Set to any number (e.g., 0, 1, 2).
+# Credit Detailed Guest Copies
+Definition: The number of detailed guest copies that print for credit card transactions.
+Purpose: Provides customers with detailed receipts showing transaction details.
+Options: Set to any number (e.g., 0, 1, 2).
+# Credit Detailed Merchant Copies
+Definition: The number of detailed merchant copies that print for credit card transactions.
+Purpose: Provides merchants with detailed receipts showing transaction details.
+Options: Set to any number (e.g., 0, 1, 2).
+# Credit Final Receipts
+Definition: The number of final receipt copies that print for credit card transactions.
+Purpose: Provides a final receipt for credit transactions.
+Options: Set to any number (e.g., 0, 1, 2).
+# Final Receipts
+Definition: The number of final receipt copies that print for all payment types.
+Purpose: Provides a final receipt for all transactions.
+Options: Set to any number (e.g., 0, 1, 2).
+Online Order Header
+Definition: Customizable header text for online ordering receipts.
+Purpose: Differentiates online order receipts with a distinct header.
+Example: "*** ONLINE ORDER ***"
+QR Order Header
+Definition: Customizable header text for QR ordering receipts.
+Purpose: Differentiates QR order receipts with a distinct header.
+Example: "*** QR ORDER ***"
+Tablet Order Header
+Definition: Customizable header text for tablet order receipts.
+Purpose: Differentiates tablet order receipts with a distinct header.
+Example: "TABLET ORDER"
+DoorDash Drive Order Header
+Definition: Customizable header text for DoorDash Drive order receipts.
+Purpose: Differentiates DoorDash Drive order receipts with a distinct header.
+Example: "*** DOORDASH DRIVE ORDER ***"
+Scheduled Orders Print Time
+Print Scheduled Orders Immediately
+Definition: Determines whether scheduled orders print when they are placed or when they are supposed to be ready.
+Purpose: Ensures scheduled orders are printed at the correct time for preparation.
+Options: Yes, No
+Scheduled Orders Time Settings
+Definition: Specifies the amount of time before a scheduled order is printed based on the order amount.
+Purpose: Allows for tailored printing times for scheduled orders based on their total value.
+Options:
+$0.00 - $10.00: Time before printing (e.g., 10 minutes).
+$10.01 - $20.00: Time before printing (e.g., 15 minutes).
+$20.01 - $30.00: Time before printing (e.g., 15 minutes).
+$30.01 - $40.00: Time before printing (e.g., 15 minutes).
+$40.01 - $50.00: Time before printing (e.g., 20 minutes).
+$50.01 - $100.00: Time before printing (e.g., 30 minutes).
+Over $100.00: Time before printing (e.g., 60 minutes).
+Print All Scheduled Orders Time
+Definition: The time to print all scheduled orders for the day.
+Purpose: Ensures all scheduled orders are printed at a specific time.
+Example: Set to 10:00 AM to print all scheduled orders at that time.
+All Scheduled Orders Printer
+Definition: Specifies the printer used to print all scheduled orders.
+Purpose: Directs all scheduled order printouts to a specific printer.
+Example: "Receipt 0001"
